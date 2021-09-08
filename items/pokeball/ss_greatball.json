@@ -7,10 +7,6 @@
 		},
 		"components": {
 			"minecraft:max_stack_size": 64,
-			"minecraft:cooldown": {
-				"category": "pokeball",
-				"duration": 5
-			},
 			"minecraft:display_name": {
 				"value": "§bGreatball"
 			},
