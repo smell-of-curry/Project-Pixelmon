@@ -74,6 +74,13 @@
 							"/execute @initiator[scores={pokemon1=60}] ~~~ give @s ss:pcgeodude",
 							"/execute @initiator[scores={pokemon1=61}] ~~~ give @s ss:pcgraveler",
 							"/execute @initiator[scores={pokemon1=62}] ~~~ give @s ss:pcgolem",
+							"/execute @initiator[scores={pokemon1=63}] ~~~ give @s ss:pcmachop",
+							"/execute @initiator[scores={pokemon1=64}] ~~~ give @s ss:pcmachoke",
+							"/execute @initiator[scores={pokemon1=65}] ~~~ give @s ss:pcmachamp",
+							"/execute @initiator[scores={pokemon1=66}] ~~~ give @s ss:pcmurkrow",
+							"/execute @initiator[scores={pokemon1=67}] ~~~ give @s ss:pchonchrow",
+							"/execute @initiator[scores={pokemon1=68}] ~~~ give @s ss:pcaipom",
+							"/execute @initiator[scores={pokemon1=69}] ~~~ give @s ss:pcambipom",
 							"/scoreboard players set @initiator pokemon1 0",
 							"/scoreboard players set @initiator levelslot1 5"
 						]
@@ -6434,6 +6441,685 @@
 						},
 						"commands": [
 							"/scoreboard players set @initiator pokemon6 62",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "pcmachop",
+				"npc_name": {
+					"rawtext": [
+						{
+							"text": "\u00a7l\u00a7cPc machop"
+						}
+					]
+				},
+				"text": {
+					"rawtext": [
+						{
+							"text": "Use The Buttons Bellow To Replace a slot in your gui with this pokemon."
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 1"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon1 1",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 2"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon2 1",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 3"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon3 1",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 4"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon4 1",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 5"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon5 1",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 6"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon6 1",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "pcmachoke",
+				"npc_name": {
+					"rawtext": [
+						{
+							"text": "\u00a7l\u00a7cPc machoke"
+						}
+					]
+				},
+				"text": {
+					"rawtext": [
+						{
+							"text": "Use The Buttons Bellow To Replace a slot in your gui with this pokemon."
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 1"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon1 2",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 2"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon2 2",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 3"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon3 2",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 4"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon4 2",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 5"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon5 2",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 6"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon6 2",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "pcmachamp",
+				"npc_name": {
+					"rawtext": [
+						{
+							"text": "\u00a7l\u00a7cPc machamp"
+						}
+					]
+				},
+				"text": {
+					"rawtext": [
+						{
+							"text": "Use The Buttons Bellow To Replace a slot in your gui with this pokemon."
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 1"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon1 3",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 2"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon2 3",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 3"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon3 3",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 4"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon4 3",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 5"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon5 3",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 6"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon6 3",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "pcmurkrow",
+				"npc_name": {
+					"rawtext": [
+						{
+							"text": "\u00a7l\u00a7cPc murkrow"
+						}
+					]
+				},
+				"text": {
+					"rawtext": [
+						{
+							"text": "Use The Buttons Bellow To Replace a slot in your gui with this pokemon."
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 1"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon1 4",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 2"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon2 4",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 3"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon3 4",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 4"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon4 4",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 5"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon5 4",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 6"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon6 4",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "pchonchrow",
+				"npc_name": {
+					"rawtext": [
+						{
+							"text": "\u00a7l\u00a7cPc honchrow"
+						}
+					]
+				},
+				"text": {
+					"rawtext": [
+						{
+							"text": "Use The Buttons Bellow To Replace a slot in your gui with this pokemon."
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 1"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon1 5",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 2"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon2 5",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 3"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon3 5",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 4"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon4 5",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 5"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon5 5",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 6"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon6 5",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "pcaipom",
+				"npc_name": {
+					"rawtext": [
+						{
+							"text": "\u00a7l\u00a7cPc aipom"
+						}
+					]
+				},
+				"text": {
+					"rawtext": [
+						{
+							"text": "Use The Buttons Bellow To Replace a slot in your gui with this pokemon."
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 1"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon1 6",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 2"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon2 6",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 3"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon3 6",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 4"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon4 6",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 5"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon5 6",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 6"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon6 6",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "pcambipom",
+				"npc_name": {
+					"rawtext": [
+						{
+							"text": "\u00a7l\u00a7cPc ambipom"
+						}
+					]
+				},
+				"text": {
+					"rawtext": [
+						{
+							"text": "Use The Buttons Bellow To Replace a slot in your gui with this pokemon."
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 1"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon1 7",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 2"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon2 7",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 3"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon3 7",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 4"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon4 7",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 5"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon5 7",
+							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
+						]
+					},
+					{
+						"name": {
+							"rawtext": [
+								{
+									"text": "\u00a7l\u00a7cSlot 6"
+								}
+							]
+						},
+						"commands": [
+							"/scoreboard players set @initiator pokemon6 7",
 							"/replaceitem entity @initiator slot.weapon.mainhand 0 air"
 						]
 					}

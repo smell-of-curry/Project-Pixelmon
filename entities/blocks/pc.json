@@ -1726,6 +1726,62 @@
 					],
 					"target": "other"
 				}
+			},
+			"ss:pcmachop": {
+				"run_command": {
+					"command": [
+						"dialogue open @s @s pcmachop"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcmachoke": {
+				"run_command": {
+					"command": [
+						"dialogue open @s @s pcmachoke"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcmachamp": {
+				"run_command": {
+					"command": [
+						"dialogue open @s @s pcmachamp"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcmurkrow": {
+				"run_command": {
+					"command": [
+						"dialogue open @s @s pcmurkrow"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pchonchrow": {
+				"run_command": {
+					"command": [
+						"dialogue open @s @s pchonchrow"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcaipom": {
+				"run_command": {
+					"command": [
+						"dialogue open @s @s pcaipom"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcambipom": {
+				"run_command": {
+					"command": [
+						"dialogue open @s @s pcambipom"
+					],
+					"target": "other"
+				}
 			}
 		}
 	}
