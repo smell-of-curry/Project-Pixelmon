@@ -642,6 +642,68 @@ execute @s[scores={guislottrack=4}] ~~~ execute @s[scores={pokemondead4=0}] ~~~ 
 execute @s[scores={guislottrack=5}] ~~~ execute @s[scores={pokemondead5=0}] ~~~ execute @s[scores={sendoutdis5=0}] ~~~ execute @s[scores={pokemon5=62}] ~~~ function pokemon/sendout/Golem/summon
 execute @s[scores={guislottrack=6}] ~~~ execute @s[scores={pokemondead6=0}] ~~~ execute @s[scores={sendoutdis6=0}] ~~~ execute @s[scores={pokemon6=62}] ~~~ function pokemon/sendout/Golem/summon
 
+# Machop
+
+execute @s[scores={guislottrack=1}] ~~~ execute @s[scores={pokemondead1=0}] ~~~ execute @s[scores={sendoutdis1=0}] ~~~ execute @s[scores={pokemon1=63}] ~~~ function pokemon/sendout/Machop/summon
+execute @s[scores={guislottrack=2}] ~~~ execute @s[scores={pokemondead2=0}] ~~~ execute @s[scores={sendoutdis2=0}] ~~~ execute @s[scores={pokemon2=63}] ~~~ function pokemon/sendout/Machop/summon
+execute @s[scores={guislottrack=3}] ~~~ execute @s[scores={pokemondead3=0}] ~~~ execute @s[scores={sendoutdis3=0}] ~~~ execute @s[scores={pokemon3=63}] ~~~ function pokemon/sendout/Machop/summon
+execute @s[scores={guislottrack=4}] ~~~ execute @s[scores={pokemondead4=0}] ~~~ execute @s[scores={sendoutdis4=0}] ~~~ execute @s[scores={pokemon4=63}] ~~~ function pokemon/sendout/Machop/summon
+execute @s[scores={guislottrack=5}] ~~~ execute @s[scores={pokemondead5=0}] ~~~ execute @s[scores={sendoutdis5=0}] ~~~ execute @s[scores={pokemon5=63}] ~~~ function pokemon/sendout/Machop/summon
+execute @s[scores={guislottrack=6}] ~~~ execute @s[scores={pokemondead6=0}] ~~~ execute @s[scores={sendoutdis6=0}] ~~~ execute @s[scores={pokemon6=63}] ~~~ function pokemon/sendout/Machop/summon
+
+# Machoke
+
+execute @s[scores={guislottrack=1}] ~~~ execute @s[scores={pokemondead1=0}] ~~~ execute @s[scores={sendoutdis1=0}] ~~~ execute @s[scores={pokemon1=64}] ~~~ function pokemon/sendout/Machoke/summon
+execute @s[scores={guislottrack=2}] ~~~ execute @s[scores={pokemondead2=0}] ~~~ execute @s[scores={sendoutdis2=0}] ~~~ execute @s[scores={pokemon2=64}] ~~~ function pokemon/sendout/Machoke/summon
+execute @s[scores={guislottrack=3}] ~~~ execute @s[scores={pokemondead3=0}] ~~~ execute @s[scores={sendoutdis3=0}] ~~~ execute @s[scores={pokemon3=64}] ~~~ function pokemon/sendout/Machoke/summon
+execute @s[scores={guislottrack=4}] ~~~ execute @s[scores={pokemondead4=0}] ~~~ execute @s[scores={sendoutdis4=0}] ~~~ execute @s[scores={pokemon4=64}] ~~~ function pokemon/sendout/Machoke/summon
+execute @s[scores={guislottrack=5}] ~~~ execute @s[scores={pokemondead5=0}] ~~~ execute @s[scores={sendoutdis5=0}] ~~~ execute @s[scores={pokemon5=64}] ~~~ function pokemon/sendout/Machoke/summon
+execute @s[scores={guislottrack=6}] ~~~ execute @s[scores={pokemondead6=0}] ~~~ execute @s[scores={sendoutdis6=0}] ~~~ execute @s[scores={pokemon6=64}] ~~~ function pokemon/sendout/Machoke/summon
+
+# Machamp
+
+execute @s[scores={guislottrack=1}] ~~~ execute @s[scores={pokemondead1=0}] ~~~ execute @s[scores={sendoutdis1=0}] ~~~ execute @s[scores={pokemon1=65}] ~~~ function pokemon/sendout/Machamp/summon
+execute @s[scores={guislottrack=2}] ~~~ execute @s[scores={pokemondead2=0}] ~~~ execute @s[scores={sendoutdis2=0}] ~~~ execute @s[scores={pokemon2=65}] ~~~ function pokemon/sendout/Machamp/summon
+execute @s[scores={guislottrack=3}] ~~~ execute @s[scores={pokemondead3=0}] ~~~ execute @s[scores={sendoutdis3=0}] ~~~ execute @s[scores={pokemon3=65}] ~~~ function pokemon/sendout/Machamp/summon
+execute @s[scores={guislottrack=4}] ~~~ execute @s[scores={pokemondead4=0}] ~~~ execute @s[scores={sendoutdis4=0}] ~~~ execute @s[scores={pokemon4=65}] ~~~ function pokemon/sendout/Machamp/summon
+execute @s[scores={guislottrack=5}] ~~~ execute @s[scores={pokemondead5=0}] ~~~ execute @s[scores={sendoutdis5=0}] ~~~ execute @s[scores={pokemon5=65}] ~~~ function pokemon/sendout/Machamp/summon
+execute @s[scores={guislottrack=6}] ~~~ execute @s[scores={pokemondead6=0}] ~~~ execute @s[scores={sendoutdis6=0}] ~~~ execute @s[scores={pokemon6=65}] ~~~ function pokemon/sendout/Machamp/summon
+
+# Murkrow
+
+execute @s[scores={guislottrack=1}] ~~~ execute @s[scores={pokemondead1=0}] ~~~ execute @s[scores={sendoutdis1=0}] ~~~ execute @s[scores={pokemon1=66}] ~~~ function pokemon/sendout/Murkrow/summon
+execute @s[scores={guislottrack=2}] ~~~ execute @s[scores={pokemondead2=0}] ~~~ execute @s[scores={sendoutdis2=0}] ~~~ execute @s[scores={pokemon2=66}] ~~~ function pokemon/sendout/Murkrow/summon
+execute @s[scores={guislottrack=3}] ~~~ execute @s[scores={pokemondead3=0}] ~~~ execute @s[scores={sendoutdis3=0}] ~~~ execute @s[scores={pokemon3=66}] ~~~ function pokemon/sendout/Murkrow/summon
+execute @s[scores={guislottrack=4}] ~~~ execute @s[scores={pokemondead4=0}] ~~~ execute @s[scores={sendoutdis4=0}] ~~~ execute @s[scores={pokemon4=66}] ~~~ function pokemon/sendout/Murkrow/summon
+execute @s[scores={guislottrack=5}] ~~~ execute @s[scores={pokemondead5=0}] ~~~ execute @s[scores={sendoutdis5=0}] ~~~ execute @s[scores={pokemon5=66}] ~~~ function pokemon/sendout/Murkrow/summon
+execute @s[scores={guislottrack=6}] ~~~ execute @s[scores={pokemondead6=0}] ~~~ execute @s[scores={sendoutdis6=0}] ~~~ execute @s[scores={pokemon6=66}] ~~~ function pokemon/sendout/Murkrow/summon
+
+# Honchrow
+
+execute @s[scores={guislottrack=1}] ~~~ execute @s[scores={pokemondead1=0}] ~~~ execute @s[scores={sendoutdis1=0}] ~~~ execute @s[scores={pokemon1=67}] ~~~ function pokemon/sendout/Honchrow/summon
+execute @s[scores={guislottrack=2}] ~~~ execute @s[scores={pokemondead2=0}] ~~~ execute @s[scores={sendoutdis2=0}] ~~~ execute @s[scores={pokemon2=67}] ~~~ function pokemon/sendout/Honchrow/summon
+execute @s[scores={guislottrack=3}] ~~~ execute @s[scores={pokemondead3=0}] ~~~ execute @s[scores={sendoutdis3=0}] ~~~ execute @s[scores={pokemon3=67}] ~~~ function pokemon/sendout/Honchrow/summon
+execute @s[scores={guislottrack=4}] ~~~ execute @s[scores={pokemondead4=0}] ~~~ execute @s[scores={sendoutdis4=0}] ~~~ execute @s[scores={pokemon4=67}] ~~~ function pokemon/sendout/Honchrow/summon
+execute @s[scores={guislottrack=5}] ~~~ execute @s[scores={pokemondead5=0}] ~~~ execute @s[scores={sendoutdis5=0}] ~~~ execute @s[scores={pokemon5=67}] ~~~ function pokemon/sendout/Honchrow/summon
+execute @s[scores={guislottrack=6}] ~~~ execute @s[scores={pokemondead6=0}] ~~~ execute @s[scores={sendoutdis6=0}] ~~~ execute @s[scores={pokemon6=67}] ~~~ function pokemon/sendout/Honchrow/summon
+
+# Aipom
+
+execute @s[scores={guislottrack=1}] ~~~ execute @s[scores={pokemondead1=0}] ~~~ execute @s[scores={sendoutdis1=0}] ~~~ execute @s[scores={pokemon1=68}] ~~~ function pokemon/sendout/Aipom/summon
+execute @s[scores={guislottrack=2}] ~~~ execute @s[scores={pokemondead2=0}] ~~~ execute @s[scores={sendoutdis2=0}] ~~~ execute @s[scores={pokemon2=68}] ~~~ function pokemon/sendout/Aipom/summon
+execute @s[scores={guislottrack=3}] ~~~ execute @s[scores={pokemondead3=0}] ~~~ execute @s[scores={sendoutdis3=0}] ~~~ execute @s[scores={pokemon3=68}] ~~~ function pokemon/sendout/Aipom/summon
+execute @s[scores={guislottrack=4}] ~~~ execute @s[scores={pokemondead4=0}] ~~~ execute @s[scores={sendoutdis4=0}] ~~~ execute @s[scores={pokemon4=68}] ~~~ function pokemon/sendout/Aipom/summon
+execute @s[scores={guislottrack=5}] ~~~ execute @s[scores={pokemondead5=0}] ~~~ execute @s[scores={sendoutdis5=0}] ~~~ execute @s[scores={pokemon5=68}] ~~~ function pokemon/sendout/Aipom/summon
+execute @s[scores={guislottrack=6}] ~~~ execute @s[scores={pokemondead6=0}] ~~~ execute @s[scores={sendoutdis6=0}] ~~~ execute @s[scores={pokemon6=68}] ~~~ function pokemon/sendout/Aipom/summon
+
+# Ambipom
+
+execute @s[scores={guislottrack=1}] ~~~ execute @s[scores={pokemondead1=0}] ~~~ execute @s[scores={sendoutdis1=0}] ~~~ execute @s[scores={pokemon1=69}] ~~~ function pokemon/sendout/Ambipom/summon
+execute @s[scores={guislottrack=2}] ~~~ execute @s[scores={pokemondead2=0}] ~~~ execute @s[scores={sendoutdis2=0}] ~~~ execute @s[scores={pokemon2=69}] ~~~ function pokemon/sendout/Ambipom/summon
+execute @s[scores={guislottrack=3}] ~~~ execute @s[scores={pokemondead3=0}] ~~~ execute @s[scores={sendoutdis3=0}] ~~~ execute @s[scores={pokemon3=69}] ~~~ function pokemon/sendout/Ambipom/summon
+execute @s[scores={guislottrack=4}] ~~~ execute @s[scores={pokemondead4=0}] ~~~ execute @s[scores={sendoutdis4=0}] ~~~ execute @s[scores={pokemon4=69}] ~~~ function pokemon/sendout/Ambipom/summon
+execute @s[scores={guislottrack=5}] ~~~ execute @s[scores={pokemondead5=0}] ~~~ execute @s[scores={sendoutdis5=0}] ~~~ execute @s[scores={pokemon5=69}] ~~~ function pokemon/sendout/Ambipom/summon
+execute @s[scores={guislottrack=6}] ~~~ execute @s[scores={pokemondead6=0}] ~~~ execute @s[scores={sendoutdis6=0}] ~~~ execute @s[scores={pokemon6=69}] ~~~ function pokemon/sendout/Ambipom/summon
 
 
 
