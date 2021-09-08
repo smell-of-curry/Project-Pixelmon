@@ -1,0 +1,399 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Project Pixelmon\\items\\starting\\startingchimchar.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "5cf586ae_c651_4193_ba59_f9b260e76e4b",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ss:startingchimchar",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": true,
+							"minecraft:icon": {
+								"texture": "chimchar"
+							},
+							"minecraft:display_name": {
+								"value": "§b§lChimchar§r\n§l§bClick to Select\n\n§cFire-type Starter Pokémon"
+							},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "binocraft:rotate"
+								}
+							},
+							"minecraft:cooldown": {
+								"category": "shop",
+								"duration": 0.1
+							},
+							"minecraft:should_despawn": false,
+							"minecraft:allow_off_hand": true,
+							"minecraft:fuel": {
+								"duration": 9999999
+							},
+							"minecraft:can_destroy_in_creative": false,
+							"minecraft:digger": {
+								"use_efficiency": false,
+								"on_dig": {
+									"event": "binocraft:dig",
+									"target": "self"
+								},
+								"destroy_speeds": [
+									{
+										"speed": 0,
+										"block": "minecraft:dirt"
+									},
+									{
+										"speed": 0,
+										"block": "minecraft:grass"
+									}
+								]
+							},
+							"minecraft:render_offsets": {
+								"main_hand": {
+									"third_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									}
+								},
+								"off_hand": {
+									"third_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									}
+								}
+							}
+						},
+						"events": {
+							"binocraft:rotate": {
+								"sequence": [
+									{
+										"run_command": {
+											"command": [
+												"scoreboard players set @s pokemon1 35",
+												"scoreboard players set @s levelslot1 5",
+												"tellraw @s {\"rawtext\":[{\"text\":\"§l§cChose §bChimchar §aSuccesfully!\"}]}",
+												"tag @s add alreadystarted",
+												"title @s actionbar ",
+												"clear @s",
+												"give @s ss:pokeball 5",
+												"give @s ss:potion 5",
+												"function on_join/execute"
+											]
+										}
+									}
+								]
+							},
+							"binocraft:dig": {
+								"sequence": [
+									{
+										"run_command": {
+											"command": [
+												"tellraw @s {\"rawtext\":[{\"text\":\"§l§cDo Not Mine With Me!\"}]}"
+											]
+										}
+									},
+									{
+										"run_command": {
+											"command": [
+												"playsound note.bass @s"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ss:startingchimchar",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:startingchimchar",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": true,
+								"minecraft:icon": {
+									"texture": "chimchar"
+								},
+								"minecraft:display_name": {
+									"value": "§b§lChimchar§r\n§l§bClick to Select\n\n§cFire-type Starter Pokémon"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "binocraft:rotate"
+									}
+								},
+								"minecraft:cooldown": {
+									"category": "shop",
+									"duration": 0.1
+								},
+								"minecraft:should_despawn": false,
+								"minecraft:allow_off_hand": true,
+								"minecraft:fuel": {
+									"duration": 9999999
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": false,
+									"on_dig": {
+										"event": "binocraft:dig",
+										"target": "self"
+									},
+									"destroy_speeds": [
+										{
+											"speed": 0,
+											"block": "minecraft:dirt"
+										},
+										{
+											"speed": 0,
+											"block": "minecraft:grass"
+										}
+									]
+								},
+								"minecraft:render_offsets": {
+									"main_hand": {
+										"third_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										}
+									},
+									"off_hand": {
+										"third_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										}
+									}
+								}
+							},
+							"events": {
+								"binocraft:rotate": {
+									"sequence": [
+										{
+											"run_command": {
+												"command": [
+													"scoreboard players set @s pokemon1 35",
+													"scoreboard players set @s levelslot1 5",
+													"tellraw @s {\"rawtext\":[{\"text\":\"§l§cChose §bChimchar §aSuccesfully!\"}]}",
+													"tag @s add alreadystarted",
+													"title @s actionbar ",
+													"clear @s",
+													"give @s ss:pokeball 5",
+													"give @s ss:potion 5",
+													"function on_join/execute"
+												]
+											}
+										}
+									]
+								},
+								"binocraft:dig": {
+									"sequence": [
+										{
+											"run_command": {
+												"command": [
+													"tellraw @s {\"rawtext\":[{\"text\":\"§l§cDo Not Mine With Me!\"}]}"
+												]
+											}
+										},
+										{
+											"run_command": {
+												"command": [
+													"playsound note.bass @s"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": true,
+							"minecraft:icon": {
+								"texture": "chimchar"
+							},
+							"minecraft:display_name": {
+								"value": "§b§lChimchar§r\n§l§bClick to Select\n\n§cFire-type Starter Pokémon"
+							},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "binocraft:rotate"
+								}
+							},
+							"minecraft:cooldown": {
+								"category": "shop",
+								"duration": 0.1
+							},
+							"minecraft:should_despawn": false,
+							"minecraft:allow_off_hand": true,
+							"minecraft:fuel": {
+								"duration": 9999999
+							},
+							"minecraft:can_destroy_in_creative": false,
+							"minecraft:digger": {
+								"use_efficiency": false,
+								"on_dig": {
+									"event": "binocraft:dig",
+									"target": "self"
+								},
+								"destroy_speeds": [
+									{
+										"speed": 0,
+										"block": "minecraft:dirt"
+									},
+									{
+										"speed": 0,
+										"block": "minecraft:grass"
+									}
+								]
+							},
+							"minecraft:render_offsets": {
+								"main_hand": {
+									"third_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									}
+								},
+								"off_hand": {
+									"third_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									}
+								}
+							}
+						}
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"binocraft:rotate": {
+								"sequence": [
+									{
+										"run_command": {
+											"command": [
+												"scoreboard players set @s pokemon1 35",
+												"scoreboard players set @s levelslot1 5",
+												"tellraw @s {\"rawtext\":[{\"text\":\"§l§cChose §bChimchar §aSuccesfully!\"}]}",
+												"tag @s add alreadystarted",
+												"title @s actionbar ",
+												"clear @s",
+												"give @s ss:pokeball 5",
+												"give @s ss:potion 5",
+												"function on_join/execute"
+											]
+										}
+									}
+								]
+							},
+							"binocraft:dig": {
+								"sequence": [
+									{
+										"run_command": {
+											"command": [
+												"tellraw @s {\"rawtext\":[{\"text\":\"§l§cDo Not Mine With Me!\"}]}"
+											]
+										}
+									},
+									{
+										"run_command": {
+											"command": [
+												"playsound note.bass @s"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

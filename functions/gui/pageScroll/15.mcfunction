@@ -1,0 +1,13 @@
+scoreboard players set @s[scores={guiScroll=11..}] guiScroll 0
+
+titleraw @s[scores={guiScroll=0}] actionbar {"rawtext":[{"text":"§f-----------------\n§cAdd Bounty\n§f-----------------\n§c> §6$100\n§7$500\n§7$1000\n§7$2000\n§7$5000\n§7$10000\n§7$15000\n§7$100,000\n§7$500,000\n§7$1,000,000\n\n§cBack"}]}
+titleraw @s[scores={guiScroll=1}] actionbar {"rawtext":[{"text":"§f-----------------\n§cAdd Bounty\n§f-----------------\n§7$100\n§c> §6$500\n§7$1000\n§7$2000\n§7$5000\n§7$10000\n§7$15000\n§7$100,000\n§7$500,000\n§7$1,000,000\n\n§cBack"}]}
+titleraw @s[scores={guiScroll=2}] actionbar {"rawtext":[{"text":"§f-----------------\n§cAdd Bounty\n§f-----------------\n§7$100\n§7$500\n§c> §6$1000\n§7$2000\n§7$5000\n§7$10000\n§7$15000\n§7$100,000\n§7$500,000\n§7$1,000,000\n\n§cBack"}]}
+titleraw @s[scores={guiScroll=3}] actionbar {"rawtext":[{"text":"§f-----------------\n§cAdd Bounty\n§f-----------------\n§7$100\n§7$500\n§7$1000\n§c> §6$2000\n§7$5000\n§7$10000\n§7$15000\n§7$100,000\n§7$500,000\n§7$1,000,000\n\n§cBack"}]}
+titleraw @s[scores={guiScroll=4}] actionbar {"rawtext":[{"text":"§f-----------------\n§cAdd Bounty\n§f-----------------\n§7$100\n§7$500\n§7$1000\n§7$2000\n§c> §6$5000\n§7$10000\n§7$15000\n§7$100,000\n§7$500,000\n§7$1,000,000\n\n§cBack"}]}
+titleraw @s[scores={guiScroll=5}] actionbar {"rawtext":[{"text":"§f-----------------\n§cAdd Bounty\n§f-----------------\n§7$100\n§7$500\n§7$1000\n§7$2000\n§7$5000\n§c> §6$10000\n§7$15000\n§7$100,000\n§7$500,000\n§7$1,000,000\n\n§cBack"}]}
+titleraw @s[scores={guiScroll=6}] actionbar {"rawtext":[{"text":"§f-----------------\n§cAdd Bounty\n§f-----------------\n§7$100\n§7$500\n§7$1000\n§7$2000\n§7$5000\n§7$10000\n§c> §6$15000\n§7$100,000\n§7$500,000\n§7$1,000,000\n\n§cBack"}]}
+titleraw @s[scores={guiScroll=7}] actionbar {"rawtext":[{"text":"§f-----------------\n§cAdd Bounty\n§f-----------------\n§7$100\n§7$500\n§7$1000\n§7$2000\n§7$5000\n§7$10000\n§7$15000\n§c> §6$100,000\n§7$500,000\n§7$1,000,000\n\n§cBack"}]}
+titleraw @s[scores={guiScroll=8}] actionbar {"rawtext":[{"text":"§f-----------------\n§cAdd Bounty\n§f-----------------\n§7$100\n§7$500\n§7$1000\n§7$2000\n§7$5000\n§7$10000\n§7$15000\n§7$100,000\n§c> §6$500,000\n§7$1,000,000\n\n§cBack"}]}
+titleraw @s[scores={guiScroll=9}] actionbar {"rawtext":[{"text":"§f-----------------\n§cAdd Bounty\n§f-----------------\n§7$100\n§7$500\n§7$1000\n§7$2000\n§7$5000\n§7$10000\n§7$15000\n§7$100,000\n§7$500,000\n§c> §6$1,000,000\n\n§cBack"}]}
+titleraw @s[scores={guiScroll=10}] actionbar {"rawtext":[{"text":"§f-----------------\n§cAdd Bounty\n§f-----------------\n§7$100\n§7$500\n§7$1000\n§7$2000\n§7$5000\n§7$10000\n§7$15000\n§7$100,000\n§7$500,000\n§7$1,000,000\n\n§c> §6Back"}]}

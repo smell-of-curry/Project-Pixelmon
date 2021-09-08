@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "waterhelmet_b57f7bfe"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:waterstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:waterhelmet",
+      "count": 1
+    }
+  }
+}

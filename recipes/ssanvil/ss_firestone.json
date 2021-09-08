@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "firestone_8b29dfb0"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:firestoneshard",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:firestone",
+      "count": 1
+    }
+  }
+}

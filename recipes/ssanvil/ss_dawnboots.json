@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dawnboots_c1a22225"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:dawnstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:dawnboots",
+      "count": 1
+    }
+  }
+}

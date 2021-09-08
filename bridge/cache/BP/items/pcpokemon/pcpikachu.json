@@ -1,0 +1,237 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Project Pixelmon\\items\\pcpokemon\\pcpikachu.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "adc19eae_e71e_4522_a821_42b90b0de095",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ss:pcpikachu",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": true,
+							"minecraft:icon": {
+								"texture": "pikachu"
+							},
+							"minecraft:display_name": {
+								"value": "§b§lPC Pikachu§r\n§l§bClick to Open\n"
+							},
+							"minecraft:allow_off_hand": true,
+							"minecraft:render_offsets": {
+								"main_hand": {
+									"third_person": {
+										"scale": [
+											0.02,
+											0.03333333333333333,
+											0.02
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.03333333333333333,
+											0.02,
+											0.03333333333333333
+										]
+									}
+								},
+								"off_hand": {
+									"third_person": {
+										"scale": [
+											0.02,
+											0.03333333333333333,
+											0.02
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.02,
+											0.03333333333333333,
+											0.02
+										]
+									}
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:pcpikachu",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": true,
+								"minecraft:icon": {
+									"texture": "pikachu"
+								},
+								"minecraft:display_name": {
+									"value": "§b§lPC Pikachu§r\n§l§bClick to Open\n"
+								},
+								"minecraft:allow_off_hand": true,
+								"minecraft:render_offsets": {
+									"main_hand": {
+										"third_person": {
+											"scale": [
+												0.02,
+												0.03333333333333333,
+												0.02
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.03333333333333333,
+												0.02,
+												0.03333333333333333
+											]
+										}
+									},
+									"off_hand": {
+										"third_person": {
+											"scale": [
+												0.02,
+												0.03333333333333333,
+												0.02
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.02,
+												0.03333333333333333,
+												0.02
+											]
+										}
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ss:pcpikachu",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:pcpikachu",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": true,
+								"minecraft:icon": {
+									"texture": "pikachu"
+								},
+								"minecraft:display_name": {
+									"value": "§b§lPC Pikachu§r\n§l§bClick to Open\n"
+								},
+								"minecraft:allow_off_hand": true,
+								"minecraft:render_offsets": {
+									"main_hand": {
+										"third_person": {
+											"scale": [
+												0.02,
+												0.03333333333333333,
+												0.02
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.03333333333333333,
+												0.02,
+												0.03333333333333333
+											]
+										}
+									},
+									"off_hand": {
+										"third_person": {
+											"scale": [
+												0.02,
+												0.03333333333333333,
+												0.02
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.02,
+												0.03333333333333333,
+												0.02
+											]
+										}
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": true,
+							"minecraft:icon": {
+								"texture": "pikachu"
+							},
+							"minecraft:display_name": {
+								"value": "§b§lPC Pikachu§r\n§l§bClick to Open\n"
+							},
+							"minecraft:allow_off_hand": true,
+							"minecraft:render_offsets": {
+								"main_hand": {
+									"third_person": {
+										"scale": [
+											0.02,
+											0.03333333333333333,
+											0.02
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.03333333333333333,
+											0.02,
+											0.03333333333333333
+										]
+									}
+								},
+								"off_hand": {
+									"third_person": {
+										"scale": [
+											0.02,
+											0.03333333333333333,
+											0.02
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.02,
+											0.03333333333333333,
+											0.02
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

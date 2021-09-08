@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "moonstone_4e49eb95"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:moonshard",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:moonstone",
+      "count": 1
+    }
+  }
+}

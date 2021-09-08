@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dawnstone_ea05c890"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:dawnshard",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:dawnstone",
+      "count": 1
+    }
+  }
+}

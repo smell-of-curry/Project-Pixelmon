@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "duskball_589ae2d4"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "A",
+      "B",
+      "C"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:dusklid",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stone_button",
+        "data": 0
+      },
+      "C": {
+        "item": "ss:ironlid",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:duskball",
+      "count": 1
+    }
+  }
+}

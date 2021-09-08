@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "greatballlid_b4726e31"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:redapricorn",
+        "data": 0
+      },
+      "B": {
+        "item": "ss:blueapricorn",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:greatballlid",
+      "count": 1
+    }
+  }
+}

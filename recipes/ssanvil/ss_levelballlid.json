@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "levelballlid_8626ebf9"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "ABA",
+      "CCC"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:blackapricorn",
+        "data": 0
+      },
+      "B": {
+        "item": "ss:redapricorn",
+        "data": 0
+      },
+      "C": {
+        "item": "ss:yellowapricorn",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:levelballlid",
+      "count": 1
+    }
+  }
+}

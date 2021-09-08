@@ -1,0 +1,956 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ss:apricorn_tree",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:timer": {
+				"looping": true,
+				"time_down_event": {
+					"event": "ss:animate",
+					"target": "self"
+				},
+				"time": [
+					3,
+					3
+				]
+			},
+			"minecraft:physics": {},
+			"minecraft:is_stackable": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 100
+			},
+			"minecraft:damage_sensor": [
+				{
+					"on_damage": {
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"domain": "other",
+									"subject": "other",
+									"value": "player"
+								}
+							]
+						},
+						"event": "ss:seeds"
+					},
+					"deals_damage": false
+				}
+			]
+		},
+		"component_groups": {
+			"ss:grow0": {
+				"minecraft:variant": {
+					"value": 0
+				},
+				"minecraft:scale": {
+					"value": 1
+				},
+				"minecraft:collision_box": {
+					"height": 1,
+					"width": 0.6
+				},
+				"minecraft:timer": {
+					"randomInterval": false,
+					"looping": false,
+					"time_down_event": {
+						"event": "ss:grow1",
+						"target": "self"
+					},
+					"time": [
+						30,
+						30
+					]
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"filters": {
+									"test": "has_equipment",
+									"domain": "hand",
+									"subject": "other",
+									"value": "ss:Wailmer_Pail"
+								},
+								"event": "ss:grow1",
+								"target": "self"
+							},
+							"hurt_item": 1
+						}
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/berry_seeds.json"
+				},
+				"minecraft:health": {
+					"value": 1,
+					"max": 1
+				}
+			},
+			"ss:grow1": {
+				"minecraft:variant": {
+					"value": 1
+				},
+				"minecraft:scale": {
+					"value": 1
+				},
+				"minecraft:collision_box": {
+					"height": 1,
+					"width": 0.6
+				},
+				"minecraft:timer": {
+					"randomInterval": false,
+					"looping": false,
+					"time_down_event": {
+						"event": "ss:grow2",
+						"target": "self"
+					},
+					"time": [
+						30,
+						30
+					]
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"filters": {
+									"test": "has_equipment",
+									"domain": "hand",
+									"subject": "other",
+									"value": "ss:Wailmer_Pail"
+								},
+								"event": "ss:grow2",
+								"target": "self"
+							},
+							"hurt_item": 1
+						}
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/berry_seeds.json"
+				},
+				"minecraft:health": {
+					"value": 1,
+					"max": 1
+				}
+			},
+			"ss:grow2": {
+				"minecraft:variant": {
+					"value": 2
+				},
+				"minecraft:scale": {
+					"value": 1
+				},
+				"minecraft:collision_box": {
+					"height": 1,
+					"width": 0.6
+				},
+				"minecraft:timer": {
+					"randomInterval": false,
+					"looping": false,
+					"time_down_event": {
+						"event": "ss:grow3",
+						"target": "self"
+					},
+					"time": [
+						30,
+						30
+					]
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"filters": {
+									"test": "has_equipment",
+									"domain": "hand",
+									"subject": "other",
+									"value": "ss:Wailmer_Pail"
+								},
+								"event": "ss:grow3",
+								"target": "self"
+							},
+							"hurt_item": 1
+						}
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/berry_seeds.json"
+				},
+				"minecraft:health": {
+					"value": 1,
+					"max": 1
+				}
+			},
+			"ss:grow3": {
+				"minecraft:variant": {
+					"value": 3
+				},
+				"minecraft:scale": {
+					"value": 1
+				},
+				"minecraft:collision_box": {
+					"height": 1,
+					"width": 0.6
+				},
+				"minecraft:timer": {
+					"randomInterval": false,
+					"looping": false,
+					"time_down_event": {
+						"event": "ss:grow4",
+						"target": "self"
+					},
+					"time": [
+						30,
+						30
+					]
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"filters": {
+									"test": "has_equipment",
+									"domain": "hand",
+									"subject": "other",
+									"value": "ss:Wailmer_Pail"
+								},
+								"event": "ss:grow4",
+								"target": "self"
+							},
+							"hurt_item": 1
+						}
+					]
+				},
+				"minecraft:health": {
+					"value": 1,
+					"max": 1
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/berry_seeds.json"
+				}
+			},
+			"ss:grow4": {
+				"minecraft:scale": {
+					"value": 1
+				},
+				"minecraft:collision_box": {
+					"height": 1,
+					"width": 0.6
+				},
+				"minecraft:timer": {
+					"randomInterval": false,
+					"looping": false,
+					"time_down_event": {
+						"event": "ss:grow5",
+						"target": "self"
+					},
+					"time": [
+						30,
+						30
+					]
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"filters": {
+									"test": "has_equipment",
+									"domain": "hand",
+									"subject": "other",
+									"value": "ss:Wailmer_Pail"
+								},
+								"event": "ss:grow5",
+								"target": "self"
+							},
+							"hurt_item": 1
+						}
+					]
+				},
+				"minecraft:health": {
+					"value": 1,
+					"max": 1
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/berry_seeds.json"
+				}
+			},
+			"ss:grow5": {
+				"minecraft:scale": {
+					"value": 1
+				},
+				"minecraft:collision_box": {
+					"height": 1.2,
+					"width": 0.6
+				},
+				"minecraft:health": {
+					"value": 100,
+					"max": 100
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"on_damage": {
+								"filters": {
+									"none_of": [
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "wooden_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "stone_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "iron_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "golden_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "diamond_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "netherite_axe"
+										}
+									]
+								}
+							},
+							"deals_damage": false
+						},
+						{
+							"on_damage": {
+								"filters": {
+									"any_of": [
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "wooden_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "stone_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "iron_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "golden_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "diamond_axe"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "netherite_axe"
+										}
+									]
+								}
+							},
+							"damage_multiplier": 200
+						}
+					]
+				},
+				"minecraft:on_death": {
+					"event": "ss:sound",
+					"target": "self"
+				}
+			},
+			"ss:6black": {
+				"minecraft:variant": {
+					"value": 5
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time_down_event": {
+						"event": "ss:animate",
+						"target": "self"
+					},
+					"time": [
+						3,
+						3
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/blackappricorn.json"
+				}
+			},
+			"ss:6blue": {
+				"minecraft:variant": {
+					"value": 6
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time_down_event": {
+						"event": "ss:animate",
+						"target": "self"
+					},
+					"time": [
+						3,
+						3
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/blueappricorn.json"
+				}
+			},
+			"ss:6green": {
+				"minecraft:variant": {
+					"value": 7
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time_down_event": {
+						"event": "ss:animate",
+						"target": "self"
+					},
+					"time": [
+						3,
+						3
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/greenappricorn.json"
+				}
+			},
+			"ss:6purple": {
+				"minecraft:variant": {
+					"value": 8
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time_down_event": {
+						"event": "ss:animate",
+						"target": "self"
+					},
+					"time": [
+						3,
+						3
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/purpleappricorn.json"
+				}
+			},
+			"ss:6red": {
+				"minecraft:variant": {
+					"value": 9
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time_down_event": {
+						"event": "ss:animate",
+						"target": "self"
+					},
+					"time": [
+						3,
+						3
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/redappricorn.json"
+				}
+			},
+			"ss:6white": {
+				"minecraft:variant": {
+					"value": 10
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time_down_event": {
+						"event": "ss:animate",
+						"target": "self"
+					},
+					"time": [
+						3,
+						3
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/whiteappricorn.json"
+				}
+			},
+			"ss:6yellow": {
+				"minecraft:variant": {
+					"value": 11
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time_down_event": {
+						"event": "ss:animate",
+						"target": "self"
+					},
+					"time": [
+						3,
+						3
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/yellowappricorn.json"
+				}
+			},
+			"ss:5black": {
+				"minecraft:variant": {
+					"value": 12
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time_down_event": {
+						"event": "ss:animate",
+						"target": "self"
+					},
+					"time": [
+						3,
+						3
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/berry_seeds.json"
+				}
+			},
+			"ss:5blue": {
+				"minecraft:variant": {
+					"value": 13
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time_down_event": {
+						"event": "ss:animate",
+						"target": "self"
+					},
+					"time": [
+						3,
+						3
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/v.json"
+				}
+			},
+			"ss:5green": {
+				"minecraft:variant": {
+					"value": 14
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time_down_event": {
+						"event": "ss:animate",
+						"target": "self"
+					},
+					"time": [
+						3,
+						3
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/berry_seeds.json"
+				}
+			},
+			"ss:5purple": {
+				"minecraft:variant": {
+					"value": 15
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time_down_event": {
+						"event": "ss:animate",
+						"target": "self"
+					},
+					"time": [
+						3,
+						3
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/berry_seeds.json"
+				}
+			},
+			"ss:5red": {
+				"minecraft:variant": {
+					"value": 16
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time_down_event": {
+						"event": "ss:animate",
+						"target": "self"
+					},
+					"time": [
+						3,
+						3
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/berry_seeds.json"
+				}
+			},
+			"ss:5white": {
+				"minecraft:variant": {
+					"value": 17
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time_down_event": {
+						"event": "ss:animate",
+						"target": "self"
+					},
+					"time": [
+						3,
+						3
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/berry_seeds.json"
+				}
+			},
+			"ss:5yellow": {
+				"minecraft:variant": {
+					"value": 18
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time_down_event": {
+						"event": "ss:animate",
+						"target": "self"
+					},
+					"time": [
+						3,
+						3
+					]
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/berry_seeds.json"
+				}
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"ss:grow0"
+					]
+				}
+			},
+			"ss:grow1": {
+				"remove": {
+					"component_groups": [
+						"ss:grow0"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:grow1"
+					]
+				}
+			},
+			"ss:grow2": {
+				"add": {
+					"component_groups": [
+						"ss:grow2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:grow1"
+					]
+				}
+			},
+			"ss:grow3": {
+				"add": {
+					"component_groups": [
+						"ss:grow3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:grow2"
+					]
+				}
+			},
+			"ss:grow4": {
+				"add": {
+					"component_groups": [
+						"ss:grow4"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:grow3"
+					]
+				},
+				"randomize": [
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"ss:5black",
+								"ss:grow4"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:grow3"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"ss:5blue",
+								"ss:grow4"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:grow3"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"ss:5green",
+								"ss:grow4"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:grow3"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"ss:5purple",
+								"ss:grow4"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:grow3"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"ss:5red",
+								"ss:grow4"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:grow3"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"ss:5white",
+								"ss:grow4"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:grow3"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"ss:5yellow",
+								"ss:grow4"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:grow3"
+							]
+						}
+					}
+				]
+			},
+			"ss:grow5": {
+				"randomize": [
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"ss:6black",
+								"ss:grow5"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:grow4"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"ss:6blue",
+								"ss:grow5"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:grow4"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"ss:6green",
+								"ss:grow5"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:grow4"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"ss:6purple",
+								"ss:grow5"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:grow4"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"ss:6red",
+								"ss:grow5"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:grow4"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"ss:6white",
+								"ss:grow5"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:grow4"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"ss:6yellow",
+								"ss:grow5"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:grow4"
+							]
+						}
+					}
+				]
+			},
+			"ss:berries": {
+				"add": {
+					"component_groups": [
+						"ss:berries"
+					]
+				}
+			},
+			"ss:seeds": {
+				"add": {
+					"component_groups": [
+						"ss:seeds"
+					]
+				}
+			},
+			"ss:animate": {
+				"run_command": {
+					"command": [
+						"playanimation @s animation.tree.6stage"
+					],
+					"target": "self"
+				}
+			},
+			"ss:sound": {
+				"run_command": {
+					"command": [
+						"playsound find_item @a[r=10]"
+					]
+				}
+			}
+		}
+	}
+}

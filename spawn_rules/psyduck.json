@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "ss:psyduck",
+      "population_control": "monster"
+    }, 
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:weight": {
+          "default": 35
+        }, 
+          "minecraft:density_limit": {
+            "surface": 2
+          },
+        "minecraft:biome_filter": [
+          {"test": "has_biome_tag", "operator":"==", "value": "river"}
+        ]
+      }
+    ]
+  }
+}

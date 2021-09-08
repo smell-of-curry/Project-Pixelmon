@@ -1,0 +1,447 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Project Pixelmon\\items\\pcpokemon\\pcriolu.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "16bb1e5f_e5ab_40af_a0d5_fb4c3f5dd80c",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ss:pcriolu",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": true,
+							"minecraft:icon": {
+								"texture": "riolu"
+							},
+							"minecraft:display_name": {
+								"value": "§b§lPC Riolu§r\n§l§bClick to Open\n"
+							},
+							"minecraft:allow_off_hand": true,
+							"minecraft:render_offsets": {
+								"main_hand": {
+									"third_person": {
+										"scale": [
+											0.01875,
+											0.03125,
+											0.01875
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.01875,
+											0.03125,
+											0.01875
+										]
+									}
+								},
+								"off_hand": {
+									"third_person": {
+										"scale": [
+											0.01875,
+											0.03125,
+											0.01875
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.01875,
+											0.03125,
+											0.01875
+										]
+									}
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ss:pcriolu",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:pcriolu",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": true,
+								"minecraft:icon": {
+									"texture": "riolu"
+								},
+								"minecraft:display_name": {
+									"value": "§b§lPC Riolu§r\n§l§bClick to Open\n"
+								},
+								"minecraft:allow_off_hand": true,
+								"minecraft:render_offsets": {
+									"main_hand": {
+										"third_person": {
+											"scale": [
+												0.01875,
+												0.03125,
+												0.01875
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.01875,
+												0.03125,
+												0.01875
+											]
+										}
+									},
+									"off_hand": {
+										"third_person": {
+											"scale": [
+												0.01875,
+												0.03125,
+												0.01875
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.01875,
+												0.03125,
+												0.01875
+											]
+										}
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:foil"
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "riolu"
+								}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "§b§lPC Riolu§r\n§l§bClick to Open\n"
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:allow_off_hand"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:foil": true,
+									"minecraft:icon": {
+										"texture": "riolu"
+									},
+									"minecraft:display_name": {
+										"value": "§b§lPC Riolu§r\n§l§bClick to Open\n"
+									},
+									"minecraft:allow_off_hand": true,
+									"minecraft:render_offsets": {
+										"main_hand": {
+											"third_person": {
+												"scale": [
+													0.01875,
+													0.03125,
+													0.01875
+												]
+											},
+											"first_person": {
+												"scale": [
+													0.01875,
+													0.03125,
+													0.01875
+												]
+											}
+										},
+										"off_hand": {
+											"third_person": {
+												"scale": [
+													0.01875,
+													0.03125,
+													0.01875
+												]
+											},
+											"first_person": {
+												"scale": [
+													0.01875,
+													0.03125,
+													0.01875
+												]
+											}
+										}
+									}
+								},
+								"key": "minecraft:render_offsets",
+								"children": [
+									{
+										"open": {
+											"main_hand": {
+												"third_person": {
+													"scale": [
+														0.01875,
+														0.03125,
+														0.01875
+													]
+												},
+												"first_person": {
+													"scale": [
+														0.01875,
+														0.03125,
+														0.01875
+													]
+												}
+											},
+											"off_hand": {
+												"third_person": {
+													"scale": [
+														0.01875,
+														0.03125,
+														0.01875
+													]
+												},
+												"first_person": {
+													"scale": [
+														0.01875,
+														0.03125,
+														0.01875
+													]
+												}
+											}
+										},
+										"key": "main_hand",
+										"children": [
+											{
+												"open": {
+													"third_person": {
+														"scale": [
+															0.01875,
+															0.03125,
+															0.01875
+														]
+													},
+													"first_person": {
+														"scale": [
+															0.01875,
+															0.03125,
+															0.01875
+														]
+													}
+												},
+												"key": "third_person",
+												"children": [
+													{
+														"open": {
+															"scale": [
+																0.01875,
+																0.03125,
+																0.01875
+															]
+														},
+														"key": "scale",
+														"is_minified": true,
+														"children": [
+															0.01875,
+															0.03125,
+															0.01875
+														]
+													}
+												]
+											},
+											{
+												"open": {
+													"third_person": {
+														"scale": [
+															0.01875,
+															0.03125,
+															0.01875
+														]
+													},
+													"first_person": {
+														"scale": [
+															0.01875,
+															0.03125,
+															0.01875
+														]
+													}
+												},
+												"key": "first_person",
+												"children": [
+													{
+														"open": {
+															"scale": [
+																0.01875,
+																0.03125,
+																0.01875
+															]
+														},
+														"key": "scale",
+														"is_minified": true,
+														"children": [
+															0.01875,
+															0.03125,
+															0.01875
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"main_hand": {
+												"third_person": {
+													"scale": [
+														0.01875,
+														0.03125,
+														0.01875
+													]
+												},
+												"first_person": {
+													"scale": [
+														0.01875,
+														0.03125,
+														0.01875
+													]
+												}
+											},
+											"off_hand": {
+												"third_person": {
+													"scale": [
+														0.01875,
+														0.03125,
+														0.01875
+													]
+												},
+												"first_person": {
+													"scale": [
+														0.01875,
+														0.03125,
+														0.01875
+													]
+												}
+											}
+										},
+										"key": "off_hand",
+										"children": [
+											{
+												"open": {
+													"third_person": {
+														"scale": [
+															0.01875,
+															0.03125,
+															0.01875
+														]
+													},
+													"first_person": {
+														"scale": [
+															0.01875,
+															0.03125,
+															0.01875
+														]
+													}
+												},
+												"key": "third_person",
+												"children": [
+													{
+														"open": {
+															"scale": [
+																0.01875,
+																0.03125,
+																0.01875
+															]
+														},
+														"key": "scale",
+														"is_minified": true,
+														"children": [
+															0.01875,
+															0.03125,
+															0.01875
+														]
+													}
+												]
+											},
+											{
+												"open": {
+													"third_person": {
+														"scale": [
+															0.01875,
+															0.03125,
+															0.01875
+														]
+													},
+													"first_person": {
+														"scale": [
+															0.01875,
+															0.03125,
+															0.01875
+														]
+													}
+												},
+												"key": "first_person",
+												"children": [
+													{
+														"open": {
+															"scale": [
+																0.01875,
+																0.03125,
+																0.01875
+															]
+														},
+														"key": "scale",
+														"is_minified": true,
+														"children": [
+															0.01875,
+															0.03125,
+															0.01875
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

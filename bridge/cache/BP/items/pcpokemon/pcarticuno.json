@@ -1,0 +1,396 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Project Pixelmon\\items\\pcpokemon\\pcarticuno.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "96496200_3153_4d77_b55c_139358ef52ea",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ss:pcarticuno",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": true,
+							"minecraft:icon": {
+								"texture": "articuno"
+							},
+							"minecraft:display_name": {
+								"value": "§b§lPC Articuno§r\n§l§bClick to Open\n"
+							},
+							"minecraft:allow_off_hand": true,
+							"minecraft:render_offsets": {
+								"main_hand": {
+									"third_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									}
+								},
+								"off_hand": {
+									"third_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									}
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:pcarticuno",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": true,
+								"minecraft:icon": {
+									"texture": "articuno"
+								},
+								"minecraft:display_name": {
+									"value": "§b§lPC Articuno§r\n§l§bClick to Open\n"
+								},
+								"minecraft:allow_off_hand": true,
+								"minecraft:render_offsets": {
+									"main_hand": {
+										"third_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										}
+									},
+									"off_hand": {
+										"third_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										}
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ss:pcarticuno",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:pcarticuno",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": true,
+								"minecraft:icon": {
+									"texture": "articuno"
+								},
+								"minecraft:display_name": {
+									"value": "§b§lPC Articuno§r\n§l§bClick to Open\n"
+								},
+								"minecraft:allow_off_hand": true,
+								"minecraft:render_offsets": {
+									"main_hand": {
+										"third_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										}
+									},
+									"off_hand": {
+										"third_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										}
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:foil"
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "articuno"
+								}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "§b§lPC Articuno§r\n§l§bClick to Open\n"
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:allow_off_hand"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:foil": true,
+									"minecraft:icon": {
+										"texture": "articuno"
+									},
+									"minecraft:display_name": {
+										"value": "§b§lPC Articuno§r\n§l§bClick to Open\n"
+									},
+									"minecraft:allow_off_hand": true,
+									"minecraft:render_offsets": {
+										"main_hand": {
+											"third_person": {
+												"scale": [
+													0.0375,
+													0.0625,
+													0.0375
+												]
+											},
+											"first_person": {
+												"scale": [
+													0.0375,
+													0.0625,
+													0.0375
+												]
+											}
+										},
+										"off_hand": {
+											"third_person": {
+												"scale": [
+													0.0375,
+													0.0625,
+													0.0375
+												]
+											},
+											"first_person": {
+												"scale": [
+													0.0375,
+													0.0625,
+													0.0375
+												]
+											}
+										}
+									}
+								},
+								"key": "minecraft:render_offsets",
+								"children": [
+									{
+										"open": {
+											"main_hand": {
+												"third_person": {
+													"scale": [
+														0.0375,
+														0.0625,
+														0.0375
+													]
+												},
+												"first_person": {
+													"scale": [
+														0.0375,
+														0.0625,
+														0.0375
+													]
+												}
+											},
+											"off_hand": {
+												"third_person": {
+													"scale": [
+														0.0375,
+														0.0625,
+														0.0375
+													]
+												},
+												"first_person": {
+													"scale": [
+														0.0375,
+														0.0625,
+														0.0375
+													]
+												}
+											}
+										},
+										"key": "main_hand",
+										"children": [
+											{
+												"open": {
+													"third_person": {
+														"scale": [
+															0.0375,
+															0.0625,
+															0.0375
+														]
+													},
+													"first_person": {
+														"scale": [
+															0.0375,
+															0.0625,
+															0.0375
+														]
+													}
+												},
+												"key": "third_person",
+												"children": [
+													{
+														"open": {
+															"scale": [
+																0.0375,
+																0.0625,
+																0.0375
+															]
+														},
+														"key": "scale",
+														"is_minified": true,
+														"children": [
+															0.0375,
+															0.0625,
+															0.0375
+														]
+													}
+												]
+											},
+											{
+												"open": {
+													"third_person": {
+														"scale": [
+															0.0375,
+															0.0625,
+															0.0375
+														]
+													},
+													"first_person": {
+														"scale": [
+															0.0375,
+															0.0625,
+															0.0375
+														]
+													}
+												},
+												"key": "first_person",
+												"is_minified": true,
+												"children": {
+													"scale": [
+														0.0375,
+														0.0625,
+														0.0375
+													]
+												}
+											}
+										]
+									},
+									{
+										"key": "off_hand",
+										"is_minified": true,
+										"children": {
+											"third_person": {
+												"scale": [
+													0.0375,
+													0.0625,
+													0.0375
+												]
+											},
+											"first_person": {
+												"scale": [
+													0.0375,
+													0.0625,
+													0.0375
+												]
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

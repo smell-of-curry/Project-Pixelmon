@@ -1,0 +1,160 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ss:masterballcapture",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"ss:confirmedcatch": {
+				"minecraft:timer": {
+					"time_down_event": {
+						"event": "ss:runfullcatch",
+						"target": "self"
+					},
+					"time": [
+						0.1,
+						0.1
+					],
+					"looping": false
+				}
+			},
+			"ss:killafter": {
+				"minecraft:timer": {
+					"time": [
+						6,
+						6
+					],
+					"looping": false,
+					"time_down_event": {
+						"event": "ss:kill",
+						"target": "self"
+					}
+				}
+			},
+			"ss:2catch": {
+				"minecraft:timer": {
+					"time_down_event": {
+						"event": "ss:run2catch",
+						"target": "self"
+					},
+					"time": [
+						0.1,
+						0.1
+					],
+					"looping": false
+				}
+			},
+			"ss:1catch": {
+				"minecraft:timer": {
+					"time_down_event": {
+						"event": "ss:run1catch",
+						"target": "self"
+					},
+					"time": [
+						0.1,
+						0.1
+					],
+					"looping": false
+				}
+			}
+		},
+		"components": {
+			"minecraft:scale": {
+				"value": 1
+			},
+			"minecraft:collision_box": {
+				"width": 0.25,
+				"height": 0.25
+			},
+			"minecraft:type_family": {
+				"family": [
+					"masterball"
+				]
+			},
+			"minecraft:movement": {
+				"value": 0
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			}
+		},
+		"events": {
+			"ss:confirmedcap": {
+				"add": {
+					"component_groups": [
+						"ss:confirmedcatch"
+					]
+				}
+			},
+			"ss:tick2catch": {
+				"add": {
+					"component_groups": [
+						"ss:2catch"
+					]
+				}
+			},
+			"ss:tick1catch": {
+				"add": {
+					"component_groups": [
+						"ss:1catch"
+					]
+				}
+			},
+			"ss:runfullcatch": {
+				"run_command": {
+					"command": [
+						"playanimation @s animation.confirmedcatch",
+						"playsound gameplay.catching_sound @a[r=6] ~~~",
+						"particle ss:evolve2 ~~~"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:killafter"
+					]
+				}
+			},
+			"ss:kill": {
+				"run_command": {
+					"command": [
+						"tp @s ~~-20~",
+						"kill @s"
+					]
+				}
+			},
+			"ss:run2catch": {
+				"run_command": {
+					"command": [
+						"playanimation @s animation.tick2catch",
+						"playsound gameplay.2catching_sound @a[r=6] ~~~",
+						"particle ss:evolve2 ~~~"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:killafter"
+					]
+				}
+			},
+			"ss:run1catch": {
+				"run_command": {
+					"command": [
+						"playanimation @s animation.tick1catch",
+						"playsound gameplay.1catching_sound @a[r=6] ~~~",
+						"particle ss:evolve2 ~~~"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:killafter"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "tags": [
+      "furnace"
+    ],
+    "output": {
+      "item": "ss:aluminum_ingot",
+      "data": 0
+    },
+    "input": {
+      "item": "ss:bauxite_ore",
+      "data": 0
+    },
+    "description": {
+      "identifier": "recipes_db2557c1"
+    }
+  }
+}

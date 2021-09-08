@@ -1,0 +1,1354 @@
+{
+	"client_entity": {
+		"RP/entity/Base Forms/gabite.json": {
+			"identifiers": [
+				"ss:gabite"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"chill",
+				"sit",
+				"flying_pokemon"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/Base Forms/garchomp.json": {
+			"identifiers": [
+				"ss:garchomp"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"chill",
+				"sit",
+				"flying_pokemon"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/Base Forms/gible.json": {
+			"identifiers": [
+				"ss:gible"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"chill",
+				"sit",
+				"ground_pokemon"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/Base Forms/geodude.json": {
+			"identifiers": [
+				"ss:geodude"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"chill",
+				"sit",
+				"ground_pokemon"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/Base Forms/golem.json": {
+			"identifiers": [
+				"ss:golem"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"chill",
+				"sit",
+				"ground_pokemon"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/Base Forms/graveler.json": {
+			"identifiers": [
+				"ss:graveler"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"chill",
+				"sit",
+				"ground_pokemon"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/Base Forms/riolu.json": {
+			"identifiers": [
+				"ss:riolu"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"chill",
+				"sit",
+				"ground_pokemon"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/Base Forms/lucario.json": {
+			"identifiers": [
+				"ss:lucario"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"chill",
+				"sit",
+				"ground_pokemon"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/pc.json": {
+			"identifiers": [
+				"ss:pc"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/Base Forms/crobat.json": {
+			"identifiers": [
+				"ss:crobat"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"chill",
+				"sit",
+				"flying_pokemon"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/Base Forms/buizel.json": {
+			"identifiers": [
+				"ss:buizel"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"chill",
+				"sit",
+				"ground_pokemon"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/Base Forms/floatzel.json": {
+			"identifiers": [
+				"ss:floatzel"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"chill",
+				"sit",
+				"ground_pokemon"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"function": {
+		"3f2aa5a7_0a81_4d7b_8bfe_a4cf8ae3f528": {},
+		"094e5a14_7a50_4757_bff8_298b7ac5b68f": {},
+		"1516bdca_a88a_404d_b0e8_bd671c5d0b05": {},
+		"57436316_ee54_4410_945f_f16ae74a87ac": {},
+		"generic": {},
+		"1e6b5847_8cdd_4893_8012_21bd2029723d": {},
+		"5cf586ae_c651_4193_ba59_f9b260e76e4b": {},
+		"cb0a683d_de33_41e1_be75_d992cc4a59b2": {},
+		"40455f73_c81c_4216_ac1f_1daf12de2ca0": {}
+	},
+	"entity": {
+		"BP/entities/pokemon/rock/golem.json": {
+			"events": [
+				"ss:evolve",
+				"ss:evolveeffect",
+				"minecraft:entity_transformed",
+				"minecraft:entity_spawned",
+				"minecraft:on_tame",
+				"ss:thunder_fangattack",
+				"ss:tackleattack",
+				"ss:level1",
+				"ss:level2",
+				"ss:level3",
+				"ss:level4",
+				"ss:level5",
+				"ss:level6",
+				"ss:level7",
+				"ss:level8",
+				"ss:level9",
+				"ss:level10",
+				"ss:level11",
+				"ss:level12",
+				"ss:level13",
+				"ss:level14",
+				"ss:level15",
+				"ss:level16",
+				"ss:level17",
+				"ss:level18",
+				"ss:level19",
+				"ss:level20",
+				"ss:level21",
+				"ss:level22",
+				"ss:level23",
+				"ss:level24",
+				"ss:level25",
+				"ss:level26",
+				"ss:level27",
+				"ss:level28",
+				"ss:level29",
+				"ss:level30",
+				"ss:level31",
+				"ss:level32",
+				"ss:level33",
+				"ss:level34",
+				"ss:level35",
+				"ss:level36",
+				"ss:level37",
+				"ss:level38",
+				"ss:level39",
+				"ss:level40",
+				"ss:level41",
+				"ss:level42",
+				"ss:level43",
+				"ss:level44",
+				"ss:level45",
+				"ss:level46",
+				"ss:level47",
+				"ss:level48",
+				"ss:level49",
+				"ss:level50",
+				"ss:level51",
+				"ss:level52",
+				"ss:level53",
+				"ss:level54",
+				"ss:level55",
+				"ss:level56",
+				"ss:level57",
+				"ss:level58",
+				"ss:level59",
+				"ss:level60",
+				"ss:level61",
+				"ss:level62",
+				"ss:level63",
+				"ss:level64",
+				"ss:level65",
+				"ss:level66",
+				"ss:level67",
+				"ss:level68",
+				"ss:level69",
+				"ss:level70",
+				"ss:level71",
+				"ss:level72",
+				"ss:level73",
+				"ss:level74",
+				"ss:level75",
+				"ss:level76",
+				"ss:level77",
+				"ss:level78",
+				"ss:level79",
+				"ss:level80",
+				"ss:level81",
+				"ss:level82",
+				"ss:level83",
+				"ss:level84",
+				"ss:level85",
+				"ss:level86",
+				"ss:level87",
+				"ss:level88",
+				"ss:level89",
+				"ss:level90",
+				"ss:level91",
+				"ss:level92",
+				"ss:level93",
+				"ss:level94",
+				"ss:level95",
+				"ss:level96",
+				"ss:level97",
+				"ss:level98",
+				"ss:level99",
+				"ss:level100",
+				"ss:levelup",
+				"ss:thunder_fanglvl1",
+				"ss:thunder_fanglvl2",
+				"ss:thunder_fanglvl3",
+				"ss:thunder_fanglvl4",
+				"ss:thunder_fanglvl5",
+				"ss:thunder_fanglvl6",
+				"ss:thunder_fanglvl7",
+				"ss:thunder_fanglvl8",
+				"ss:thunder_fanglvl9",
+				"ss:thunder_fanglvl10",
+				"ss:tacklelvl1",
+				"ss:tacklelvl2",
+				"ss:tacklelvl3",
+				"ss:tacklelvl4",
+				"ss:tacklelv5",
+				"ss:thunderlv1",
+				"ss:thunderlv2",
+				"ss:thunderlv3",
+				"ss:thunderlv4",
+				"ss:thunderlv5",
+				"ss:switch_to_melee",
+				"ss:switch_to_ranged",
+				"ss:pokeballhit",
+				"ss:ultraballhit",
+				"ss:greatballhit",
+				"ss:masterballhit",
+				"ss:pokemondied",
+				"ss:despawn"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"ss:golem"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/pokemon/rock/graveler.json": {
+			"events": [
+				"ss:evolve",
+				"ss:evolveeffect",
+				"minecraft:entity_transformed",
+				"minecraft:entity_spawned",
+				"minecraft:on_tame",
+				"ss:thunder_fangattack",
+				"ss:tackleattack",
+				"ss:level1",
+				"ss:level2",
+				"ss:level3",
+				"ss:level4",
+				"ss:level5",
+				"ss:level6",
+				"ss:level7",
+				"ss:level8",
+				"ss:level9",
+				"ss:level10",
+				"ss:level11",
+				"ss:level12",
+				"ss:level13",
+				"ss:level14",
+				"ss:level15",
+				"ss:level16",
+				"ss:level17",
+				"ss:level18",
+				"ss:level19",
+				"ss:level20",
+				"ss:level21",
+				"ss:level22",
+				"ss:level23",
+				"ss:level24",
+				"ss:level25",
+				"ss:level26",
+				"ss:level27",
+				"ss:level28",
+				"ss:level29",
+				"ss:level30",
+				"ss:level31",
+				"ss:level32",
+				"ss:level33",
+				"ss:level34",
+				"ss:level35",
+				"ss:level36",
+				"ss:level37",
+				"ss:level38",
+				"ss:level39",
+				"ss:level40",
+				"ss:level41",
+				"ss:level42",
+				"ss:level43",
+				"ss:level44",
+				"ss:level45",
+				"ss:level46",
+				"ss:level47",
+				"ss:level48",
+				"ss:level49",
+				"ss:level50",
+				"ss:level51",
+				"ss:level52",
+				"ss:level53",
+				"ss:level54",
+				"ss:level55",
+				"ss:level56",
+				"ss:level57",
+				"ss:level58",
+				"ss:level59",
+				"ss:level60",
+				"ss:level61",
+				"ss:level62",
+				"ss:level63",
+				"ss:level64",
+				"ss:level65",
+				"ss:level66",
+				"ss:level67",
+				"ss:level68",
+				"ss:level69",
+				"ss:level70",
+				"ss:level71",
+				"ss:level72",
+				"ss:level73",
+				"ss:level74",
+				"ss:level75",
+				"ss:level76",
+				"ss:level77",
+				"ss:level78",
+				"ss:level79",
+				"ss:level80",
+				"ss:level81",
+				"ss:level82",
+				"ss:level83",
+				"ss:level84",
+				"ss:level85",
+				"ss:level86",
+				"ss:level87",
+				"ss:level88",
+				"ss:level89",
+				"ss:level90",
+				"ss:level91",
+				"ss:level92",
+				"ss:level93",
+				"ss:level94",
+				"ss:level95",
+				"ss:level96",
+				"ss:level97",
+				"ss:level98",
+				"ss:level99",
+				"ss:level100",
+				"ss:levelup",
+				"ss:thunder_fanglvl1",
+				"ss:thunder_fanglvl2",
+				"ss:thunder_fanglvl3",
+				"ss:thunder_fanglvl4",
+				"ss:thunder_fanglvl5",
+				"ss:thunder_fanglvl6",
+				"ss:thunder_fanglvl7",
+				"ss:thunder_fanglvl8",
+				"ss:thunder_fanglvl9",
+				"ss:thunder_fanglvl10",
+				"ss:tacklelvl1",
+				"ss:tacklelvl2",
+				"ss:tacklelvl3",
+				"ss:tacklelvl4",
+				"ss:tacklelv5",
+				"ss:thunderlv1",
+				"ss:thunderlv2",
+				"ss:thunderlv3",
+				"ss:thunderlv4",
+				"ss:thunderlv5",
+				"ss:switch_to_melee",
+				"ss:switch_to_ranged",
+				"ss:pokeballhit",
+				"ss:ultraballhit",
+				"ss:greatballhit",
+				"ss:masterballhit",
+				"ss:pokemondied",
+				"ss:despawn"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"ss:graveler"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/pokemon/rock/geodude.json": {
+			"events": [
+				"ss:evolve",
+				"ss:evolveeffect",
+				"minecraft:entity_transformed",
+				"minecraft:entity_spawned",
+				"minecraft:on_tame",
+				"ss:thunder_fangattack",
+				"ss:tackleattack",
+				"ss:level1",
+				"ss:level2",
+				"ss:level3",
+				"ss:level4",
+				"ss:level5",
+				"ss:level6",
+				"ss:level7",
+				"ss:level8",
+				"ss:level9",
+				"ss:level10",
+				"ss:level11",
+				"ss:level12",
+				"ss:level13",
+				"ss:level14",
+				"ss:level15",
+				"ss:level16",
+				"ss:level17",
+				"ss:level18",
+				"ss:level19",
+				"ss:level20",
+				"ss:level21",
+				"ss:level22",
+				"ss:level23",
+				"ss:level24",
+				"ss:level25",
+				"ss:level26",
+				"ss:level27",
+				"ss:level28",
+				"ss:level29",
+				"ss:level30",
+				"ss:level31",
+				"ss:level32",
+				"ss:level33",
+				"ss:level34",
+				"ss:level35",
+				"ss:level36",
+				"ss:level37",
+				"ss:level38",
+				"ss:level39",
+				"ss:level40",
+				"ss:level41",
+				"ss:level42",
+				"ss:level43",
+				"ss:level44",
+				"ss:level45",
+				"ss:level46",
+				"ss:level47",
+				"ss:level48",
+				"ss:level49",
+				"ss:level50",
+				"ss:level51",
+				"ss:level52",
+				"ss:level53",
+				"ss:level54",
+				"ss:level55",
+				"ss:level56",
+				"ss:level57",
+				"ss:level58",
+				"ss:level59",
+				"ss:level60",
+				"ss:level61",
+				"ss:level62",
+				"ss:level63",
+				"ss:level64",
+				"ss:level65",
+				"ss:level66",
+				"ss:level67",
+				"ss:level68",
+				"ss:level69",
+				"ss:level70",
+				"ss:level71",
+				"ss:level72",
+				"ss:level73",
+				"ss:level74",
+				"ss:level75",
+				"ss:level76",
+				"ss:level77",
+				"ss:level78",
+				"ss:level79",
+				"ss:level80",
+				"ss:level81",
+				"ss:level82",
+				"ss:level83",
+				"ss:level84",
+				"ss:level85",
+				"ss:level86",
+				"ss:level87",
+				"ss:level88",
+				"ss:level89",
+				"ss:level90",
+				"ss:level91",
+				"ss:level92",
+				"ss:level93",
+				"ss:level94",
+				"ss:level95",
+				"ss:level96",
+				"ss:level97",
+				"ss:level98",
+				"ss:level99",
+				"ss:level100",
+				"ss:levelup",
+				"ss:thunder_fanglvl1",
+				"ss:thunder_fanglvl2",
+				"ss:thunder_fanglvl3",
+				"ss:thunder_fanglvl4",
+				"ss:thunder_fanglvl5",
+				"ss:thunder_fanglvl6",
+				"ss:thunder_fanglvl7",
+				"ss:thunder_fanglvl8",
+				"ss:thunder_fanglvl9",
+				"ss:thunder_fanglvl10",
+				"ss:tacklelvl1",
+				"ss:tacklelvl2",
+				"ss:tacklelvl3",
+				"ss:tacklelvl4",
+				"ss:tacklelv5",
+				"ss:thunderlv1",
+				"ss:thunderlv2",
+				"ss:thunderlv3",
+				"ss:thunderlv4",
+				"ss:thunderlv5",
+				"ss:switch_to_melee",
+				"ss:switch_to_ranged",
+				"ss:pokeballhit",
+				"ss:ultraballhit",
+				"ss:greatballhit",
+				"ss:masterballhit",
+				"ss:pokemondied",
+				"ss:despawn"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"ss:geodude"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/pokemon/poison/crobat.json": {
+			"events": [
+				"minecraft:entity_transformed",
+				"ss:evolve",
+				"ss:evolveeffect",
+				"minecraft:entity_spawned",
+				"minecraft:on_tame",
+				"ss:tackleattack",
+				"ss:level1",
+				"ss:level2",
+				"ss:level3",
+				"ss:level4",
+				"ss:level5",
+				"ss:level6",
+				"ss:level7",
+				"ss:level8",
+				"ss:level9",
+				"ss:level10",
+				"ss:level11",
+				"ss:level12",
+				"ss:level13",
+				"ss:level14",
+				"ss:level15",
+				"ss:level16",
+				"ss:level17",
+				"ss:level18",
+				"ss:level19",
+				"ss:level20",
+				"ss:level21",
+				"ss:level22",
+				"ss:level23",
+				"ss:level24",
+				"ss:level25",
+				"ss:level26",
+				"ss:level27",
+				"ss:level28",
+				"ss:level29",
+				"ss:level30",
+				"ss:level31",
+				"ss:level32",
+				"ss:level33",
+				"ss:level34",
+				"ss:level35",
+				"ss:level36",
+				"ss:level37",
+				"ss:level38",
+				"ss:level39",
+				"ss:level40",
+				"ss:level41",
+				"ss:level42",
+				"ss:level43",
+				"ss:level44",
+				"ss:level45",
+				"ss:level46",
+				"ss:level47",
+				"ss:level48",
+				"ss:level49",
+				"ss:level50",
+				"ss:level51",
+				"ss:level52",
+				"ss:level53",
+				"ss:level54",
+				"ss:level55",
+				"ss:level56",
+				"ss:level57",
+				"ss:level58",
+				"ss:level59",
+				"ss:level60",
+				"ss:level61",
+				"ss:level62",
+				"ss:level63",
+				"ss:level64",
+				"ss:level65",
+				"ss:level66",
+				"ss:level67",
+				"ss:level68",
+				"ss:level69",
+				"ss:level70",
+				"ss:level71",
+				"ss:level72",
+				"ss:level73",
+				"ss:level74",
+				"ss:level75",
+				"ss:level76",
+				"ss:level77",
+				"ss:level78",
+				"ss:level79",
+				"ss:level80",
+				"ss:level81",
+				"ss:level82",
+				"ss:level83",
+				"ss:level84",
+				"ss:level85",
+				"ss:level86",
+				"ss:level87",
+				"ss:level88",
+				"ss:level89",
+				"ss:level90",
+				"ss:level91",
+				"ss:level92",
+				"ss:level93",
+				"ss:level94",
+				"ss:level95",
+				"ss:level96",
+				"ss:level97",
+				"ss:level98",
+				"ss:level99",
+				"ss:level100",
+				"ss:levelup",
+				"ss:test",
+				"ss:tacklelvl1",
+				"ss:tacklelvl2",
+				"ss:tacklelvl3",
+				"ss:tacklelvl4",
+				"ss:tacklelvl5",
+				"ss:tacklelvl6",
+				"ss:tacklelvl7",
+				"ss:tacklelvl8",
+				"ss:tacklelvl9",
+				"ss:tacklelvl10",
+				"ss:bubblebeamlv1",
+				"ss:bubblebeamlv2",
+				"ss:bubblebeamlv3",
+				"ss:bubblebeamlv4",
+				"ss:bubblebeamlv5",
+				"ss:switch_to_melee",
+				"ss:switch_to_ranged",
+				"ss:pokeballhit",
+				"ss:ultraballhit",
+				"ss:greatballhit",
+				"ss:masterballhit",
+				"ss:pokemondied",
+				"ss:despawn"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"ss:crobat"
+			],
+			"animation_references": [
+				"crowbat_fly"
+			],
+			"families": [
+				"pokemon"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/blocks/pc.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"ss:pc"
+			],
+			"animation_references": [],
+			"families": [
+				"block"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/player.json": {
+			"events": [
+				"ss:guiinhand",
+				"ss:guinothand",
+				"ss:guicrouch",
+				"ss:guiuncrouch",
+				"ss:runningshoeseffect",
+				"ss:oldrunningshoeseffect",
+				"ss:firsttime",
+				"ss:pokeballkillrun",
+				"ss:pokeballkill"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [],
+			"families": [
+				"player",
+				"ss"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		}
+	},
+	"item": {
+		"BP/items/pcpokemon/pcarchine.json": {
+			"identifiers": [
+				"ss:pcarchine"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcgrottle.json": {
+			"identifiers": [
+				"ss:pcgrottle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/armor _ tools/oldrunningshoes.json": {
+			"identifiers": [
+				"ss:oldrunningshoes"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcpikachu.json": {
+			"identifiers": [
+				"ss:pcpikachu"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcarticuno.json": {
+			"identifiers": [
+				"ss:pcarticuno"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcbeedrill.json": {
+			"identifiers": [
+				"ss:pcbeedrill"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcbibarel.json": {
+			"identifiers": [
+				"ss:pcbibarel"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcbidoof.json": {
+			"identifiers": [
+				"ss:pcbidoof"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcbutterfree.json": {
+			"identifiers": [
+				"ss:pcbutterfree"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pccaterpie.json": {
+			"identifiers": [
+				"ss:pccaterpie"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcchimchar.json": {
+			"identifiers": [
+				"ss:pcchimchar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcdrapion.json": {
+			"identifiers": [
+				"ss:pcdrapion"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pceevee.json": {
+			"identifiers": [
+				"ss:pceevee"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcempoleon.json": {
+			"identifiers": [
+				"ss:pcempoleon"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcflareon.json": {
+			"identifiers": [
+				"ss:pcflareon"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcgastly.json": {
+			"identifiers": [
+				"ss:pcgastly"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcgengar.json": {
+			"identifiers": [
+				"ss:pcgengar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcgeodude.json": {
+			"identifiers": [
+				"ss:pcgeodude"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcgolduck.json": {
+			"identifiers": [
+				"ss:pcgolduck"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcgraveler.json": {
+			"identifiers": [
+				"ss:pcgraveler"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcgrowlithe.json": {
+			"identifiers": [
+				"ss:pcgrowlithe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pchaunter.json": {
+			"identifiers": [
+				"ss:pchaunter"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcinfrnape.json": {
+			"identifiers": [
+				"ss:pcinfrnape"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcjolteon.json": {
+			"identifiers": [
+				"ss:pcjolteon"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pckakuna.json": {
+			"identifiers": [
+				"ss:pckakuna"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pckingler.json": {
+			"identifiers": [
+				"ss:pckingler"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pckrabby.json": {
+			"identifiers": [
+				"ss:pckrabby"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcluxio.json": {
+			"identifiers": [
+				"ss:pcluxio"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcluxray.json": {
+			"identifiers": [
+				"ss:pcluxray"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcmetapod.json": {
+			"identifiers": [
+				"ss:pcmetapod"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcmewtwo.json": {
+			"identifiers": [
+				"ss:pcmewtwo"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcmonferno.json": {
+			"identifiers": [
+				"ss:pcmonferno"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pconix.json": {
+			"identifiers": [
+				"ss:pconix"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcpichu.json": {
+			"identifiers": [
+				"ss:pcpichu"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcpidgeot.json": {
+			"identifiers": [
+				"ss:pcpidgeot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcpidgeoto.json": {
+			"identifiers": [
+				"ss:pcpidgeoto"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcpidget.json": {
+			"identifiers": [
+				"ss:pcpidget"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcpiplup.json": {
+			"identifiers": [
+				"ss:pcpiplup"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcprinplup.json": {
+			"identifiers": [
+				"ss:pcprinplup"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcpsyduck.json": {
+			"identifiers": [
+				"ss:pcpsyduck"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcshinx.json": {
+			"identifiers": [
+				"ss:pcshinx"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcskorupi.json": {
+			"identifiers": [
+				"ss:pcskorupi"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pctorterra.json": {
+			"identifiers": [
+				"ss:pctorterra"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcturtwig.json": {
+			"identifiers": [
+				"ss:pcturtwig"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcumreon.json": {
+			"identifiers": [
+				"ss:pcumreon"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcvaporeon.json": {
+			"identifiers": [
+				"ss:pcvaporeon"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcweedle.json": {
+			"identifiers": [
+				"ss:pcweedle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pczubat.json": {
+			"identifiers": [
+				"ss:pczubat"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcsylveon.json": {
+			"identifiers": [
+				"ss:pcsylveon"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcriolu.json": {
+			"identifiers": [
+				"ss:pcriolu"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pclucario.json": {
+			"identifiers": [
+				"ss:pclucario"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcraichu.json": {
+			"identifiers": [
+				"ss:pcraichu"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcleafeon.json": {
+			"identifiers": [
+				"ss:pcleafeon"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcgolem.json": {
+			"identifiers": [
+				"ss:pcgolem"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcgolbat.json": {
+			"identifiers": [
+				"ss:pcgolbat"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcglaceon.json": {
+			"identifiers": [
+				"ss:pcglaceon"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcgible.json": {
+			"identifiers": [
+				"ss:pcgible"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcgarchomp.json": {
+			"identifiers": [
+				"ss:pcgarchomp"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcgabite.json": {
+			"identifiers": [
+				"ss:pcgabite"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcfloatzel.json": {
+			"identifiers": [
+				"ss:pcfloatzel"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcbuizel.json": {
+			"identifiers": [
+				"ss:pcbuizel"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pccrowbat.json": {
+			"identifiers": [
+				"ss:pccrowbat"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pcpokemon/pcespeon.json": {
+			"identifiers": [
+				"ss:pcespeon"
+			],
+			"custom_commands": []
+		},
+		"BP/items/starting/startingchimchar.json": {
+			"identifiers": [
+				"ss:startingchimchar"
+			],
+			"custom_commands": []
+		},
+		"BP/items/starting/startingpiplup.json": {
+			"identifiers": [
+				"ss:startingpiplup"
+			],
+			"custom_commands": []
+		},
+		"BP/items/starting/startingturtwig.json": {
+			"identifiers": [
+				"ss:startingturtwig"
+			],
+			"custom_commands": []
+		}
+	}
+}

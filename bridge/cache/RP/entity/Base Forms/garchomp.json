@@ -1,0 +1,262 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Project Pixelmon RES\\entity\\Base Forms\\garchomp.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "161c9475_f70f_4649_bd49_cb61586b2b14",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "ss:garchomp",
+							"materials": {
+								"default": "zombie"
+							},
+							"textures": {
+								"default": "textures/entity/garchomp/garchomp"
+							},
+							"geometry": {
+								"default": "geometry.garchomp"
+							},
+							"scripts": {
+								"animate": [
+									"look_at_target",
+									"flying_pokemon"
+								]
+							},
+							"animations": {
+								"walk": "animation.garchomp.fly",
+								"look_at_target": "animation.common.look_at_target",
+								"chill": "animation.garchomp.chill",
+								"sit": "animation.garchomp.sitting",
+								"flying_pokemon": "controller.animation.flying.pokemon"
+							},
+							"render_controllers": [
+								"controller.render.pokemon"
+							],
+							"spawn_egg": {
+								"texture": "garchomp",
+								"texture_index": 0
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:garchomp",
+								"materials": {
+									"default": "zombie"
+								},
+								"textures": {
+									"default": "textures/entity/garchomp/garchomp"
+								},
+								"geometry": {
+									"default": "geometry.garchomp"
+								},
+								"scripts": {
+									"animate": [
+										"look_at_target",
+										"flying_pokemon"
+									]
+								},
+								"animations": {
+									"walk": "animation.garchomp.fly",
+									"look_at_target": "animation.common.look_at_target",
+									"chill": "animation.garchomp.chill",
+									"sit": "animation.garchomp.sitting",
+									"flying_pokemon": "controller.animation.flying.pokemon"
+								},
+								"render_controllers": [
+									"controller.render.pokemon"
+								],
+								"spawn_egg": {
+									"texture": "garchomp",
+									"texture_index": 0
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "ss:garchomp",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "zombie"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/garchomp/garchomp"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.garchomp"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ss:garchomp",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/garchomp/garchomp"
+									},
+									"geometry": {
+										"default": "geometry.garchomp"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											"flying_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.garchomp.fly",
+										"look_at_target": "animation.common.look_at_target",
+										"chill": "animation.garchomp.chill",
+										"sit": "animation.garchomp.sitting",
+										"flying_pokemon": "controller.animation.flying.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "garchomp",
+										"texture_index": 0
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"look_at_target",
+												"flying_pokemon"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"look_at_target",
+											"flying_pokemon"
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "ss:garchomp",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/garchomp/garchomp"
+									},
+									"geometry": {
+										"default": "geometry.garchomp"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											"flying_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.garchomp.fly",
+										"look_at_target": "animation.common.look_at_target",
+										"chill": "animation.garchomp.chill",
+										"sit": "animation.garchomp.sitting",
+										"flying_pokemon": "controller.animation.flying.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "garchomp",
+										"texture_index": 0
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.garchomp.fly",
+									"look_at_target": "animation.common.look_at_target",
+									"chill": "animation.garchomp.chill",
+									"sit": "animation.garchomp.sitting",
+									"flying_pokemon": "controller.animation.flying.pokemon"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.pokemon"
+								]
+							},
+							{
+								"open": {
+									"identifier": "ss:garchomp",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/garchomp/garchomp"
+									},
+									"geometry": {
+										"default": "geometry.garchomp"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											"flying_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.garchomp.fly",
+										"look_at_target": "animation.common.look_at_target",
+										"chill": "animation.garchomp.chill",
+										"sit": "animation.garchomp.sitting",
+										"flying_pokemon": "controller.animation.flying.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "garchomp",
+										"texture_index": 0
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "garchomp",
+									"texture_index": 0
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,69 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Project Pixelmon\\items\\ss_aluminum.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "13b9852e_992a_4930_893b_77ed82218f18",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.1,
+					"minecraft:item": {
+						"description": {
+							"identifier": "ss:aluminum",
+							"category": "Equipment"
+						},
+						"components": {
+							"minecraft:icon": "ss:aluminum",
+							"minecraft:render_offsets": "miscellaneous"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:aluminum",
+								"category": "Equipment"
+							},
+							"components": {
+								"minecraft:icon": "ss:aluminum",
+								"minecraft:render_offsets": "miscellaneous"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ss:aluminum",
+							"category": "Equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:aluminum",
+								"category": "Equipment"
+							},
+							"components": {
+								"minecraft:icon": "ss:aluminum",
+								"minecraft:render_offsets": "miscellaneous"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": "ss:aluminum",
+							"minecraft:render_offsets": "miscellaneous"
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "leafboots_3282d7cd"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:leafstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:leafboots",
+      "count": 1
+    }
+  }
+}

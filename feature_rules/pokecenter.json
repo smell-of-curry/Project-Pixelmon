@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "ss:pokecenter",
+			"places_feature": "ss:pokecenter"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "plains"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 1,
+			"scatter_chance": 0.075,
+			"x": 0,
+			"y": "query.heightmap(variable.worldx, variable.worldz) - 1",
+			"z": 0
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "shinystone_56eac458"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:shinyshard",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:shinystone",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "waterstone_a8cb67ef"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:watershard",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:waterstone",
+      "count": 1
+    }
+  }
+}

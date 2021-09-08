@@ -1,0 +1,333 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:player",
+			"is_spawnable": false,
+			"is_summonable": false,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"ss:pokeballkilltimer": {
+				"minecraft:timer": {
+					"looping": false,
+					"time": [
+						0.1,
+						0.1
+					],
+					"time_down_event": {
+						"event": "ss:pokeballkillrun"
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:npc": {},
+			"minecraft:experience_reward": {
+				"on_death": "Math.Min(query.player_level * 7, 100)"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"player",
+					"ss"
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:can_climb": {},
+			"minecraft:physics": {},
+			"minecraft:scaffolding_climber": {},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:movement": {
+				"value": 0.1
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:attack": {
+				"damage": 1
+			},
+			"minecraft:player.saturation": {
+				"value": 20
+			},
+			"minecraft:player.exhaustion": {
+				"value": 0,
+				"max": 4
+			},
+			"minecraft:player.level": {
+				"value": 0,
+				"max": 24791
+			},
+			"minecraft:player.experience": {
+				"value": 0,
+				"max": 1
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": -1,
+				"inhale_time": 3.75,
+				"generates_bubbles": false
+			},
+			"minecraft:nameable": {
+				"always_show": true,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"domain": "hand",
+									"value": "ss:gui"
+								}
+							]
+						},
+						"event": "ss:guiinhand"
+					},
+					{
+						"filters": {
+							"none_of": [
+								{
+									"test": "has_equipment",
+									"domain": "hand",
+									"value": "ss:gui"
+								}
+							]
+						},
+						"event": "ss:guinothand"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_sneaking",
+									"value": true
+								},
+								{
+									"test": "has_equipment",
+									"domain": "hand",
+									"value": "ss:gui"
+								}
+							]
+						},
+						"event": "ss:guicrouch"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_sneaking",
+									"value": false
+								},
+								{
+									"test": "has_equipment",
+									"domain": "hand",
+									"value": "ss:gui"
+								}
+							]
+						},
+						"event": "ss:guiuncrouch"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"value": "ss:runningshoes"
+								}
+							]
+						},
+						"event": "ss:runningshoeseffect"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "feet",
+									"value": "ss:oldrunningshoes"
+								}
+							]
+						},
+						"event": "ss:oldrunningshoeseffect"
+					},
+					{
+						"filters": {
+							"none_of": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "alreadystarted"
+								}
+							]
+						},
+						"event": "ss:firsttime"
+					}
+				]
+			}
+		},
+		"events": {
+			"ss:guiinhand": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"execute @s[scores={guiinhand=..0}] ~~~ function gui/openMenu"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"scoreboard players add @s guiinhand 0"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"execute @s[scores={guiinhand=..0}] ~~~ scoreboard players set @s guiinhand 1"
+							],
+							"target": "self"
+						}
+					}
+				]
+			},
+			"ss:guinothand": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"execute @s[scores={guiinhand=1}] ~~~ function gui/closeMenu"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"scoreboard players add @s guiinhand 0"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"execute @s[scores={guiinhand=1}] ~~~ scoreboard players set @s guiinhand 0"
+							],
+							"target": "self"
+						}
+					}
+				]
+			},
+			"ss:guicrouch": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"execute @s[scores={guicrouch=..0}] ~~~ function gui/itemSelect"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"execute @s[scores={guicrouch=..0}] ~~~ scoreboard players set @s guicrouch 1"
+							],
+							"target": "self"
+						}
+					}
+				]
+			},
+			"ss:guiuncrouch": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"scoreboard players set @s guicrouch 0"
+							],
+							"target": "self"
+						}
+					}
+				]
+			},
+			"ss:runningshoeseffect": {
+				"run_command": {
+					"command": [
+						"effect @s speed 1 2 true"
+					]
+				}
+			},
+			"ss:oldrunningshoeseffect": {
+				"run_command": {
+					"command": [
+						"effect @s speed 1 1 true"
+					]
+				}
+			},
+			"ss:firsttime": {
+				"run_command": {
+					"command": [
+						"gamerule sendcommandfeedback false",
+						"gamerule commandblockoutput false",
+						"tp @s 0 100 0",
+						"effect @s invisibility 1 255 true",
+						"execute @s ~~~ detect ~~2~ air 0 function on_join/newworld",
+						"setblock ~~2~ structure_void",
+						"effect @s resistance 20 255 true",
+						"title @s actionbar §l§cChoose Your §aStarter §cPokemon",
+						"effect @s slowness 2 255 true",
+						"effect @s mining_fatigue 2 255 true",
+						"replaceitem entity @s slot.hotbar 3 ss:startingturtwig 1 0 {\"item_lock\":{\"mode\":\"lock_in_slot\"},\"keep_on_death\": {}}",
+						"replaceitem entity @s slot.hotbar 4 ss:startingchimchar 1 0 {\"item_lock\":{\"mode\":\"lock_in_slot\"},\"keep_on_death\": {}}",
+						"replaceitem entity @s slot.hotbar 5 ss:startingpiplup 1 0 {\"item_lock\":{\"mode\":\"lock_in_slot\"},\"keep_on_death\": {}}"
+					]
+				}
+			},
+			"ss:pokeballkillrun": {
+				"run_command": {
+					"command": [
+						"kill @e[family=pokeball,r=10]"
+					]
+				}
+			},
+			"ss:pokeballkill": {
+				"add": {
+					"component_groups": [
+						"ss:pokeballkilltimer"
+					]
+				}
+			}
+		}
+	}
+}

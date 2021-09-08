@@ -1,0 +1,61 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "ss:ruby_block",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/ss_ruby_block.json",
+      "minecraft:destroy_time": 0.3,
+      "minecraft:friction": 0.7,
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:explosion_resistance": 1.0,
+      "minecraft:block_light_absorption": 15.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:geometry": "geometry.block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "ss_ruby_block",
+          "render_method": "blend"
+        }
+      },
+      "minecraft:on_placed": {
+        "event": "size:block",
+        "target": "self"
+      },
+      "minecraft:on_player_destroyed": {
+        "event": "remove:block",
+        "target": "self"
+      },
+      "minecraft:ticking": {
+        "looping": true,
+        "range": [
+          10,
+          10
+        ],
+        "on_tick": {
+          "event": "on_tick",
+          "target": "self"
+        }
+      }
+    },
+    "events": {
+      "on_tick": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "size:block": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "remove:block": {
+        "run_command": {
+          "command": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ss:pokemon_firewheel",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.31,
+				"height": 0.31
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+						"damage": 5,
+						"knockback": false,
+						"catch_fire": true,
+						"semi_random_diff_damage": false
+					},
+					"catch_fire": {
+						"fire_affected_by_griefing": true
+					},
+					"remove_on_hit": {},
+					"douse_fire": {},
+					"definition_event": {
+						"event_trigger": {
+							"event": "ss:on_hit",
+							"target": "self"
+						}
+					},
+					"spawn_aoe_cloud": {
+						"radius": 3,
+						"particle": "ss:fire_wheel",
+						"affect_owner": false,
+						"duration": 30,
+						"potion": 23,
+						"reapplication_delay": 40
+					}
+				},
+				"power": 1.6,
+				"gravity": 0.00,
+				"inertia": 1,
+				"liquid_inertia": 1,
+				"anchor": 1,
+				"offset": [
+					0,
+					0.1,
+					0
+				],
+				"semi_random_diff_damage": true,
+				"uncertainty_base": 0,
+				"uncertainty_multiplier": 0,
+				"reflect_on_hurt": true,
+				"should_bounce": false,
+				"is_dangerous": true,
+				"shoot_target": true,
+				"catch_fire": true,
+				"on_fire_time": 2,
+				"knockback": false
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {
+				"default_values": {
+					"max_optimized_distance": 80,
+					"max_dropped_ticks": 10,
+					"use_motion_prediction_hints": true
+				}
+			}
+		},
+		"component_groups": {},
+		"events": {
+			"ss:on_hit": {
+				"run_command": {
+					"command": [
+						"particle ss:fire_wheel ~~-0.2~"
+					]
+				}
+			}
+		}
+	}
+}

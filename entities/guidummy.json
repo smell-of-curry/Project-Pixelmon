@@ -1,0 +1,49 @@
+{
+	"format_version": "1.17.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ss:guidummy",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:npc": {},
+			"minecraft:scale": {
+				"value": 0
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:movement": {
+				"value": 0
+			},
+			"minecraft:friction_modifier": {
+				"value": 300
+			},
+			"minecraft:health": {
+				"min": 99999,
+				"value": 99999,
+				"max": 99999
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			}
+		},
+		"events": {
+			"ss:kill": {
+				"run_command": {
+					"command": [
+						"kill @s"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,225 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Project Pixelmon\\items\\armor _ tools\\oldrunningshoes.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "86701a4f_8c55_424b_ba1a_cdeb0a8fd205",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ss:oldrunningshoes",
+							"category": "Equipment"
+						},
+						"components": {
+							"minecraft:icon": {
+								"texture": "ss_oldrunningshoes"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.boots"
+							},
+							"minecraft:max_stack_size": 1,
+							"minecraft:enchantable": {
+								"value": 10,
+								"slot": "armor_feet"
+							},
+							"minecraft:durability": {
+								"max_durability": 32,
+								"damage_chance": {
+									"min": 60,
+									"max": 100
+								}
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.feet"
+							},
+							"minecraft:render_offsets": "boots",
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"minecraft:leather",
+											"ss:oldrunningshoes"
+										],
+										"repair_amount": 10
+									}
+								]
+							},
+							"minecraft:armor": {
+								"protection": 2
+							},
+							"minecraft:display_name": {
+								"value": "§cOld Running Shoes"
+							}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:oldrunningshoes",
+								"category": "Equipment"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "ss_oldrunningshoes"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.boots"
+								},
+								"minecraft:max_stack_size": 1,
+								"minecraft:enchantable": {
+									"value": 10,
+									"slot": "armor_feet"
+								},
+								"minecraft:durability": {
+									"max_durability": 32,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.feet"
+								},
+								"minecraft:render_offsets": "boots",
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"minecraft:leather",
+												"ss:oldrunningshoes"
+											],
+											"repair_amount": 10
+										}
+									]
+								},
+								"minecraft:armor": {
+									"protection": 2
+								},
+								"minecraft:display_name": {
+									"value": "§cOld Running Shoes"
+								}
+							},
+							"events": {}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ss:oldrunningshoes",
+							"category": "Equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:oldrunningshoes",
+								"category": "Equipment"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "ss_oldrunningshoes"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.boots"
+								},
+								"minecraft:max_stack_size": 1,
+								"minecraft:enchantable": {
+									"value": 10,
+									"slot": "armor_feet"
+								},
+								"minecraft:durability": {
+									"max_durability": 32,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.feet"
+								},
+								"minecraft:render_offsets": "boots",
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"minecraft:leather",
+												"ss:oldrunningshoes"
+											],
+											"repair_amount": 10
+										}
+									]
+								},
+								"minecraft:armor": {
+									"protection": 2
+								},
+								"minecraft:display_name": {
+									"value": "§cOld Running Shoes"
+								}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": {
+								"texture": "ss_oldrunningshoes"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.boots"
+							},
+							"minecraft:max_stack_size": 1,
+							"minecraft:enchantable": {
+								"value": 10,
+								"slot": "armor_feet"
+							},
+							"minecraft:durability": {
+								"max_durability": 32,
+								"damage_chance": {
+									"min": 60,
+									"max": 100
+								}
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.feet"
+							},
+							"minecraft:render_offsets": "boots",
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"minecraft:leather",
+											"ss:oldrunningshoes"
+										],
+										"repair_amount": 10
+									}
+								]
+							},
+							"minecraft:armor": {
+								"protection": 2
+							},
+							"minecraft:display_name": {
+								"value": "§cOld Running Shoes"
+							}
+						}
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

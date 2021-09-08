@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "ssanvil"
+        ],
+        "pattern": [
+            " # ",
+            "#s#",
+            " # "
+        ],
+        "key": {
+            "#": {
+                "item": "ss:silicon"
+            },
+            "s": {
+                "item": "ss:aluminumingot"
+            }
+        },
+        "result": {
+            "item": "ss:aluminum_plate",
+            "count": 1
+        },
+        "description": {
+            "identifier": "ss:aluminumplate"
+        }
+    }
+}

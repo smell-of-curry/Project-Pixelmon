@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "duskchestplate_c85b4a25"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:duskstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:duskchestplate",
+      "count": 1
+    }
+  }
+}

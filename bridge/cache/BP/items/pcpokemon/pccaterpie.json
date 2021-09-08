@@ -1,0 +1,237 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Project Pixelmon\\items\\pcpokemon\\pccaterpie.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "81cd0ef3_2dac_40f8_b341_0af8723d0733",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ss:pccaterpie",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": true,
+							"minecraft:icon": {
+								"texture": "caterpie"
+							},
+							"minecraft:display_name": {
+								"value": "§b§lPC Caterpie§r\n§l§bClick to Open\n"
+							},
+							"minecraft:allow_off_hand": true,
+							"minecraft:render_offsets": {
+								"main_hand": {
+									"third_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									}
+								},
+								"off_hand": {
+									"third_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									}
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:pccaterpie",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": true,
+								"minecraft:icon": {
+									"texture": "caterpie"
+								},
+								"minecraft:display_name": {
+									"value": "§b§lPC Caterpie§r\n§l§bClick to Open\n"
+								},
+								"minecraft:allow_off_hand": true,
+								"minecraft:render_offsets": {
+									"main_hand": {
+										"third_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										}
+									},
+									"off_hand": {
+										"third_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										}
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ss:pccaterpie",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:pccaterpie",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": true,
+								"minecraft:icon": {
+									"texture": "caterpie"
+								},
+								"minecraft:display_name": {
+									"value": "§b§lPC Caterpie§r\n§l§bClick to Open\n"
+								},
+								"minecraft:allow_off_hand": true,
+								"minecraft:render_offsets": {
+									"main_hand": {
+										"third_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										}
+									},
+									"off_hand": {
+										"third_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										}
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": true,
+							"minecraft:icon": {
+								"texture": "caterpie"
+							},
+							"minecraft:display_name": {
+								"value": "§b§lPC Caterpie§r\n§l§bClick to Open\n"
+							},
+							"minecraft:allow_off_hand": true,
+							"minecraft:render_offsets": {
+								"main_hand": {
+									"third_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									}
+								},
+								"off_hand": {
+									"third_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

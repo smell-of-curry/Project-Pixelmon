@@ -1,0 +1,53 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ss:ultraball",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:cooldown": {
+				"category": "pokeball",
+				"duration": 5
+			},
+			"minecraft:display_name": {
+				"value": "§bUltraball"
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:projectile": {
+				"projectile_entity": "ss:ultraball"
+			},
+			"minecraft:throwable": {
+				"do_swing_animation": true,
+				"launch_power_scale": 2
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "ss:throw",
+					"target": "self"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "ultraball"
+			}
+		},
+		"events": {
+			"ss:throw": {
+				"run_command": {
+					"command": [
+						"execute @p ~~~ execute @s[scores={pomemon1=0}] ~~~ playsound pokeball.throw",
+						"execute @p ~~~ execute @s[scores={pomemon2=0}] ~~~ playsound pokeball.throw",
+						"execute @p ~~~ execute @s[scores={pomemon3=0}] ~~~ playsound pokeball.throw",
+						"execute @p ~~~ execute @s[scores={pomemon4=0}] ~~~ playsound pokeball.throw",
+						"execute @p ~~~ execute @s[scores={pomemon5=0}] ~~~ playsound pokeball.throw",
+						"execute @p ~~~ execute @s[scores={pomemon6=0}] ~~~ playsound pokeball.throw",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cAll Pokeslots Are Full, Clear Up Space To Tame More Pokemon!\"}]}",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ playsound note.bass",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ event entity @s ss:pokeballkill"
+					]
+				}
+			}
+		}
+	}
+}

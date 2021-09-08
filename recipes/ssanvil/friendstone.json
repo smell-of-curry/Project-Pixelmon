@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "ssanvil"
+        ],
+        "pattern": [
+            "#E#",
+            "EHE",
+            "#E#"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:crying_obsidian"
+            },
+            "E": {
+                "item": "minecraft:ender_eye"
+            },
+            "H": {
+                "item": "minecraft:emerald"
+            }
+        },
+        "result": {
+            "item": "ss:friendship_stone",
+            "count": 1
+        },
+        "description": {
+            "identifier": "ss:friendstone"
+        }
+    }
+}

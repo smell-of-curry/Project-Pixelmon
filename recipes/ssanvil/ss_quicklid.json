@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "quicklid_b9000194"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "ABA",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:yellowapricorn",
+        "data": 0
+      },
+      "B": {
+        "item": "ss:blueapricorn",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:quicklid",
+      "count": 1
+    }
+  }
+}

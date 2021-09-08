@@ -1,0 +1,24 @@
+{
+    "format_version":"1.8.0",
+    "minecraft:spawn_rules":{
+        "description":{
+            "identifier":"ss:porygon_shiny",
+            "population_control":"monster"
+        },
+        "conditions":[
+            {
+                "minecraft:spawns_underground":{
+                    
+                },
+                "minecraft:weight":{
+                    "default":1
+                },
+                "minecraft:biome_filter":{
+                    "test":"has_biome_tag",
+                    "operator":"==",
+                    "value":"the_end"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+//bridge-file-version: #3
+{
+        "format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "ss:silicon_ore_feature"
+		},
+		"count": 8,
+		"replace_rules": [
+			{
+				"places_block": "ss:silicon_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:stone"
+					},
+					{
+						"name": "minecraft:deepslate"
+					}
+				]
+			}
+		]
+	}
+}

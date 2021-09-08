@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "loveballlid_5160b9e9"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:pinkapricorn",
+        "data": 0
+      },
+      "B": {
+        "item": "ss:redapricorn",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:loveballlid",
+      "count": 1
+    }
+  }
+}

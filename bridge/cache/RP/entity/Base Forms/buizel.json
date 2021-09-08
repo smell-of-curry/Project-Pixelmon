@@ -1,0 +1,127 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Project Pixelmon RES\\entity\\Base Forms\\buizel.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "97c97dd1_84e4_4e07_a1eb_70c27a3b9cb1",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "ss:buizel",
+							"materials": {
+								"default": "zombie"
+							},
+							"textures": {
+								"default": "textures/entity/buizel/buizel"
+							},
+							"geometry": {
+								"default": "geometry.buizel"
+							},
+							"scripts": {
+								"animate": [
+									"look_at_target",
+									"ground_pokemon"
+								]
+							},
+							"animations": {
+								"walk": "animation.buizel.walk",
+								"look_at_target": "animation.common.look_at_target",
+								"chill": "animation.buizel.chill",
+								"sit": "animation.buizel.sitting",
+								"ground_pokemon": "controller.animation.ground.pokemon"
+							},
+							"render_controllers": [
+								"controller.render.pokemon"
+							],
+							"spawn_egg": {
+								"texture": "buizel",
+								"texture_index": 0
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:buizel",
+								"materials": {
+									"default": "zombie"
+								},
+								"textures": {
+									"default": "textures/entity/buizel/buizel"
+								},
+								"geometry": {
+									"default": "geometry.buizel"
+								},
+								"scripts": {
+									"animate": [
+										"look_at_target",
+										"ground_pokemon"
+									]
+								},
+								"animations": {
+									"walk": "animation.buizel.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"chill": "animation.buizel.chill",
+									"sit": "animation.buizel.sitting",
+									"ground_pokemon": "controller.animation.ground.pokemon"
+								},
+								"render_controllers": [
+									"controller.render.pokemon"
+								],
+								"spawn_egg": {
+									"texture": "buizel",
+									"texture_index": 0
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ss:buizel",
+							"materials": {
+								"default": "zombie"
+							},
+							"textures": {
+								"default": "textures/entity/buizel/buizel"
+							},
+							"geometry": {
+								"default": "geometry.buizel"
+							},
+							"scripts": {
+								"animate": [
+									"look_at_target",
+									"ground_pokemon"
+								]
+							},
+							"animations": {
+								"walk": "animation.buizel.walk",
+								"look_at_target": "animation.common.look_at_target",
+								"chill": "animation.buizel.chill",
+								"sit": "animation.buizel.sitting",
+								"ground_pokemon": "controller.animation.ground.pokemon"
+							},
+							"render_controllers": [
+								"controller.render.pokemon"
+							],
+							"spawn_egg": {
+								"texture": "buizel",
+								"texture_index": 0
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

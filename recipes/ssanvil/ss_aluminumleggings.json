@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "aluminumleggings_03be16e4"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:aluminumingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:aluminumleggings",
+      "count": 1
+    }
+  }
+}

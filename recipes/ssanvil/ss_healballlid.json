@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "healballlid_0005a655"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "BAB"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:pinkapricorn",
+        "data": 0
+      },
+      "B": {
+        "item": "ss:yellowapricorn",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:healballlid",
+      "count": 1
+    }
+  }
+}

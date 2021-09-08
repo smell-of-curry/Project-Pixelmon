@@ -1,0 +1,66 @@
+//bridge-file-version: #43
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ss:greatball",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:snowball"
+		},
+		"components": {
+			"minecraft:projectile": {
+				"on_hit": {
+					"definition_event": {
+						"event_trigger": {
+							"event": "ss:greatballhit",
+							"target": "self"
+						}
+					},
+					"remove_on_hit": {},
+					"impact_damage": {
+						"damage": [
+							1
+						]
+					},
+					"particle_on_hit": {
+						"num_particles": 6,
+						"on_entity_hit": true,
+						"on_other_hit": true,
+						"particle_type": "snowballpoof"
+					}
+				},
+				"offset": [
+					0,
+					3,
+					0
+				],
+				"gravity": 0.03
+			},
+			"minecraft:scale": {
+				"value": 1
+			},
+			"minecraft:collision_box": {
+				"width": 0.25,
+				"height": 0.25
+			},
+			"minecraft:type_family": {
+				"family": [
+					"pokeball"
+				]
+			}
+		},
+		"events": {
+			"ss:greatballhit": {
+				"run_command": {
+					"command": [
+						"event entity @e[r=2.5,c=1,family=pokemon,tag=!sendout] ss:greatballhit",
+						"execute @e[r=2.5,c=1,family=pokemon,tag=sendout] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cThat Pokemon Is Tamed\"}]}"
+					]
+				}
+			}
+		},
+		"component_groups": {}
+	}
+}

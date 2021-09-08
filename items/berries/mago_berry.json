@@ -1,0 +1,59 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ss:mago_berry",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:use_duration": 32,
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation_modifier": "low",
+        "on_use_action": "chorus_teleport",
+        "on_use_range": [
+          8,
+          8,
+          8
+        ],
+        "cooldown_type": "chorusfruit",
+        "cooldown_time": 20,
+        "can_always_eat": true
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:hand_equipped": true,
+      "minecraft:foil": true,
+      "minecraft:icon": {
+        "texture": "mago_berry"
+      },
+      "minecraft:render_offsets": "apple",
+      "minecraft:display_name": {
+        "value": "§b§lMago Berry§r\n§l§bClick on Pokemon §l§aTo Heal\n"
+      },
+      "minecraft:cooldown": {
+        "category": "shop",
+        "duration": 0.3
+      },
+      "minecraft:should_despawn": false,
+      "minecraft:allow_off_hand": false,
+      "minecraft:can_destroy_in_creative": false,
+      "minecraft:digger": {
+        "use_efficiency": false,
+        "on_dig": {
+          "event": "binocraft:dig",
+          "target": "self"
+        },
+        "destroy_speeds": [
+          {
+            "speed": 0,
+            "block": "minecraft:dirt"
+          },
+          {
+            "speed": 0,
+            "block": "minecraft:grass"
+          }
+        ]
+      }
+    }
+  }
+}

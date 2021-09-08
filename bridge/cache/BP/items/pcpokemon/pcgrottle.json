@@ -1,0 +1,185 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Project Pixelmon\\items\\pcpokemon\\pcgrottle.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "a6e16d95_efaf_46e9_b69f_14d409ce2bb0",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ss:pcgrottle",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": true,
+							"minecraft:icon": {
+								"texture": "grotle"
+							},
+							"minecraft:display_name": {
+								"value": "§b§lPC Grottle§r\n§l§bClick to Open\n"
+							},
+							"minecraft:allow_off_hand": true,
+							"minecraft:render_offsets": {
+								"main_hand": {
+									"third_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									}
+								},
+								"off_hand": {
+									"third_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									}
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ss:pcgrottle",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:pcgrottle",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": true,
+								"minecraft:icon": {
+									"texture": "grotle"
+								},
+								"minecraft:display_name": {
+									"value": "§b§lPC Grottle§r\n§l§bClick to Open\n"
+								},
+								"minecraft:allow_off_hand": true,
+								"minecraft:render_offsets": {
+									"main_hand": {
+										"third_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										}
+									},
+									"off_hand": {
+										"third_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.0375,
+												0.0625,
+												0.0375
+											]
+										}
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": true,
+							"minecraft:icon": {
+								"texture": "grotle"
+							},
+							"minecraft:display_name": {
+								"value": "§b§lPC Grottle§r\n§l§bClick to Open\n"
+							},
+							"minecraft:allow_off_hand": true,
+							"minecraft:render_offsets": {
+								"main_hand": {
+									"third_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									}
+								},
+								"off_hand": {
+									"third_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.0375,
+											0.0625,
+											0.0375
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

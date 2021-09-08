@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "duskhammer_3c5987ab"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "ss:duskstone",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:duskhammer",
+      "count": 1
+    }
+  }
+}

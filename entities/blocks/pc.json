@@ -1,0 +1,1732 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ss:pc",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:loot": {
+				"table": "loot_tables/entities/pc.json"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"block"
+				]
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1000
+			},
+			"minecraft:is_stackable": {},
+			"minecraft:scale": {
+				"value": 1
+			},
+			"minecraft:collision_box": {
+				"width": 0.7,
+				"height": 1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"none_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "wooden_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "stone_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "iron_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "golden_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "diamond_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "netherite_pickaxe"
+									}
+								]
+							}
+						},
+						"deals_damage": false
+					},
+					{
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "wooden_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "stone_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "iron_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "golden_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "diamond_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "netherite_pickaxe"
+									}
+								]
+							}
+						},
+						"damage_multiplier": 200
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1000,
+				"max": 1000
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 100
+					}
+				]
+			},
+			"minecraft:movement": {
+				"value": 0
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:gui"
+										
+									}
+								]
+							},
+							"event": "ss:gui",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcgrowlithe"
+										
+									}
+								]
+							},
+							"event": "ss:pcgrowlithe",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcarchine"
+										
+									}
+								]
+							},
+							"event": "ss:pcarchine",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pckrabby"
+										
+									}
+								]
+							},
+							"event": "ss:pckrabby",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pckingler"
+										
+									}
+								]
+							},
+							"event": "ss:pckingler",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcpidget"
+										
+									}
+								]
+							},
+							"event": "ss:pcpidget",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcpidgeoto"
+										
+									}
+								]
+							},
+							"event": "ss:pcpidgeoto",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcpidgeot"
+										
+									}
+								]
+							},
+							"event": "ss:pcpidgeot",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pccaterpie"
+										
+									}
+								]
+							},
+							"event": "ss:pccaterpie",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcmetapod"
+										
+									}
+								]
+							},
+							"event": "ss:pcmetapod",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcbutterfree"
+										
+									}
+								]
+							},
+							"event": "ss:pcbutterfree",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcweedle"
+										
+									}
+								]
+							},
+							"event": "ss:pcweedle",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pckakuna"
+										
+									}
+								]
+							},
+							"event": "ss:pckakuna",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcbeedrill"
+										
+									}
+								]
+							},
+							"event": "ss:pcbeedrill",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcshinx"
+										
+									}
+								]
+							},
+							"event": "ss:pcshinx",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcluxio"
+										
+									}
+								]
+							},
+							"event": "ss:pcluxio",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcluxray"
+										
+									}
+								]
+							},
+							"event": "ss:pcluxray",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcgastly"
+										
+									}
+								]
+							},
+							"event": "ss:pcgastly",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pchaunter"
+										
+									}
+								]
+							},
+							"event": "ss:pchaunter",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcgengar"
+										
+									}
+								]
+							},
+							"event": "ss:pcgengar",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcturtwig"
+										
+									}
+								]
+							},
+							"event": "ss:pcturtwig",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcgrottle"
+										
+									}
+								]
+							},
+							"event": "ss:pcgrottle",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pctorterra"
+										
+									}
+								]
+							},
+							"event": "ss:pctorterra",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pceevee"
+										
+									}
+								]
+							},
+							"event": "ss:pceevee",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcflareon"
+										
+									}
+								]
+							},
+							"event": "ss:pcflareon",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcjolteon"
+										
+									}
+								]
+							},
+							"event": "ss:pcjolteon",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcvaporeon"
+										
+									}
+								]
+							},
+							"event": "ss:pcvaporeon",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcleafeon"
+										
+									}
+								]
+							},
+							"event": "ss:pcleafeon",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcglaceon"
+										
+									}
+								]
+							},
+							"event": "ss:pcglaceon",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcespeon"
+										
+									}
+								]
+							},
+							"event": "ss:pcespeon",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcumreon"
+										
+									}
+								]
+							},
+							"event": "ss:pcumreon",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcsylveon"
+										
+									}
+								]
+							},
+							"event": "ss:pcsylveon",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcpiplup"
+										
+									}
+								]
+							},
+							"event": "ss:pcpiplup",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcprinplup"
+										
+									}
+								]
+							},
+							"event": "ss:pcprinplup",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcempoleon"
+										
+									}
+								]
+							},
+							"event": "ss:pcempoleon",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcchimchar"
+										
+									}
+								]
+							},
+							"event": "ss:pcchimchar",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcmonferno"
+										
+									}
+								]
+							},
+							"event": "ss:pcmonferno",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcinfrnape"
+										
+									}
+								]
+							},
+							"event": "ss:pcinfrnape",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pconix"
+										
+									}
+								]
+							},
+							"event": "ss:pconix",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcpsyduck"
+										
+									}
+								]
+							},
+							"event": "ss:pcpsyduck",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcgolduck"
+										
+									}
+								]
+							},
+							"event": "ss:pcgolduck",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcskorupi"
+										
+									}
+								]
+							},
+							"event": "ss:pcskorupi",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcdrapion"
+										
+									}
+								]
+							},
+							"event": "ss:pcdrapion",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcbidoof"
+										
+									}
+								]
+							},
+							"event": "ss:pcbidoof",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcbibarel"
+										
+									}
+								]
+							},
+							"event": "ss:pcbibarel",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcmewtwo"
+										
+									}
+								]
+							},
+							"event": "ss:pcmewtwo",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcarticuno"
+										
+									}
+								]
+							},
+							"event": "ss:pcarticuno",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcpichu"
+										
+									}
+								]
+							},
+							"event": "ss:pcpichu",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcpikachu"
+										
+									}
+								]
+							},
+							"event": "ss:pcpikachu",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcraichu"
+										
+									}
+								]
+							},
+							"event": "ss:pcraichu",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pczubat"
+										
+									}
+								]
+							},
+							"event": "ss:pczubat",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcgolbat"
+										
+									}
+								]
+							},
+							"event": "ss:pcgolbat",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pccrowbat"
+										
+									}
+								]
+							},
+							"event": "ss:pccrowbat",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcgible"
+										
+									}
+								]
+							},
+							"event": "ss:pcgible",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcgabite"
+										
+									}
+								]
+							},
+							"event": "ss:pcgabite",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcgarchomp"
+										
+									}
+								]
+							},
+							"event": "ss:pcgarchomp",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pcriolu"
+										
+									}
+								]
+							},
+							"event": "ss:pcriolu",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "ss:pclucario"
+										
+									}
+								]
+							},
+							"event": "ss:pclucario",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": false
+					}
+				]
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"run_command": {
+					"command": [
+						"summon ss:guidummy ~~~"
+					],
+					"target": "self"
+				}
+			},
+			"ss:gui": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcgui"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcgrowlithe": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcgrowlithe"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcarchine": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcarchine"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pckrabby": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pckrabby"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pckingler": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pckingler"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcpidget": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcpidget"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcpidgeoto": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcpidgeoto"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcpidgeot": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcpidgeot"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pccaterpie": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pccaterpie"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcmetapod": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcmetapod"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcbutterfree": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcbutterfree"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcweedle": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcweedle"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pckakuna": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pckakuna"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcbeedrill": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcbeedrill"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcshinx": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcshinx"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcluxio": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcluxio"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcluxray": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcluxray"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcgastly": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcgastly"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pchaunter": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pchaunter"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcgengar": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcgengar"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcturtwig": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcturtwig"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcgrottle": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcgrottle"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pctorterra": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pctorterra"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pceevee": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pceevee"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcflareon": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcflareon"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcjolteon": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcjolteon"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcvaporeon": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcvaporeon"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcleafeon": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcleafeon"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcglaceon": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcglaceon"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcespeon": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcespeon"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcumreon": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcumreon"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcsylveon": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcsylveon"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcpiplup": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcpiplup"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcprinplup": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcprinplup"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcempoleon": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcempoleon"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcchimchar": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcchimchar"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcmonferno": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcmonferno"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcinfrnape": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcinfrnape"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pconix": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pconix"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcpsyduck": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcpsyduck"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcgolduck": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcgolduck"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcskorupi": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcskorupi"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcdrapion": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcdrapion"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcbidoof": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcbidoof"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcbibarel": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcbibarel"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcmewtwo": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcmewtwo"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcarticuno": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcarticuno"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcpichu": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcpichu"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcpikachu": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcpikachu"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcraichu": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcraichu"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pczubat": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pczubat"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcgolbat": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcgolbat"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pccrowbat": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pccrowbat"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcgible": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcgible"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcgabite": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcgabite"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcgarchomp": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcgarchomp"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pcriolu": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pcriolu"
+					],
+					"target": "other"
+				}
+			},
+			"ss:pclucario": {
+				"run_command": {
+					"command": [
+						"dialogue open @e[type=ss:guidummy,c=1] @s pclucario"
+					],
+					"target": "other"
+				}
+			}
+		}
+	}
+}

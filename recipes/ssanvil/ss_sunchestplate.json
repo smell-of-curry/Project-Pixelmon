@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sunchestplate_59b1e50a"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:sunstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:sunchestplate",
+      "count": 1
+    }
+  }
+}

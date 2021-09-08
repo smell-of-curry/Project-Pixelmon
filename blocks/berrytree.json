@@ -1,0 +1,224 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ss:berrytree",
+			"category": "Nature",
+			"properties": {
+				"ss:open_integer_property": [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('ss:open_integer_property') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.ssberrytree3",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							30,
+							30
+						],
+						"on_tick": {
+							"event": "ss:geochange2"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('ss:open_integer_property') == 2",
+				"components": {
+					"minecraft:geometry": "geometry.ssberrytree2",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							30,
+							30
+						],
+						"on_tick": {
+							"event": "ss:geochange3"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('ss:open_integer_property') == 3",
+				"components": {
+					"minecraft:geometry": "geometry.ssberrytree3",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							30,
+							30
+						],
+						"on_tick": {
+							"event": "ss:geochange4"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('ss:open_integer_property') == 4",
+				"components": {
+					"minecraft:geometry": "geometry.ssberrytree4",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							30,
+							30
+						],
+						"on_tick": {
+							"event": "ss:geochange5"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('ss:open_integer_property') == 5",
+				"components": {
+					"minecraft:geometry": "geometry.ssberrytree5",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							30,
+							30
+						],
+						"on_tick": {
+							"event": "ss:geochange6"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('ss:open_integer_property') == 6",
+				"components": {
+					"minecraft:geometry": "geometry.ssberrytree6"
+				}
+			}
+		],
+		"components": {
+			"minecraft:destroy_time": 0.3,
+			"minecraft:friction": 0.7,
+			"minecraft:map_color": "#FFFFFF",
+			"minecraft:explosion_resistance": 1,
+			"minecraft:block_light_absorption": 15,
+			"minecraft:block_light_emission": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "ss_berrytree",
+					"face_dimming": false
+				}
+			},
+			"minecraft:on_placed": {
+				"event": "ss:on_placed",
+				"target": "self"
+			},
+			"minecraft:on_interact": {
+				"event": "ss:on_interact",
+				"target": "self"
+			}
+		},
+		"events": {
+			"ss:on_placed": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"ss:open_integer_property": 1
+						}
+					}
+				]
+			},
+			"ss:geochange2": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"ss:open_integer_property": 2
+						},
+						"run_command": {
+							"command": [
+								"I Grew 1"
+							]
+						}
+					}
+				]
+			},
+			"ss:geochange3": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"ss:open_integer_property": 3
+						},
+						"run_command": {
+							"command": [
+								"I Grew 2"
+							]
+						}
+					}
+				]
+			},
+			"ss:geochange4": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"ss:open_integer_property": 4
+						},
+						"run_command": {
+							"command": [
+								"I Grew 3"
+							]
+						}
+					}
+				]
+			},
+			"ss:geochange5": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"ss:open_integer_property": 5
+						},
+						"run_command": {
+							"command": [
+								"I Grew 4"
+							]
+						}
+					}
+				]
+			},
+			"ss:geochange6": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"ss:open_integer_property": 6
+						},
+						"run_command": {
+							"command": [
+								"I Grew 6"
+							]
+						}
+					}
+				]
+			},
+			"ss:on_interact": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"say interacted"
+							]
+						},
+						"set_block_property": {
+							"ss:open_integer_property": 6
+						}
+					}
+				]
+			}
+		}
+	}
+}

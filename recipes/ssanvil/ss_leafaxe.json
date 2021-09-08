@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "leafaxe_cce2f24d"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AA ",
+      "AB ",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "ss:leafstone",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:leafaxe",
+      "count": 1
+    }
+  }
+}

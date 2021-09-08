@@ -1,0 +1,249 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Project Pixelmon RES\\entity\\Base Forms\\gible.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "3ef230ae_387c_4feb_a60d_27d81944259e",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "ss:gible",
+							"materials": {
+								"default": "zombie"
+							},
+							"textures": {
+								"default": "textures/entity/gible/gible"
+							},
+							"geometry": {
+								"default": "geometry.gible"
+							},
+							"scripts": {
+								"animate": [
+									"ground_pokemon"
+								]
+							},
+							"animations": {
+								"walk": "animation.gible.walk",
+								"chill": "animation.gible.chill",
+								"sit": "animation.gible.sitting",
+								"ground_pokemon": "controller.animation.ground.pokemon"
+							},
+							"render_controllers": [
+								"controller.render.pokemon"
+							],
+							"spawn_egg": {
+								"texture": "gible",
+								"texture_index": 0
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:gible",
+								"materials": {
+									"default": "zombie"
+								},
+								"textures": {
+									"default": "textures/entity/gible/gible"
+								},
+								"geometry": {
+									"default": "geometry.gible"
+								},
+								"scripts": {
+									"animate": [
+										"ground_pokemon"
+									]
+								},
+								"animations": {
+									"walk": "animation.gible.walk",
+									"chill": "animation.gible.chill",
+									"sit": "animation.gible.sitting",
+									"ground_pokemon": "controller.animation.ground.pokemon"
+								},
+								"render_controllers": [
+									"controller.render.pokemon"
+								],
+								"spawn_egg": {
+									"texture": "gible",
+									"texture_index": 0
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "ss:gible",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "zombie"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/gible/gible"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.gible"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ss:gible",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/gible/gible"
+									},
+									"geometry": {
+										"default": "geometry.gible"
+									},
+									"scripts": {
+										"animate": [
+											"ground_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.gible.walk",
+										"chill": "animation.gible.chill",
+										"sit": "animation.gible.sitting",
+										"ground_pokemon": "controller.animation.ground.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "gible",
+										"texture_index": 0
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"ground_pokemon"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"ground_pokemon"
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "ss:gible",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/gible/gible"
+									},
+									"geometry": {
+										"default": "geometry.gible"
+									},
+									"scripts": {
+										"animate": [
+											"ground_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.gible.walk",
+										"chill": "animation.gible.chill",
+										"sit": "animation.gible.sitting",
+										"ground_pokemon": "controller.animation.ground.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "gible",
+										"texture_index": 0
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.gible.walk",
+									"chill": "animation.gible.chill",
+									"sit": "animation.gible.sitting",
+									"ground_pokemon": "controller.animation.ground.pokemon"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.pokemon"
+								]
+							},
+							{
+								"open": {
+									"identifier": "ss:gible",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/gible/gible"
+									},
+									"geometry": {
+										"default": "geometry.gible"
+									},
+									"scripts": {
+										"animate": [
+											"ground_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.gible.walk",
+										"chill": "animation.gible.chill",
+										"sit": "animation.gible.sitting",
+										"ground_pokemon": "controller.animation.ground.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "gible",
+										"texture_index": 0
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "gible",
+									"texture_index": 0
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

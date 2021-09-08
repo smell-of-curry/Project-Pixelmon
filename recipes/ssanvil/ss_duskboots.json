@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "duskboots_4e81843c"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:duskstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:duskboots",
+      "count": 1
+    }
+  }
+}

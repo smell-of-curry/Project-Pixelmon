@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "duskaxe_8e96fdb9"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AA ",
+      "AB ",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "ss:duskstone",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:duskaxe",
+      "count": 1
+    }
+  }
+}

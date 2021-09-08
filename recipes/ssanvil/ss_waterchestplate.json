@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "waterchestplate_7c2a67df"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:waterstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:waterchestplate",
+      "count": 1
+    }
+  }
+}

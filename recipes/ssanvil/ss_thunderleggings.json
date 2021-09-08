@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "thunderleggings_1fb7dd21"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:thunderstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:thunderleggings",
+      "count": 1
+    }
+  }
+}

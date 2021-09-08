@@ -1,0 +1,42 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "§l§aProject Pixelmon §ePC Update §3BEH §fv1.0.4",
+        "description": "§l§cContent By Shiftery Plays, §240 Diffrent Pokemon With §e100+ Levels, §gAnd Evolutions.",
+        "uuid": "0c05485e-f335-11eb-9a03-0242ac130003",
+        "version": [
+            1,
+            0,
+            4
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "ed85e404-df4a-11eb-ba80-0242ac130004",
+            "version": [
+                1,
+                0,
+                4
+            ]
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "Shiftery Plays",
+            "Smell of Curry"
+        ],
+        "license": "License.md",
+        "url": "https://mcdlhub.com"
+    },
+    "dependencies": [
+        {
+            "uuid": "0c054bf6-f335-11eb-9a03-0242ac130003",
+            "version": [
+                1,
+                0,
+                4
+            ]
+        }
+    ]
+}

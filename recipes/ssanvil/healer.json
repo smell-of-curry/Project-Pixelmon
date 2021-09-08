@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "ssanvil"
+        ],
+        "pattern": [
+            "#i#",
+            "iDi",
+            "#i#"
+        ],
+        "key": {
+            "#": {
+                "item": "ss:aluminum_plate"
+            },
+            "i": {
+                "item": "minecraft:iron_ingot"
+            },
+            "D": {
+                "item": "minecraft:diamond"
+            }
+        },
+        "result": {
+            "item": "ss:pchealerplacer",
+            "count": 1
+        },
+        "description": {
+            "identifier": "ss:healer"
+        }
+    }
+}

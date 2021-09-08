@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "friendlid_e060d4ec"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "ABA",
+      "ACA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:greenapricorn",
+        "data": 0
+      },
+      "B": {
+        "item": "ss:redapricorn",
+        "data": 0
+      },
+      "C": {
+        "item": "ss:yellowapricorn",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:friendlid",
+      "count": 1
+    }
+  }
+}

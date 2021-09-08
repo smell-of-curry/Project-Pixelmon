@@ -1,0 +1,287 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ss:healing_machine",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:loot": {
+				"table": "loot_tables/entities/healing_machine.json"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"block"
+				]
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1000
+			},
+			"minecraft:is_stackable": {},
+			"minecraft:scale": {
+				"value": 1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"none_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "wooden_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "stone_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "iron_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "golden_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "diamond_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "netherite_pickaxe"
+									}
+								]
+							}
+						},
+						"deals_damage": false
+					},
+					{
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "wooden_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "stone_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "iron_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "golden_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "diamond_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "netherite_pickaxe"
+									}
+								]
+							}
+						},
+						"damage_multiplier": 200
+					}
+				]
+			},
+			"minecraft:breathable": {
+				"total_supply": 150,
+				"suffocate_time": 0
+			},
+			"minecraft:collision_box": {
+				"width": 0.7,
+				"height": 1
+			},
+			"minecraft:health": {
+				"value": 1000,
+				"max": 1000
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 100
+					}
+				]
+			},
+			"minecraft:movement": {
+				"value": 0
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"event": "ss:on_interact",
+							"target": "self"
+						},
+						"swing": true
+					}
+				]
+			}
+		},
+		"events": {
+			"ss:on_interact": {
+				"run_command": {
+					"command": [
+						"scoreboard objectives add ammountdead dummy",
+						"scoreboard players set @p ammountdead 0",
+						"execute @p[scores={pokemondead1=1..}] ~~~ scoreboard players set @s sendoutdis1 0",
+						"execute @p[scores={pokemondead2=1..}] ~~~ scoreboard players set @s sendoutdis2 0",
+						"execute @p[scores={pokemondead3=1..}] ~~~ scoreboard players set @s sendoutdis3 0",
+						"execute @p[scores={pokemondead4=1..}] ~~~ scoreboard players set @s sendoutdis4 0",
+						"execute @p[scores={pokemondead5=1..}] ~~~ scoreboard players set @s sendoutdis5 0",
+						"execute @p[scores={pokemondead6=1..}] ~~~ scoreboard players set @s sendoutdis6 0",
+						"execute @p[scores={pokemondead1=1..}] ~~~ scoreboard players add @s ammountdead 1",
+						"execute @p[scores={pokemondead2=1..}] ~~~ scoreboard players add @s ammountdead 1",
+						"execute @p[scores={pokemondead3=1..}] ~~~ scoreboard players add @s ammountdead 1",
+						"execute @p[scores={pokemondead4=1..}] ~~~ scoreboard players add @s ammountdead 1",
+						"execute @p[scores={pokemondead5=1..}] ~~~ scoreboard players add @s ammountdead 1",
+						"execute @p[scores={pokemondead6=1..}] ~~~ scoreboard players add @s ammountdead 1",
+						"execute @p[scores={ammountdead=1}] ~~~ event entity @e[type=ss:healing_machine,r=7,c=1] ss:amountdead1",
+						"execute @p[scores={ammountdead=2}] ~~~ event entity @e[type=ss:healing_machine,r=7,c=1] ss:amountdead2",
+						"execute @p[scores={ammountdead=3}] ~~~ event entity @e[type=ss:healing_machine,r=7,c=1] ss:amountdead3",
+						"execute @p[scores={ammountdead=4}] ~~~ event entity @e[type=ss:healing_machine,r=7,c=1] ss:amountdead4",
+						"execute @p[scores={ammountdead=5}] ~~~ event entity @e[type=ss:healing_machine,r=7,c=1] ss:amountdead5",
+						"execute @p[scores={ammountdead=6}] ~~~ event entity @e[type=ss:healing_machine,r=7,c=1] ss:amountdead6"
+					]
+				}
+			},
+			"ss:amountdead1": {
+				"run_command": {
+					"command": [
+						"scoreboard players set @p pokemondead1 0",
+						"scoreboard players set @p pokemondead2 0",
+						"scoreboard players set @p pokemondead3 0",
+						"scoreboard players set @p pokemondead4 0",
+						"scoreboard players set @p pokemondead5 0",
+						"scoreboard players set @p pokemondead6 0",
+						"playanimation @s animation.pokeball1",
+						"playsound healing @a[r=10] ~~~"
+					]
+				}
+			},
+			"ss:amountdead2": {
+				"run_command": {
+					"command": [
+						"scoreboard players set @p pokemondead1 0",
+						"scoreboard players set @p pokemondead2 0",
+						"scoreboard players set @p pokemondead3 0",
+						"scoreboard players set @p pokemondead4 0",
+						"scoreboard players set @p pokemondead5 0",
+						"scoreboard players set @p pokemondead6 0",
+						"playanimation @s animation.pokeball2",
+						"playsound healing @a[r=10] ~~~"
+					]
+				}
+			},
+			"ss:amountdead3": {
+				"run_command": {
+					"command": [
+						"scoreboard players set @p pokemondead1 0",
+						"scoreboard players set @p pokemondead2 0",
+						"scoreboard players set @p pokemondead3 0",
+						"scoreboard players set @p pokemondead4 0",
+						"scoreboard players set @p pokemondead5 0",
+						"scoreboard players set @p pokemondead6 0",
+						"playanimation @s animation.pokeball3",
+						"playsound healing @a[r=10] ~~~"
+					]
+				}
+			},
+			"ss:amountdead4": {
+				"run_command": {
+					"command": [
+						"scoreboard players set @p pokemondead1 0",
+						"scoreboard players set @p pokemondead2 0",
+						"scoreboard players set @p pokemondead3 0",
+						"scoreboard players set @p pokemondead4 0",
+						"scoreboard players set @p pokemondead5 0",
+						"scoreboard players set @p pokemondead6 0",
+						"playanimation @s animation.pokeball4",
+						"playsound healing @a[r=10] ~~~"
+					]
+				}
+			},
+			"ss:amountdead5": {
+				"run_command": {
+					"command": [
+						"scoreboard players set @p pokemondead1 0",
+						"scoreboard players set @p pokemondead2 0",
+						"scoreboard players set @p pokemondead3 0",
+						"scoreboard players set @p pokemondead4 0",
+						"scoreboard players set @p pokemondead5 0",
+						"scoreboard players set @p pokemondead6 0",
+						"playanimation @s animation.pokeball5",
+						"playsound healing @a[r=10] ~~~"
+					]
+				}
+			},
+			"ss:amountdead6": {
+				"run_command": {
+					"command": [
+						"scoreboard players set @p pokemondead1 0",
+						"scoreboard players set @p pokemondead2 0",
+						"scoreboard players set @p pokemondead3 0",
+						"scoreboard players set @p pokemondead4 0",
+						"scoreboard players set @p pokemondead5 0",
+						"scoreboard players set @p pokemondead6 0",
+						"playanimation @s animation.pokeball6",
+						"playsound healing @a[r=10] ~~~"
+					]
+				}
+			},
+			"ss:kill": {
+				"run_command": {
+					"command": [
+						"kill @s"
+					]
+				}
+			}
+		},
+		"component_groups": {}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "ss:pokecenter"
+		},
+		"structure_name": "mystructure:Poke_Center",
+		"adjustment_radius": 8,
+		"facing_direction": "south",
+		"constraints": {}
+	}
+}

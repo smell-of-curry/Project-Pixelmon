@@ -1,0 +1,364 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ss:pchealer",
+			"category": "Nature",
+			"properties": {
+				"binocraft:open_integer_property": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10,
+					11
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('binocraft:open_integer_property') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.blank"
+				}
+			},
+			{
+				"condition": "query.block_property('binocraft:open_integer_property') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.pchealer1",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							0.05,
+							0.05
+						],
+						"on_tick": {
+							"event": "binocraft:geochange2"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('binocraft:open_integer_property') == 2",
+				"components": {
+					"minecraft:geometry": "geometry.pchealer2",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							0.05,
+							0.05
+						],
+						"on_tick": {
+							"event": "binocraft:geochange3"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('binocraft:open_integer_property') == 3",
+				"components": {
+					"minecraft:geometry": "geometry.pchealer3",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							0.05,
+							0.05
+						],
+						"on_tick": {
+							"event": "binocraft:geochange4"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('binocraft:open_integer_property') == 4",
+				"components": {
+					"minecraft:geometry": "geometry.pchealer4",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							0.05,
+							0.05
+						],
+						"on_tick": {
+							"event": "binocraft:geochange5"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('binocraft:open_integer_property') == 5",
+				"components": {
+					"minecraft:geometry": "geometry.pchealer5",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							0.05,
+							0.05
+						],
+						"on_tick": {
+							"event": "binocraft:geochange6"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('binocraft:open_integer_property') == 6",
+				"components": {
+					"minecraft:geometry": "geometry.pchealer6",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							0.05,
+							0.05
+						],
+						"on_tick": {
+							"event": "binocraft:geochange7"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('binocraft:open_integer_property') == 7",
+				"components": {
+					"minecraft:geometry": "geometry.pchealer7",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							0.05,
+							0.05
+						],
+						"on_tick": {
+							"event": "binocraft:geochange8"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('binocraft:open_integer_property') == 8",
+				"components": {
+					"minecraft:geometry": "geometry.pchealer8",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							0.05,
+							0.05
+						],
+						"on_tick": {
+							"event": "binocraft:geochange9"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('binocraft:open_integer_property') == 9",
+				"components": {
+					"minecraft:geometry": "geometry.pchealer9",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							0.05,
+							0.05
+						],
+						"on_tick": {
+							"event": "binocraft:geochange10"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('binocraft:open_integer_property') == 10",
+				"components": {
+					"minecraft:geometry": "geometry.pchealer10",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							0.05,
+							0.05
+						],
+						"on_tick": {
+							"event": "binocraft:geochangefull"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('binocraft:open_integer_property') == 11",
+				"components": {
+					"minecraft:geometry": "geometry.pchealerfull",
+					"minecraft:ticking": {
+						"looping": false,
+						"range": [
+							5,
+							5
+						],
+						"on_tick": {
+							"event": "binocraft:geochange0"
+						}
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:loot": "loot_tables/blocks/ss_waterstone.json",
+			"minecraft:destroy_time": 0.3,
+			"minecraft:friction": 0.7,
+			"minecraft:map_color": "#FFFFFF",
+			"minecraft:explosion_resistance": 1,
+			"minecraft:block_light_absorption": 15,
+			"minecraft:block_light_emission": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "ss_PC_Healer",
+					"face_dimming": false
+				}
+			},
+			"minecraft:on_placed": {
+				"event": "size:block",
+				"target": "self"
+			},
+			"minecraft:on_interact": {
+				"event": "ss:on_interact",
+				"target": "self"
+			}
+		},
+		"events": {
+			"binocraft:on_placed": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"binocraft:open_integer_property": 1
+						}
+					}
+				]
+			},
+			"binocraft:geochange0": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"binocraft:open_integer_property": 0
+						}
+					}
+				]
+			},
+			"binocraft:geochange1": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"binocraft:open_integer_property": 1
+						}
+					}
+				]
+			},
+			"binocraft:geochange2": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"binocraft:open_integer_property": 2
+						}
+					}
+				]
+			},
+			"binocraft:geochange3": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"binocraft:open_integer_property": 3
+						}
+					}
+				]
+			},
+			"binocraft:geochange4": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"binocraft:open_integer_property": 4
+						}
+					}
+				]
+			},
+			"binocraft:geochange5": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"binocraft:open_integer_property": 5
+						}
+					}
+				]
+			},
+			"binocraft:geochange6": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"binocraft:open_integer_property": 6
+						}
+					}
+				]
+			},
+			"binocraft:geochange7": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"binocraft:open_integer_property": 7
+						}
+					}
+				]
+			},
+			"binocraft:geochange8": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"binocraft:open_integer_property": 8
+						}
+					}
+				]
+			},
+			"binocraft:geochange9": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"binocraft:open_integer_property": 9
+						}
+					}
+				]
+			},
+			"binocraft:geochange10": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"binocraft:open_integer_property": 10
+						}
+					}
+				]
+			},
+			"binocraft:geochangefull": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"binocraft:open_integer_property": 11
+						}
+					}
+				]
+			},
+			"ss:on_interact": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"execute @p[scores={pokemondead1=1..,pokemondead2=0,pokemondead3=0,pokemondead4=0,pokemondead5=0,pokemondead6=0]"
+							]
+						},
+						"condition": {}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dawnchestplate_07549e76"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:dawnstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:dawnchestplate",
+      "count": 1
+    }
+  }
+}

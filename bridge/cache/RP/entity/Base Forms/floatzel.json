@@ -1,0 +1,189 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Project Pixelmon RES\\entity\\Base Forms\\floatzel.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "fe5c9079_f780_4313_aa5a_2519fa610eeb",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "ss:floatzel",
+							"materials": {
+								"default": "zombie"
+							},
+							"textures": {
+								"default": "textures/entity/floatzel/floatzel"
+							},
+							"geometry": {
+								"default": "geometry.floatzel"
+							},
+							"scripts": {
+								"animate": [
+									"look_at_target",
+									"ground_pokemon"
+								]
+							},
+							"animations": {
+								"walk": "animation.floatzel.walk",
+								"look_at_target": "animation.common.look_at_target",
+								"chill": "animation.floatzel.chill",
+								"sit": "animation.floatzel.sitting",
+								"ground_pokemon": "controller.animation.ground.pokemon"
+							},
+							"render_controllers": [
+								"controller.render.pokemon"
+							],
+							"spawn_egg": {
+								"texture": "floatzel",
+								"texture_index": 0
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:floatzel",
+								"materials": {
+									"default": "zombie"
+								},
+								"textures": {
+									"default": "textures/entity/floatzel/floatzel"
+								},
+								"geometry": {
+									"default": "geometry.floatzel"
+								},
+								"scripts": {
+									"animate": [
+										"look_at_target",
+										"ground_pokemon"
+									]
+								},
+								"animations": {
+									"walk": "animation.floatzel.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"chill": "animation.floatzel.chill",
+									"sit": "animation.floatzel.sitting",
+									"ground_pokemon": "controller.animation.ground.pokemon"
+								},
+								"render_controllers": [
+									"controller.render.pokemon"
+								],
+								"spawn_egg": {
+									"texture": "floatzel",
+									"texture_index": 0
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "ss:floatzel",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "zombie"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/floatzel/floatzel"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.floatzel"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"look_at_target",
+										"ground_pokemon"
+									]
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.floatzel.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"chill": "animation.floatzel.chill",
+									"sit": "animation.floatzel.sitting",
+									"ground_pokemon": "controller.animation.ground.pokemon"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.pokemon"
+								]
+							},
+							{
+								"open": {
+									"identifier": "ss:floatzel",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/floatzel/floatzel"
+									},
+									"geometry": {
+										"default": "geometry.floatzel"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											"ground_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.floatzel.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"chill": "animation.floatzel.chill",
+										"sit": "animation.floatzel.sitting",
+										"ground_pokemon": "controller.animation.ground.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "floatzel",
+										"texture_index": 0
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "floatzel",
+									"texture_index": 0
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "duskleggings_fc5295cc"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:duskstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:duskleggings",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "thunderchest_221c7b2d"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:thunderstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:thunderchest",
+      "count": 1
+    }
+  }
+}

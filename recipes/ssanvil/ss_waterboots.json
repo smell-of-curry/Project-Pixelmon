@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "waterboots_a8b9d2e8"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:waterstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:waterboots",
+      "count": 1
+    }
+  }
+}

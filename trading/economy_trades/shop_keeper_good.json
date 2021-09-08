@@ -1,0 +1,337 @@
+//bridge-file-version: #4
+{
+	"tiers": [
+		{
+			"groups": [
+				{
+					"trades": [
+						{
+							"wants": [
+								{
+									"item": "ss:aluminumingot",
+									"quantity": 16
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 2
+								}
+							],
+							"max_uses": 5
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:silicon",
+									"quantity": 16
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 1
+								}
+							],
+							"max_uses": 5
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:redstone",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 2
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:oran_berry",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 1
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:rare_candy",
+									"quantity": 1
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 5
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:pokeball",
+									"quantity": 10
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 10
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:greatball",
+									"quantity": 5
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 20
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:ultraball",
+									"quantity": 10
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:masterball",
+									"quantity": 1
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 15
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:fire_stone",
+									"quantity": 1
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 15
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:waterstone",
+									"quantity": 1
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 15
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:leafstone",
+									"quantity": 1
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 15
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:thunderstone",
+									"quantity": 1
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 15
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:waterstone",
+									"quantity": 1
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 15
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:moonstone",
+									"quantity": 1
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 15
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:friendship_stone",
+									"quantity": 1
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 15
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:ice_stone",
+									"quantity": 1
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 15
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:duskstone",
+									"quantity": 1
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 15
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:dawnstone",
+									"quantity": 1
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 5
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:potion",
+									"quantity": 3
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 10
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:super_potion",
+									"quantity": 5
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 25
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:hyper_potion",
+									"quantity": 5
+								}
+							]
+						},
+						{
+							"wants": [
+								{
+									"item": "ss:pokedollar",
+									"quantity": 32
+								}
+							],
+							"gives": [
+								{
+									"item": "ss:max_potion",
+									"quantity": 10
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

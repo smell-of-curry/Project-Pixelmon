@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "sspotionmaker"
+        ],
+        "ingredients": [
+            {
+                "item": "ss:potion"
+            },
+            {
+                "item": "ss:potion"
+            },
+            {
+                "item": "ss:potion"
+            }
+        ],
+        "result": {
+            "item": "ss:super_potion",
+            "count": 1
+        },
+        "description": {
+            "identifier": "superpotion"
+        }
+    }
+}

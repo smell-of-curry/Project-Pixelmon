@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "leafstone_711ec6e6"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:leadshard",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:leafstone",
+      "count": 1
+    }
+  }
+}

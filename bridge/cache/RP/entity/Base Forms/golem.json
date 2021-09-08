@@ -1,0 +1,230 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Project Pixelmon RES\\entity\\Base Forms\\golem.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "57bf71b0_9c2e_4cc0_a5c3_132cb0844484",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "ss:golem",
+							"materials": {
+								"default": "zombie"
+							},
+							"textures": {
+								"default": "textures/entity/golem/golem"
+							},
+							"geometry": {
+								"default": "geometry.golem"
+							},
+							"scripts": {
+								"animate": [
+									"look_at_target",
+									"ground_pokemon"
+								]
+							},
+							"animations": {
+								"walk": "animation.golem.walk",
+								"look_at_target": "animation.common.look_at_target",
+								"chill": "animation.golem.chill",
+								"sit": "animation.golem.sitting",
+								"ground_pokemon": "controller.animation.ground.pokemon"
+							},
+							"render_controllers": [
+								"controller.render.pokemon"
+							],
+							"spawn_egg": {
+								"texture": "golem",
+								"texture_index": 0
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:golem",
+								"materials": {
+									"default": "zombie"
+								},
+								"textures": {
+									"default": "textures/entity/golem/golem"
+								},
+								"geometry": {
+									"default": "geometry.golem"
+								},
+								"scripts": {
+									"animate": [
+										"look_at_target",
+										"ground_pokemon"
+									]
+								},
+								"animations": {
+									"walk": "animation.golem.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"chill": "animation.golem.chill",
+									"sit": "animation.golem.sitting",
+									"ground_pokemon": "controller.animation.ground.pokemon"
+								},
+								"render_controllers": [
+									"controller.render.pokemon"
+								],
+								"spawn_egg": {
+									"texture": "golem",
+									"texture_index": 0
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "ss:golem",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "zombie"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/golem/golem"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.golem"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ss:golem",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/golem/golem"
+									},
+									"geometry": {
+										"default": "geometry.golem"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											"ground_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.golem.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"chill": "animation.golem.chill",
+										"sit": "animation.golem.sitting",
+										"ground_pokemon": "controller.animation.ground.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "golem",
+										"texture_index": 0
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"look_at_target",
+												"ground_pokemon"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"look_at_target",
+											"ground_pokemon"
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "ss:golem",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/golem/golem"
+									},
+									"geometry": {
+										"default": "geometry.golem"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											"ground_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.golem.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"chill": "animation.golem.chill",
+										"sit": "animation.golem.sitting",
+										"ground_pokemon": "controller.animation.ground.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "golem",
+										"texture_index": 0
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.golem.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"chill": "animation.golem.chill",
+									"sit": "animation.golem.sitting",
+									"ground_pokemon": "controller.animation.ground.pokemon"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.pokemon"
+								]
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "golem",
+									"texture_index": 0
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

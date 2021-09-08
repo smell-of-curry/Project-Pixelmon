@@ -1,0 +1,185 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Project Pixelmon\\items\\pcpokemon\\pcgolbat.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "42944354_2229_4823_8fef_3d3d521a236f",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ss:pcgolbat",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": true,
+							"minecraft:icon": {
+								"texture": "golbat"
+							},
+							"minecraft:display_name": {
+								"value": "§b§lPC Golbat§r\n§l§bClick to Open\n"
+							},
+							"minecraft:allow_off_hand": true,
+							"minecraft:render_offsets": {
+								"main_hand": {
+									"third_person": {
+										"scale": [
+											0.012499999999999999,
+											0.020833333333333332,
+											0.012499999999999999
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.012499999999999999,
+											0.020833333333333332,
+											0.012499999999999999
+										]
+									}
+								},
+								"off_hand": {
+									"third_person": {
+										"scale": [
+											0.012499999999999999,
+											0.020833333333333332,
+											0.012499999999999999
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.012499999999999999,
+											0.020833333333333332,
+											0.012499999999999999
+										]
+									}
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ss:pcgolbat",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:pcgolbat",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": true,
+								"minecraft:icon": {
+									"texture": "golbat"
+								},
+								"minecraft:display_name": {
+									"value": "§b§lPC Golbat§r\n§l§bClick to Open\n"
+								},
+								"minecraft:allow_off_hand": true,
+								"minecraft:render_offsets": {
+									"main_hand": {
+										"third_person": {
+											"scale": [
+												0.012499999999999999,
+												0.020833333333333332,
+												0.012499999999999999
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.012499999999999999,
+												0.020833333333333332,
+												0.012499999999999999
+											]
+										}
+									},
+									"off_hand": {
+										"third_person": {
+											"scale": [
+												0.012499999999999999,
+												0.020833333333333332,
+												0.012499999999999999
+											]
+										},
+										"first_person": {
+											"scale": [
+												0.012499999999999999,
+												0.020833333333333332,
+												0.012499999999999999
+											]
+										}
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": true,
+							"minecraft:icon": {
+								"texture": "golbat"
+							},
+							"minecraft:display_name": {
+								"value": "§b§lPC Golbat§r\n§l§bClick to Open\n"
+							},
+							"minecraft:allow_off_hand": true,
+							"minecraft:render_offsets": {
+								"main_hand": {
+									"third_person": {
+										"scale": [
+											0.012499999999999999,
+											0.020833333333333332,
+											0.012499999999999999
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.012499999999999999,
+											0.020833333333333332,
+											0.012499999999999999
+										]
+									}
+								},
+								"off_hand": {
+									"third_person": {
+										"scale": [
+											0.012499999999999999,
+											0.020833333333333332,
+											0.012499999999999999
+										]
+									},
+									"first_person": {
+										"scale": [
+											0.012499999999999999,
+											0.020833333333333332,
+											0.012499999999999999
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

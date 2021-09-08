@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nestballlid_ac9fdda8"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:yellowapricorn",
+        "data": 0
+      },
+      "B": {
+        "item": "ss:greenapricorn",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:nestballlid",
+      "count": 1
+    }
+  }
+}

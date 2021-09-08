@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "iii",
+            "ii ",
+            "iii"
+        ],
+        "key": {
+            "i": {
+                "item": "minecraft:iron_ingot"
+            }
+        },
+        "result": {
+            "item": "ss:anvilplacer",
+            "data": 0,
+            "count": 1
+        },
+        "description": {
+            "identifier": "ss:ssanvil"
+        }
+    }
+}

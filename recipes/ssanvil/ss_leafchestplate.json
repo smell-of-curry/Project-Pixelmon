@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "leafchestplate_76a91ea8"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:leafstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:leafchestplate",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,52 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.17.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "ss:overworld_underground_waterstone_feature",
+			"places_feature": "ss:waterstone_feature"
+		},
+		"conditions": {
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "ocean"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "river"
+					}
+				]
+			},
+			"placement_pass": "surface_pass"
+		},
+		"distribution": {
+			"iterations": 5,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					100
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

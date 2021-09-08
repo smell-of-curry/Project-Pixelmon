@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "divelid_9c0df8f1"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "ABA",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:whiteapricorn",
+        "data": 0
+      },
+      "B": {
+        "item": "ss:blueapricorn",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:divelid",
+      "count": 1
+    }
+  }
+}

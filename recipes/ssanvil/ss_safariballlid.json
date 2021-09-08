@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "safariballlid_adccb75f"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "ABC",
+      "BAB"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:yellowapricorn",
+        "data": 0
+      },
+      "B": {
+        "item": "ss:greenapricorn",
+        "data": 0
+      },
+      "C": {
+        "item": "ss:blackapricorn",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:safariballlid",
+      "count": 1
+    }
+  }
+}

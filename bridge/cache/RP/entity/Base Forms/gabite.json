@@ -1,0 +1,262 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Project Pixelmon RES\\entity\\Base Forms\\gabite.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "f953aa7d_3ee0_45b9_87cf_ef8c3e6d1bdb",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "ss:gabite",
+							"materials": {
+								"default": "zombie"
+							},
+							"textures": {
+								"default": "textures/entity/gabite/gabite"
+							},
+							"geometry": {
+								"default": "geometry.gabite"
+							},
+							"scripts": {
+								"animate": [
+									"look_at_target",
+									"flying_pokemon"
+								]
+							},
+							"animations": {
+								"walk": "animation.gabite.fly",
+								"look_at_target": "animation.common.look_at_target",
+								"chill": "animation.gabite.chill",
+								"sit": "animation.gabite.sitting",
+								"flying_pokemon": "controller.animation.flying.pokemon"
+							},
+							"render_controllers": [
+								"controller.render.pokemon"
+							],
+							"spawn_egg": {
+								"texture": "gabite",
+								"texture_index": 0
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:gabite",
+								"materials": {
+									"default": "zombie"
+								},
+								"textures": {
+									"default": "textures/entity/gabite/gabite"
+								},
+								"geometry": {
+									"default": "geometry.gabite"
+								},
+								"scripts": {
+									"animate": [
+										"look_at_target",
+										"flying_pokemon"
+									]
+								},
+								"animations": {
+									"walk": "animation.gabite.fly",
+									"look_at_target": "animation.common.look_at_target",
+									"chill": "animation.gabite.chill",
+									"sit": "animation.gabite.sitting",
+									"flying_pokemon": "controller.animation.flying.pokemon"
+								},
+								"render_controllers": [
+									"controller.render.pokemon"
+								],
+								"spawn_egg": {
+									"texture": "gabite",
+									"texture_index": 0
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "ss:gabite",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "zombie"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/gabite/gabite"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.gabite"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ss:gabite",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/gabite/gabite"
+									},
+									"geometry": {
+										"default": "geometry.gabite"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											"flying_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.gabite.fly",
+										"look_at_target": "animation.common.look_at_target",
+										"chill": "animation.gabite.chill",
+										"sit": "animation.gabite.sitting",
+										"flying_pokemon": "controller.animation.flying.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "gabite",
+										"texture_index": 0
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"look_at_target",
+												"flying_pokemon"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"look_at_target",
+											"flying_pokemon"
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "ss:gabite",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/gabite/gabite"
+									},
+									"geometry": {
+										"default": "geometry.gabite"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											"flying_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.gabite.fly",
+										"look_at_target": "animation.common.look_at_target",
+										"chill": "animation.gabite.chill",
+										"sit": "animation.gabite.sitting",
+										"flying_pokemon": "controller.animation.flying.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "gabite",
+										"texture_index": 0
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.gabite.fly",
+									"look_at_target": "animation.common.look_at_target",
+									"chill": "animation.gabite.chill",
+									"sit": "animation.gabite.sitting",
+									"flying_pokemon": "controller.animation.flying.pokemon"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.pokemon"
+								]
+							},
+							{
+								"open": {
+									"identifier": "ss:gabite",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/gabite/gabite"
+									},
+									"geometry": {
+										"default": "geometry.gabite"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											"flying_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.gabite.fly",
+										"look_at_target": "animation.common.look_at_target",
+										"chill": "animation.gabite.chill",
+										"sit": "animation.gabite.sitting",
+										"flying_pokemon": "controller.animation.flying.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "gabite",
+										"texture_index": 0
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "gabite",
+									"texture_index": 0
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

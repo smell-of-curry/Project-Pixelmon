@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "moonchestplate_728b0700"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:moonstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:moonchestplate",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "timerballlid_da832ae0"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "ABA",
+      "ACA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:yellowapricorn",
+        "data": 0
+      },
+      "B": {
+        "item": "ss:blackapricorn",
+        "data": 0
+      },
+      "C": {
+        "item": "ss:whiteapricorn",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:timerballlid",
+      "count": 1
+    }
+  }
+}

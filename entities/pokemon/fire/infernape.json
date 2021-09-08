@@ -1,0 +1,3879 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ss:infernape",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"ss:despawn": {
+				"minecraft:instant_despawn": {}
+			},
+			"ss:wild": {
+				"minecraft:behavior.hurt_by_target": {
+					"hurt_owner": false,
+					"priority": 2,
+					"alert_same_type": true
+				}
+			},
+			"ss:level0": {
+				"minecraft:health": {
+					"max": 76,
+					"value": 76
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 1",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level1": {
+				"minecraft:health": {
+					"max": 77,
+					"value": 77
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 2",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level2": {
+				"minecraft:health": {
+					"max": 77,
+					"value": 77
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 3",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level3": {
+				"minecraft:health": {
+					"max": 78,
+					"value": 78
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 4",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level4": {
+				"minecraft:health": {
+					"max": 78,
+					"value": 78
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 5",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level5": {
+				"minecraft:health": {
+					"max": 79,
+					"value": 79
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 6",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level6": {
+				"minecraft:health": {
+					"max": 79,
+					"value": 79
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 7",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level7": {
+				"minecraft:health": {
+					"max": 80,
+					"value": 80
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 8",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level8": {
+				"minecraft:health": {
+					"max": 80,
+					"value": 80
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 9",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level9": {
+				"minecraft:health": {
+					"max": 81,
+					"value": 81
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 10",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level10": {
+				"minecraft:health": {
+					"max": 81,
+					"value": 81
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 11",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level11": {
+				"minecraft:health": {
+					"max": 82,
+					"value": 82
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 12",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level12": {
+				"minecraft:health": {
+					"max": 82,
+					"value": 82
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 13",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level13": {
+				"minecraft:health": {
+					"max": 83,
+					"value": 83
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 14",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level14": {
+				"minecraft:health": {
+					"max": 83,
+					"value": 83
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 15",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level15": {
+				"minecraft:health": {
+					"max": 84,
+					"value": 84
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 16",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level16": {
+				"minecraft:health": {
+					"max": 84,
+					"value": 84
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 17",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level17": {
+				"minecraft:health": {
+					"max": 85,
+					"value": 85
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 18",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level18": {
+				"minecraft:health": {
+					"max": 85,
+					"value": 85
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 19",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level19": {
+				"minecraft:health": {
+					"max": 86,
+					"value": 86
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 20",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level20": {
+				"minecraft:health": {
+					"max": 86,
+					"value": 86
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 21",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level21": {
+				"minecraft:health": {
+					"max": 87,
+					"value": 87
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 22",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level22": {
+				"minecraft:health": {
+					"max": 87,
+					"value": 87
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 23",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level23": {
+				"minecraft:health": {
+					"max": 88,
+					"value": 88
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 24",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level24": {
+				"minecraft:health": {
+					"max": 88,
+					"value": 88
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 25",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level25": {
+				"minecraft:health": {
+					"max": 89,
+					"value": 89
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 26",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level26": {
+				"minecraft:health": {
+					"max": 89,
+					"value": 89
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 27",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level27": {
+				"minecraft:health": {
+					"max": 90,
+					"value": 90
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 28",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level28": {
+				"minecraft:health": {
+					"max": 90,
+					"value": 90
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 29",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level29": {
+				"minecraft:health": {
+					"max": 91,
+					"value": 91
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 30",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level30": {
+				"minecraft:health": {
+					"max": 91,
+					"value": 91
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 31",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level31": {
+				"minecraft:health": {
+					"max": 92,
+					"value": 92
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 32",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level32": {
+				"minecraft:health": {
+					"max": 92,
+					"value": 92
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 33",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level33": {
+				"minecraft:health": {
+					"max": 93,
+					"value": 93
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 34",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level34": {
+				"minecraft:health": {
+					"max": 93,
+					"value": 93
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 35",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level35": {
+				"minecraft:health": {
+					"max": 94,
+					"value": 94
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 36",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level36": {
+				"minecraft:health": {
+					"max": 94,
+					"value": 94
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 37",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level37": {
+				"minecraft:health": {
+					"max": 95,
+					"value": 95
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 38",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level38": {
+				"minecraft:health": {
+					"max": 95,
+					"value": 95
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 39",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level39": {
+				"minecraft:health": {
+					"max": 96,
+					"value": 96
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 40",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level40": {
+				"minecraft:health": {
+					"max": 96,
+					"value": 96
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 41",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level41": {
+				"minecraft:health": {
+					"max": 97,
+					"value": 97
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 42",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level42": {
+				"minecraft:health": {
+					"max": 97,
+					"value": 97
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 43",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level43": {
+				"minecraft:health": {
+					"max": 98,
+					"value": 98
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 44",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level44": {
+				"minecraft:health": {
+					"max": 98,
+					"value": 98
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 45",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level45": {
+				"minecraft:health": {
+					"max": 99,
+					"value": 99
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 46",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level46": {
+				"minecraft:health": {
+					"max": 99,
+					"value": 99
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 47",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level47": {
+				"minecraft:health": {
+					"max": 100,
+					"value": 100
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 48",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level48": {
+				"minecraft:health": {
+					"max": 100,
+					"value": 100
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 49",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level49": {
+				"minecraft:health": {
+					"max": 101,
+					"value": 101
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 50",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level50": {
+				"minecraft:health": {
+					"max": 101,
+					"value": 101
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 51",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level51": {
+				"minecraft:health": {
+					"max": 102,
+					"value": 102
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 52",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level52": {
+				"minecraft:health": {
+					"max": 102,
+					"value": 102
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 53",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level53": {
+				"minecraft:health": {
+					"max": 103,
+					"value": 103
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 54",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level54": {
+				"minecraft:health": {
+					"max": 103,
+					"value": 103
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 55",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level55": {
+				"minecraft:health": {
+					"max": 104,
+					"value": 104
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 56",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level56": {
+				"minecraft:health": {
+					"max": 104,
+					"value": 104
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 57",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level57": {
+				"minecraft:health": {
+					"max": 105,
+					"value": 105
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 58",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level58": {
+				"minecraft:health": {
+					"max": 105,
+					"value": 105
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 59",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level59": {
+				"minecraft:health": {
+					"max": 106,
+					"value": 106
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 60",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level60": {
+				"minecraft:health": {
+					"max": 106,
+					"value": 106
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 61",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level61": {
+				"minecraft:health": {
+					"max": 107,
+					"value": 107
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 62",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level62": {
+				"minecraft:health": {
+					"max": 107,
+					"value": 107
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 63",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level63": {
+				"minecraft:health": {
+					"max": 108,
+					"value": 108
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 64",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level64": {
+				"minecraft:health": {
+					"max": 108,
+					"value": 108
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 65",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level65": {
+				"minecraft:health": {
+					"max": 109,
+					"value": 109
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 66",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level66": {
+				"minecraft:health": {
+					"max": 109,
+					"value": 109
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 67",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level67": {
+				"minecraft:health": {
+					"max": 110,
+					"value": 110
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 68",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level68": {
+				"minecraft:health": {
+					"max": 110,
+					"value": 110
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 69",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level69": {
+				"minecraft:health": {
+					"max": 111,
+					"value": 111
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 70",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level70": {
+				"minecraft:health": {
+					"max": 111,
+					"value": 111
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 71",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level71": {
+				"minecraft:health": {
+					"max": 112,
+					"value": 112
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 72",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level72": {
+				"minecraft:health": {
+					"max": 112,
+					"value": 112
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 73",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level73": {
+				"minecraft:health": {
+					"max": 113,
+					"value": 113
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 74",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level74": {
+				"minecraft:health": {
+					"max": 113,
+					"value": 113
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 75",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level75": {
+				"minecraft:health": {
+					"max": 114,
+					"value": 114
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 76",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level76": {
+				"minecraft:health": {
+					"max": 114,
+					"value": 114
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 77",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level77": {
+				"minecraft:health": {
+					"max": 115,
+					"value": 115
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 78",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level78": {
+				"minecraft:health": {
+					"max": 115,
+					"value": 115
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 79",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level79": {
+				"minecraft:health": {
+					"max": 116,
+					"value": 116
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 80",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level80": {
+				"minecraft:health": {
+					"max": 116,
+					"value": 116
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 81",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level81": {
+				"minecraft:health": {
+					"max": 117,
+					"value": 117
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 82",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level82": {
+				"minecraft:health": {
+					"max": 117,
+					"value": 117
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 83",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level83": {
+				"minecraft:health": {
+					"max": 118,
+					"value": 118
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 84",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level84": {
+				"minecraft:health": {
+					"max": 118,
+					"value": 118
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 85",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level85": {
+				"minecraft:health": {
+					"max": 119,
+					"value": 119
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 86",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level86": {
+				"minecraft:health": {
+					"max": 119,
+					"value": 119
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 87",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level87": {
+				"minecraft:health": {
+					"max": 120,
+					"value": 120
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 88",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level88": {
+				"minecraft:health": {
+					"max": 120,
+					"value": 120
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 89",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level89": {
+				"minecraft:health": {
+					"max": 121,
+					"value": 121
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 90",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level90": {
+				"minecraft:health": {
+					"max": 121,
+					"value": 121
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 91",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level91": {
+				"minecraft:health": {
+					"max": 122,
+					"value": 122
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 92",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level92": {
+				"minecraft:health": {
+					"max": 122,
+					"value": 122
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 93",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level93": {
+				"minecraft:health": {
+					"max": 123,
+					"value": 123
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 94",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level94": {
+				"minecraft:health": {
+					"max": 123,
+					"value": 123
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 95",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level95": {
+				"minecraft:health": {
+					"max": 124,
+					"value": 124
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 96",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level96": {
+				"minecraft:health": {
+					"max": 124,
+					"value": 124
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 97",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level97": {
+				"minecraft:health": {
+					"max": 125,
+					"value": 125
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 98",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level98": {
+				"minecraft:health": {
+					"max": 125,
+					"value": 125
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 99",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level99": {
+				"minecraft:health": {
+					"max": 126,
+					"value": 126
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 100",
+					"should_darken_sky": false
+				}
+			},
+			"ss:level100": {
+				"minecraft:health": {
+					"max": 126,
+					"value": 126
+				},
+				"minecraft:boss": {
+					"hud_range": 3,
+					"name": "§l§eInfernape §bLevel 101",
+					"should_darken_sky": false
+				}
+			},
+			"ss:flamewheellv1": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 1,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 5,
+					"attack_interval_max": 6,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:pokemon_firewheel"
+				}
+			},
+			"ss:flamewheellv2": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 1,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 3,
+					"attack_interval_max": 4,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:pokemon_firewheel"
+				}
+			},
+			"ss:flamewheellv3": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 2,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 3,
+					"attack_interval_max": 4,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:pokemon_firewheel"
+				}
+			},
+			"ss:flamewheellv4": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 2,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 0,
+					"attack_interval_max": 1,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:pokemon_firewheel"
+				}
+			},
+			"ss:flamewheellv5": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 3,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 0,
+					"attack_interval_max": 1,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:pokemon_firewheel"
+				}
+			},
+			"ss:fire_fanglvl1": {
+				"minecraft:behavior.melee_attack": {
+					"priority": 5,
+					"speed_multiplier": 1,
+					"on_attack": {
+						"event": "ss:fire_fangattack",
+						"target": "self"
+					}
+				},
+				"minecraft:attack": {
+					"damage": 7
+				}
+			},
+			"ss:fire_fanglvl2": {
+				"minecraft:behavior.melee_attack": {
+					"priority": 5,
+					"speed_multiplier": 1,
+					"on_attack": {
+						"event": "ss:fire_fangattack",
+						"target": "self"
+					}
+				},
+				"minecraft:attack": {
+					"damage": 8
+				}
+			},
+			"ss:fire_fanglvl3": {
+				"minecraft:behavior.melee_attack": {
+					"priority": 5,
+					"speed_multiplier": 1,
+					"on_attack": {
+						"event": "ss:fire_fangattack",
+						"target": "self"
+					}
+				},
+				"minecraft:attack": {
+					"damage": 9
+				}
+			},
+			"ss:fire_fanglvl4": {
+				"minecraft:behavior.melee_attack": {
+					"priority": 5,
+					"speed_multiplier": 1,
+					"on_attack": {
+						"event": "ss:fire_fangattack",
+						"target": "self"
+					}
+				},
+				"minecraft:attack": {
+					"damage": 9.5
+				}
+			},
+			"ss:fire_fanglvl5": {
+				"minecraft:behavior.melee_attack": {
+					"priority": 5,
+					"speed_multiplier": 1,
+					"on_attack": {
+						"event": "ss:fire_fangattack",
+						"target": "self"
+					}
+				},
+				"minecraft:attack": {
+					"damage": 10
+				}
+			},
+			"ss:fire_fanglvl6": {
+				"minecraft:behavior.melee_attack": {
+					"priority": 5,
+					"speed_multiplier": 1,
+					"on_attack": {
+						"event": "ss:fire_fangattack",
+						"target": "self"
+					}
+				},
+				"minecraft:attack": {
+					"damage": 11
+				}
+			},
+			"ss:fire_fanglvl7": {
+				"minecraft:behavior.melee_attack": {
+					"priority": 5,
+					"speed_multiplier": 1,
+					"on_attack": {
+						"event": "ss:fire_fangattack",
+						"target": "self"
+					}
+				},
+				"minecraft:attack": {
+					"damage": 12
+				}
+			},
+			"ss:fire_fanglvl8": {
+				"minecraft:behavior.melee_attack": {
+					"priority": 5,
+					"speed_multiplier": 1,
+					"on_attack": {
+						"event": "ss:fire_fangattack",
+						"target": "self"
+					}
+				},
+				"minecraft:attack": {
+					"damage": 13
+				}
+			},
+			"ss:fire_fanglvl9": {
+				"minecraft:behavior.melee_attack": {
+					"priority": 5,
+					"speed_multiplier": 1,
+					"on_attack": {
+						"event": "ss:fire_fangattack",
+						"target": "self"
+					}
+				},
+				"minecraft:attack": {
+					"damage": 13.5
+				}
+			},
+			"ss:fire_fanglvl10": {
+				"minecraft:behavior.melee_attack": {
+					"priority": 5,
+					"speed_multiplier": 1,
+					"on_attack": {
+						"event": "ss:fire_fangattack",
+						"target": "self"
+					}
+				},
+				"minecraft:attack": {
+					"damage": 14
+				}
+			},
+			"ss:flamethrowerlvl1": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 1,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 3,
+					"attack_interval_max": 4,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:flamethrower"
+				}
+			},
+			"ss:flamethrowerlvl2": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 1,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 3,
+					"attack_interval_max": 4,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:flamethrower"
+				}
+			},
+			"ss:flamethrowerlvl3": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 2,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 3,
+					"attack_interval_max": 4,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:flamethrower"
+				}
+			},
+			"ss:flamethrowerlvl4": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 3,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 3,
+					"attack_interval_max": 4,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:flamethrower"
+				}
+			},
+			"ss:flamethrowerlvl5": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 3,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 3,
+					"attack_interval_max": 4,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:flamethrower"
+				}
+			},
+			"minecraft:wolf_tame": {
+				"minecraft:nameable": {
+					"always_show": true,
+					"allow_name_tag_renaming": true
+				},
+				"minecraft:is_tamed": {},
+				"minecraft:behavior.follow_owner": {
+					"priority": 6,
+					"speed_multiplier": 1,
+					"start_distance": 10,
+					"stop_distance": 2
+				},
+				"minecraft:behavior.owner_hurt_by_target": {
+					"priority": 1
+				},
+				"minecraft:behavior.owner_hurt_target": {
+					"priority": 2
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "is_family",
+											"subject": "other",
+											"value": "player"
+										},
+										{
+											"test": "has_equipment",
+											"domain": "hand",
+											"subject": "other",
+											"value": "ss:rare_candy"
+										}
+									]
+								},
+								"event": "ss:levelup",
+								"target": "self"
+							},
+							"interact_text": "Level Up Pokemon",
+							"cooldown": 1,
+							"use_item": true,
+							"swing": false,
+							"play_sounds": "random.levelup"
+						}
+					]
+				},
+				"minecraft:healable": {
+					"items": [
+						{
+							"item": "ss:potion",
+							"heal_amount": 20
+						},
+						{
+							"item": "ss:super_potion",
+							"heal_amount": 50
+						},
+						{
+							"item": "ss:hyper_potion",
+							"heal_amount": 200
+						},
+						{
+							"item": "ss:max_potion",
+							"heal_amount": 99999
+						},
+						{
+							"item": "ss:moomoo_milk",
+							"heal_amount": 100
+						},
+						{
+							"item": "ss:oran_berry",
+							"heal_amount": 15
+						},
+						{
+							"item": "ss:sitrus_berry",
+							"heal_amount": 30
+						},
+						{
+							"item": "ss:mago_berry",
+							"heal_amount": 12
+						},
+						{
+							"item": "ss:lemonade",
+							"heal_amount": 70
+						},
+						{
+							"item": "ss:soda_pop",
+							"heal_amount": 60
+						},
+						{
+							"item": "ss:rage_candybar",
+							"heal_amount": 20
+						},
+						{
+							"item": "ss:fresh_water",
+							"heal_amount": 30
+						}
+					]
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "projectile",
+							"deals_damage": false,
+							"on_damage": {
+								"filters": {
+									"test": "is_family",
+									"value": "pokeball",
+									"subject": "other"
+								},
+								"event": "ss:pokeballhit",
+								"target": "self"
+							}
+						}
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:target_nearby_sensor": {
+				"inside_range": 6,
+				"outside_range": 6.1,
+				"on_inside_range": {
+					"event": "ss:switch_to_melee",
+					"target": "self"
+				},
+				"on_outside_range": {
+					"event": "ss:switch_to_ranged",
+					"target": "self"
+				}
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"hurt_owner": false,
+				"priority": 2,
+				"alert_same_type": true
+			},
+			"minecraft:tameable": {
+				"probability": 1,
+				"tame_items": "ss:instatametool",
+				"tame_event": {
+					"event": "minecraft:on_tame",
+					"target": "self"
+				}
+			},
+			"minecraft:scale": {
+				"value": 1.3
+			},
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": [
+					"pokemon"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.7,
+				"height": 1
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"avoid_damage_blocks": true
+			},
+			"minecraft:movement": {
+				"value": 0.3
+			},
+			"minecraft:fire_immune": {},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 8,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 6,
+				"target_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 0
+					}
+				]
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:on_death": {
+				"event": "ss:pokemondied",
+				"target": "self"
+			}
+		},
+		"events": {
+			"minecraft:entity_transformed": {
+				"add": {
+					"component_groups": [
+						"ss:despawn",
+						"ss:level36"
+					]
+				},
+				"run_command": {
+					"command": [
+						"scoreboard players set @s level 36"
+					],
+					"target": "self"
+				},
+				"trigger": "ss:level36"
+			},
+			"minecraft:entity_spawned": {
+				"run_command": {
+					"command": [
+						"scoreboard objectives add level dummy"
+					],
+					"target": "self"
+				},
+				"add": {
+					"component_groups": [
+						"ss:wild"
+					]
+				},
+				"randomize": [
+					{
+						"weight": 60,
+						"add": {
+							"component_groups": [
+								"ss:level35"
+							]
+						}
+					}
+				]
+			},
+			"minecraft:on_tame": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"tellraw @p {\"rawtext\":[{\"text\":\"§l§bYou Have Tamed: §e\"},{\"selector\":\"@s\"}]}"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"playsound random.levelup @p"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"minecraft:wolf_tame"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"ss:wild"
+							]
+						}
+					}
+				]
+			},
+			"ss:fire_fangattack": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"particle circle-1 ^-1^^"
+							],
+							"target": "target"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"playanimation @s animation.infernape.attack"
+							],
+							"target": "self"
+						}
+					}
+				]
+			},
+			"ss:flamethrowerattack": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"playanimation @s animation.pokemon.flamethrower_attack"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"particle minecraft:critical_hit_emitter ~~~"
+							],
+							"target": "target"
+						}
+					}
+				]
+			},
+			"ss:level1": {
+				"add": {
+					"component_groups": [
+						"ss:level1",
+						"ss:fire_fanglvl1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level0"
+					]
+				}
+			},
+			"ss:level2": {
+				"add": {
+					"component_groups": [
+						"ss:level2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level1"
+					]
+				}
+			},
+			"ss:level3": {
+				"add": {
+					"component_groups": [
+						"ss:level3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level2"
+					]
+				}
+			},
+			"ss:level4": {
+				"add": {
+					"component_groups": [
+						"ss:level4"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level3"
+					]
+				}
+			},
+			"ss:level5": {
+				"add": {
+					"component_groups": [
+						"ss:level5"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level4"
+					]
+				}
+			},
+			"ss:level6": {
+				"add": {
+					"component_groups": [
+						"ss:level6"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level5"
+					]
+				}
+			},
+			"ss:level7": {
+				"add": {
+					"component_groups": [
+						"ss:level7"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level6"
+					]
+				}
+			},
+			"ss:level8": {
+				"add": {
+					"component_groups": [
+						"ss:level8"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level7"
+					]
+				}
+			},
+			"ss:level9": {
+				"add": {
+					"component_groups": [
+						"ss:level9"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level8"
+					]
+				}
+			},
+			"ss:level10": {
+				"add": {
+					"component_groups": [
+						"ss:level10",
+						"ss:fire_fanglvl2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level9",
+						"ss:fire_fanglvl1"
+					]
+				}
+			},
+			"ss:level11": {
+				"add": {
+					"component_groups": [
+						"ss:level11"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level10"
+					]
+				}
+			},
+			"ss:level12": {
+				"add": {
+					"component_groups": [
+						"ss:level12"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level11"
+					]
+				}
+			},
+			"ss:level13": {
+				"add": {
+					"component_groups": [
+						"ss:level13"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level12"
+					]
+				}
+			},
+			"ss:level14": {
+				"add": {
+					"component_groups": [
+						"ss:level14"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level13"
+					]
+				}
+			},
+			"ss:level15": {
+				"add": {
+					"component_groups": [
+						"ss:level15"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level14"
+					]
+				}
+			},
+			"ss:level16": {
+				"add": {
+					"component_groups": [
+						"ss:level16"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level15"
+					]
+				}
+			},
+			"ss:level17": {
+				"add": {
+					"component_groups": [
+						"ss:level17"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level16"
+					]
+				}
+			},
+			"ss:level18": {
+				"add": {
+					"component_groups": [
+						"ss:level18"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level17"
+					]
+				}
+			},
+			"ss:level19": {
+				"add": {
+					"component_groups": [
+						"ss:level19"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level18"
+					]
+				}
+			},
+			"ss:level20": {
+				"add": {
+					"component_groups": [
+						"ss:level20",
+						"ss:flamewheellv1",
+						"ss:fire_fanglvl3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level19",
+						"ss:fire_fanglvl2"
+					]
+				}
+			},
+			"ss:level21": {
+				"add": {
+					"component_groups": [
+						"ss:level21"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level20"
+					]
+				}
+			},
+			"ss:level22": {
+				"add": {
+					"component_groups": [
+						"ss:level22"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level21"
+					]
+				}
+			},
+			"ss:level23": {
+				"add": {
+					"component_groups": [
+						"ss:level23"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level22"
+					]
+				}
+			},
+			"ss:level24": {
+				"add": {
+					"component_groups": [
+						"ss:level24"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level23"
+					]
+				}
+			},
+			"ss:level25": {
+				"add": {
+					"component_groups": [
+						"ss:level25"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level24"
+					]
+				}
+			},
+			"ss:level26": {
+				"add": {
+					"component_groups": [
+						"ss:level26"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level25"
+					]
+				}
+			},
+			"ss:level27": {
+				"add": {
+					"component_groups": [
+						"ss:level27"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level26"
+					]
+				}
+			},
+			"ss:level28": {
+				"add": {
+					"component_groups": [
+						"ss:level28"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level27"
+					]
+				}
+			},
+			"ss:level29": {
+				"add": {
+					"component_groups": [
+						"ss:level29"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level28"
+					]
+				}
+			},
+			"ss:level30": {
+				"add": {
+					"component_groups": [
+						"ss:level30",
+						"ss:fire_fanglvl4"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level29",
+						"ss:fire_fanglvl3"
+					]
+				}
+			},
+			"ss:level31": {
+				"add": {
+					"component_groups": [
+						"ss:level31"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level30"
+					]
+				}
+			},
+			"ss:level32": {
+				"add": {
+					"component_groups": [
+						"ss:level32"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level31"
+					]
+				}
+			},
+			"ss:level33": {
+				"add": {
+					"component_groups": [
+						"ss:level33"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level32"
+					]
+				}
+			},
+			"ss:level34": {
+				"add": {
+					"component_groups": [
+						"ss:level34"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level33"
+					]
+				}
+			},
+			"ss:level35": {
+				"add": {
+					"component_groups": [
+						"ss:level35"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level34"
+					]
+				}
+			},
+			"ss:level36": {
+				"add": {
+					"component_groups": [
+						"ss:level36"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level35"
+					]
+				}
+			},
+			"ss:level37": {
+				"add": {
+					"component_groups": [
+						"ss:level37"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level36"
+					]
+				}
+			},
+			"ss:level38": {
+				"add": {
+					"component_groups": [
+						"ss:level38"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level37"
+					]
+				}
+			},
+			"ss:level39": {
+				"add": {
+					"component_groups": [
+						"ss:level39"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level38"
+					]
+				}
+			},
+			"ss:level40": {
+				"add": {
+					"component_groups": [
+						"ss:level40",
+						"ss:flamewheellv2",
+						"ss:fire_fanglvl5"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level39",
+						"ss:fire_fanglvl4",
+						"ss:flamewheellv1"
+					]
+				}
+			},
+			"ss:level41": {
+				"add": {
+					"component_groups": [
+						"ss:level41"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level40"
+					]
+				}
+			},
+			"ss:level42": {
+				"add": {
+					"component_groups": [
+						"ss:level42"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level41"
+					]
+				}
+			},
+			"ss:level43": {
+				"add": {
+					"component_groups": [
+						"ss:level43"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level42"
+					]
+				}
+			},
+			"ss:level44": {
+				"add": {
+					"component_groups": [
+						"ss:level44"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level43"
+					]
+				}
+			},
+			"ss:level45": {
+				"add": {
+					"component_groups": [
+						"ss:level45"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level44"
+					]
+				}
+			},
+			"ss:level46": {
+				"add": {
+					"component_groups": [
+						"ss:level46"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level45"
+					]
+				}
+			},
+			"ss:level47": {
+				"add": {
+					"component_groups": [
+						"ss:level47"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level46"
+					]
+				}
+			},
+			"ss:level48": {
+				"add": {
+					"component_groups": [
+						"ss:level48"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level47"
+					]
+				}
+			},
+			"ss:level49": {
+				"add": {
+					"component_groups": [
+						"ss:level49"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level48"
+					]
+				}
+			},
+			"ss:level50": {
+				"add": {
+					"component_groups": [
+						"ss:level50",
+						"ss:fire_fanglvl6"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level49",
+						"ss:fire_fanglvl5"
+					]
+				}
+			},
+			"ss:level51": {
+				"add": {
+					"component_groups": [
+						"ss:level51"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level50"
+					]
+				}
+			},
+			"ss:level52": {
+				"add": {
+					"component_groups": [
+						"ss:level52"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level51"
+					]
+				}
+			},
+			"ss:level53": {
+				"add": {
+					"component_groups": [
+						"ss:level53"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level52"
+					]
+				}
+			},
+			"ss:level54": {
+				"add": {
+					"component_groups": [
+						"ss:level54"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level53"
+					]
+				}
+			},
+			"ss:level55": {
+				"add": {
+					"component_groups": [
+						"ss:level55"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level54"
+					]
+				}
+			},
+			"ss:level56": {
+				"add": {
+					"component_groups": [
+						"ss:level56"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level55"
+					]
+				}
+			},
+			"ss:level57": {
+				"add": {
+					"component_groups": [
+						"ss:level57"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level56"
+					]
+				}
+			},
+			"ss:level58": {
+				"add": {
+					"component_groups": [
+						"ss:level58"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level57"
+					]
+				}
+			},
+			"ss:level59": {
+				"add": {
+					"component_groups": [
+						"ss:level59"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level58"
+					]
+				}
+			},
+			"ss:level60": {
+				"add": {
+					"component_groups": [
+						"ss:level60",
+						"ss:fire_fanglvl7",
+						"ss:flamewheellv3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level59",
+						"ss:fire_fanglvl6",
+						"ss:flamewheellv2"
+					]
+				}
+			},
+			"ss:level61": {
+				"add": {
+					"component_groups": [
+						"ss:level61"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level60"
+					]
+				}
+			},
+			"ss:level62": {
+				"add": {
+					"component_groups": [
+						"ss:level62"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level61"
+					]
+				}
+			},
+			"ss:level63": {
+				"add": {
+					"component_groups": [
+						"ss:level63"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level62"
+					]
+				}
+			},
+			"ss:level64": {
+				"add": {
+					"component_groups": [
+						"ss:level64"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level63"
+					]
+				}
+			},
+			"ss:level65": {
+				"add": {
+					"component_groups": [
+						"ss:level65"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level64"
+					]
+				}
+			},
+			"ss:level66": {
+				"add": {
+					"component_groups": [
+						"ss:level66"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level65"
+					]
+				}
+			},
+			"ss:level67": {
+				"add": {
+					"component_groups": [
+						"ss:level67"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level66"
+					]
+				}
+			},
+			"ss:level68": {
+				"add": {
+					"component_groups": [
+						"ss:level68"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level67"
+					]
+				}
+			},
+			"ss:level69": {
+				"add": {
+					"component_groups": [
+						"ss:level69"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level68"
+					]
+				}
+			},
+			"ss:level70": {
+				"add": {
+					"component_groups": [
+						"ss:level70",
+						"ss:fire_fanglvl8"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level69",
+						"ss:fire_fanglvl7"
+					]
+				}
+			},
+			"ss:level71": {
+				"add": {
+					"component_groups": [
+						"ss:level71"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level70"
+					]
+				}
+			},
+			"ss:level72": {
+				"add": {
+					"component_groups": [
+						"ss:level72"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level71"
+					]
+				}
+			},
+			"ss:level73": {
+				"add": {
+					"component_groups": [
+						"ss:level73"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level72"
+					]
+				}
+			},
+			"ss:level74": {
+				"add": {
+					"component_groups": [
+						"ss:level74"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level73"
+					]
+				}
+			},
+			"ss:level75": {
+				"add": {
+					"component_groups": [
+						"ss:level75"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level74"
+					]
+				}
+			},
+			"ss:level76": {
+				"add": {
+					"component_groups": [
+						"ss:level76"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level75"
+					]
+				}
+			},
+			"ss:level77": {
+				"add": {
+					"component_groups": [
+						"ss:level77"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level76"
+					]
+				}
+			},
+			"ss:level78": {
+				"add": {
+					"component_groups": [
+						"ss:level78"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level77"
+					]
+				}
+			},
+			"ss:level79": {
+				"add": {
+					"component_groups": [
+						"ss:level79"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level78"
+					]
+				}
+			},
+			"ss:level80": {
+				"add": {
+					"component_groups": [
+						"ss:level80",
+						"ss:flamewheellv4",
+						"ss:fire_fanglvl9"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level79",
+						"ss:flamewheellv3",
+						"ss:fire_fanglvl8"
+					]
+				}
+			},
+			"ss:level81": {
+				"add": {
+					"component_groups": [
+						"ss:level81"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level80"
+					]
+				}
+			},
+			"ss:level82": {
+				"add": {
+					"component_groups": [
+						"ss:level82"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level81"
+					]
+				}
+			},
+			"ss:level83": {
+				"add": {
+					"component_groups": [
+						"ss:level83"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level82"
+					]
+				}
+			},
+			"ss:level84": {
+				"add": {
+					"component_groups": [
+						"ss:level84"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level83"
+					]
+				}
+			},
+			"ss:level85": {
+				"add": {
+					"component_groups": [
+						"ss:level85"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level84"
+					]
+				}
+			},
+			"ss:level86": {
+				"add": {
+					"component_groups": [
+						"ss:level86"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level85"
+					]
+				}
+			},
+			"ss:level87": {
+				"add": {
+					"component_groups": [
+						"ss:level87"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level86"
+					]
+				}
+			},
+			"ss:level88": {
+				"add": {
+					"component_groups": [
+						"ss:level88"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level87"
+					]
+				}
+			},
+			"ss:level89": {
+				"add": {
+					"component_groups": [
+						"ss:level89"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level88"
+					]
+				}
+			},
+			"ss:level90": {
+				"add": {
+					"component_groups": [
+						"ss:level90",
+						"ss:fire_fanglvl10"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level89",
+						"ss:fire_fanglvl9"
+					]
+				}
+			},
+			"ss:level91": {
+				"add": {
+					"component_groups": [
+						"ss:level91"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level90"
+					]
+				}
+			},
+			"ss:level92": {
+				"add": {
+					"component_groups": [
+						"ss:level92"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level91"
+					]
+				}
+			},
+			"ss:level93": {
+				"add": {
+					"component_groups": [
+						"ss:level93"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level92"
+					]
+				}
+			},
+			"ss:level94": {
+				"add": {
+					"component_groups": [
+						"ss:level94"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level93"
+					]
+				}
+			},
+			"ss:level95": {
+				"add": {
+					"component_groups": [
+						"ss:level95"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level94"
+					]
+				}
+			},
+			"ss:level96": {
+				"add": {
+					"component_groups": [
+						"ss:level96"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level95"
+					]
+				}
+			},
+			"ss:level97": {
+				"add": {
+					"component_groups": [
+						"ss:level97"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level96"
+					]
+				}
+			},
+			"ss:level98": {
+				"add": {
+					"component_groups": [
+						"ss:level98"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level97"
+					]
+				}
+			},
+			"ss:level99": {
+				"add": {
+					"component_groups": [
+						"ss:level99"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level98"
+					]
+				}
+			},
+			"ss:level100": {
+				"add": {
+					"component_groups": [
+						"ss:level100",
+						"ss:flamewheellv5"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level99",
+						"ss:flamewheellv4"
+					]
+				}
+			},
+			"ss:levelup": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"execute @s[scores={level=100..}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cThat Pokemon Is Already Maked out!\"}]}",
+								"execute @s[scores={level=100..}] ~~~ playsound note.bass",
+								"execute @s[scores={level=..99}] ~~~ playsound gameplay.levelup @a[r=5]",
+								"execute @s[scores={level=..99}] ~~~ particle minecraft:example_flipbook ~~~",
+								"execute @s[scores={level=..99}] ~~~ scoreboard objectives add level dummy",
+								"execute @s[scores={level=..99}] ~~~ function levelmanager",
+								"execute @s[scores={level=..99}] ~~~ execute @s[scores={guislottrack=1}] ~~~ scoreboard players add @p levelslot1 1",
+								"execute @s[scores={level=..99}] ~~~ execute @s[scores={guislottrack=2}] ~~~ scoreboard players add @p levelslot2 1",
+								"execute @s[scores={level=..99}] ~~~ execute @s[scores={guislottrack=3}] ~~~ scoreboard players add @p levelslot3 1",
+								"execute @s[scores={level=..99}] ~~~ execute @s[scores={guislottrack=4}] ~~~ scoreboard players add @p levelslot4 1",
+								"execute @s[scores={level=..99}] ~~~ execute @s[scores={guislottrack=5}] ~~~ scoreboard players add @p levelslot5 1",
+								"execute @s[scores={level=..99}] ~~~ execute @s[scores={guislottrack=6}] ~~~ scoreboard players add @p levelslot6 1",
+								"execute @s[scores={level=..99}] ~~~ scoreboard players add @s level 1"
+							]
+						}
+					}
+				]
+			},
+			"ss:test": {
+				"filters": {
+					"all_of": [
+						{
+							"test": "has_component",
+							"value": "ss:level1",
+							"subject": "self"
+						}
+					]
+				},
+				"run_command": {
+					"command": [
+						"playsound gameplay.levelup @a[r=5]",
+						"particle minecraft:example_flipbook ~~~"
+					],
+					"target": "self"
+				},
+				"remove": {
+					"component_groups": [
+						"ss:level1"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:level2"
+					]
+				}
+			},
+			"ss:fire_fanglvl1": {
+				"add": {
+					"component_groups": [
+						"ss:fire_fanglvl1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				}
+			},
+			"ss:fire_fanglvl2": {
+				"add": {
+					"component_groups": [
+						"ss:fire_fanglvl2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				}
+			},
+			"ss:fire_fanglvl3": {
+				"add": {
+					"component_groups": [
+						"ss:fire_fanglvl3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				}
+			},
+			"ss:fire_fanglvl4": {
+				"add": {
+					"component_groups": [
+						"ss:fire_fanglvl4"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				}
+			},
+			"ss:fire_fanglvl5": {
+				"add": {
+					"component_groups": [
+						"ss:fire_fanglvl5"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				}
+			},
+			"ss:fire_fanglvl6": {
+				"add": {
+					"component_groups": [
+						"ss:fire_fanglvl6"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				}
+			},
+			"ss:fire_fanglvl7": {
+				"add": {
+					"component_groups": [
+						"ss:fire_fanglvl7"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				}
+			},
+			"ss:fire_fanglvl8": {
+				"add": {
+					"component_groups": [
+						"ss:fire_fanglvl8"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				}
+			},
+			"ss:fire_fanglvl9": {
+				"add": {
+					"component_groups": [
+						"ss:fire_fanglvl9"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				}
+			},
+			"ss:fire_fanglvl10": {
+				"add": {
+					"component_groups": [
+						"ss:fire_fanglvl10"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				}
+			},
+			"ss:flamethrowerlvl1": {
+				"add": {
+					"component_groups": [
+						"ss:flamethrowerlvl1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				}
+			},
+			"ss:flamethrowerlvl2": {
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:flamethrowerlvl2"
+					]
+				}
+			},
+			"ss:flamethrowerlvl3": {
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:flamethrowerlvl3"
+					]
+				}
+			},
+			"ss:flamethrowerlvl4": {
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:flamethrowerlvl4"
+					]
+				}
+			},
+			"ss:flamethrowerlv5": {
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:flamethrowerlvl5"
+					]
+				}
+			},
+			"ss:flamewheellv1": {
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:flamewheellv1"
+					]
+				}
+			},
+			"ss:flamewheellv2": {
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:flamewheellv2"
+					]
+				}
+			},
+			"ss:flamewheellv3": {
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:flamewheellv3"
+					]
+				}
+			},
+			"ss:flamewheellv4": {
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:flamewheellv4"
+					]
+				}
+			},
+			"ss:flamewheellv5": {
+				"remove": {
+					"component_groups": [
+						"ss:fire_fanglvl1",
+						"ss:fire_fanglvl2",
+						"ss:fire_fanglvl3",
+						"ss:fire_fanglvl4",
+						"ss:fire_fanglvl5",
+						"ss:fire_fanglvl6",
+						"ss:fire_fanglvl7",
+						"ss:fire_fanglvl8",
+						"ss:fire_fanglvl9",
+						"ss:fire_fanglvl10",
+						"ss:flamethrowerlvl1",
+						"ss:flamethrowerlvl2",
+						"ss:flamethrowerlvl3",
+						"ss:flamethrowerlvl4",
+						"ss:flamethrowerlvl5",
+						"ss:flamewheellv1",
+						"ss:flamewheellv2",
+						"ss:flamewheellv3",
+						"ss:flamewheellv4",
+						"ss:flamewheellv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:flamewheellv5"
+					]
+				}
+			},
+			"ss:switch_to_melee": {
+				"randomize": [
+					{
+						"run_command": {
+							"command": [
+								"execute @s[scores={level=1..9}] ~~~ event entity @s ss:fire_fanglvl1",
+								"execute @s[scores={level=10..20}] ~~~ event entity @s ss:fire_fanglvl2",
+								"execute @s[scores={level=21..30}] ~~~ event entity @s ss:fire_fanglvl3",
+								"execute @s[scores={level=31..40}] ~~~ event entity @s ss:fire_fanglvl4",
+								"execute @s[scores={level=41..50}] ~~~ event entity @s ss:fire_fanglvl5",
+								"execute @s[scores={level=51..60}] ~~~ event entity @s ss:fire_fanglvl6",
+								"execute @s[scores={level=61..70}] ~~~ event entity @s ss:fire_fanglvl7",
+								"execute @s[scores={level=71..80}] ~~~ event entity @s ss:fire_fanglvl8",
+								"execute @s[scores={level=81..90}] ~~~ event entity @s ss:fire_fanglvl9",
+								"execute @s[scores={level=91..100}] ~~~ event entity @s ss:fire_fanglvl10"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"execute @s[scores={level=1..19}] ~~~ event entity @s ss:flamethrowerlvl1",
+								"execute @s[scores={level=20..40}] ~~~ event entity @s ss:flamethrowerlvl2",
+								"execute @s[scores={level=41..60}] ~~~ event entity @s ss:flamethrowerlvl3",
+								"execute @s[scores={level=61..80}] ~~~ event entity @s ss:flamethrowerlvl4",
+								"execute @s[scores={level=81..100}] ~~~ event entity @s ss:flamethrowerlvl5"
+							],
+							"target": "self"
+						}
+					}
+				]
+			},
+			"ss:switch_to_ranged": {
+				"randomize": [
+					{
+						"run_command": {
+							"command": [
+								"execute @s[scores={level=1..19}] ~~~ event entity @s ss:flamethrowerlvl1",
+								"execute @s[scores={level=20..39}] ~~~ event entity @s ss:flamewheellv1",
+								"execute @s[scores={level=40..59}] ~~~ event entity @s ss:flamewheellv2",
+								"execute @s[scores={level=60..79}] ~~~ event entity @s ss:flamewheellv3",
+								"execute @s[scores={level=80..99}] ~~~ event entity @s ss:flamewheellv4",
+								"execute @s[scores={level=100}] ~~~ event entity @s ss:flamewheellv5"
+							],
+							"target": "self"
+						}
+					}
+				]
+			},
+			"ss:pokeballhit": {
+				"randomize": [
+					{
+						"weight": 30,
+						"run_command": {
+							"command": [
+								"summon ss:pokeballcapture ~~~ ss:confirmedcap",
+								"event entity @s ss:despawn",
+								"function pokemon/leveltracker",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cYou Do Not have A Open Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 6th Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 5th Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 4th Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 3rd Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 2nd Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 1st Slot\"}]}"
+							]
+						}
+					},
+					{
+						"weight": 70,
+						"randomize": [
+							{
+								"weight": 50,
+								"run_command": {
+									"command": [
+										"summon ss:pokeballcapture ~~~ ss:tick2catch",
+										"effect @s invisibility 3 255 true"
+									]
+								}
+							},
+							{
+								"weight": 50,
+								"run_command": {
+									"command": [
+										"summon ss:pokeballcapture ~~~ ss:tick1catch",
+										"effect @s invisibility 2 255 true"
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"ss:ultraballhit": {
+				"randomize": [
+					{
+						"weight": 70,
+						"run_command": {
+							"command": [
+								"summon ss:ultraballcapture ~~~ ss:confirmedcap",
+								"event entity @s ss:despawn",
+								"function pokemon/leveltracker",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cYou Do Not have A Open Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 6th Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 5th Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 4th Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 3rd Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 2nd Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 1st Slot\"}]}"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"randomize": [
+							{
+								"weight": 50,
+								"run_command": {
+									"command": [
+										"summon ss:ultraballcapture ~~~ ss:tick2catch",
+										"effect @s invisibility 3 255 true"
+									]
+								}
+							},
+							{
+								"weight": 50,
+								"run_command": {
+									"command": [
+										"summon ss:ultraballcapture ~~~ ss:tick1catch",
+										"effect @s invisibility 2 255 true"
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"ss:greatballhit": {
+				"randomize": [
+					{
+						"weight": 45,
+						"run_command": {
+							"command": [
+								"summon ss:greatballcapture ~~~ ss:confirmedcap",
+								"event entity @s ss:despawn",
+								"function pokemon/leveltracker",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cYou Do Not have A Open Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 6th Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 5th Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 4th Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 3rd Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 2nd Slot\"}]}",
+								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 37",
+								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 1st Slot\"}]}"
+							]
+						}
+					},
+					{
+						"weight": 55,
+						"randomize": [
+							{
+								"weight": 50,
+								"run_command": {
+									"command": [
+										"summon ss:greatballcapture ~~~ ss:tick2catch",
+										"effect @s invisibility 3 255 true"
+									]
+								}
+							},
+							{
+								"weight": 50,
+								"run_command": {
+									"command": [
+										"summon ss:greatballcapture ~~~ ss:tick1catch",
+										"effect @s invisibility 2 255 true"
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"ss:masterballhit": {
+				"run_command": {
+					"command": [
+						"summon ss:masterballcapture ~~~ ss:confirmedcap",
+						"event entity @s ss:despawn",
+						"function pokemon/leveltracker",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cYou Do Not have A Open Slot\"}]}",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 37",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 6th Slot\"}]}",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 37",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 5th Slot\"}]}",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 37",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 4th Slot\"}]}",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 37",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 3rd Slot\"}]}",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 37",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 2nd Slot\"}]}",
+						"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 37",
+						"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 1st Slot\"}]}"
+					]
+				}
+			},
+			"ss:pokemondied": {
+				"run_command": {
+					"command": [
+						"execute @s[scores={guislottrack=1}] ~~~ function pokemon/diedslot1",
+						"execute @s[scores={guislottrack=2}] ~~~ function pokemon/diedslot2",
+						"execute @s[scores={guislottrack=3}] ~~~ function pokemon/diedslot3",
+						"execute @s[scores={guislottrack=4}] ~~~ function pokemon/diedslot4",
+						"execute @s[scores={guislottrack=5}] ~~~ function pokemon/diedslot5",
+						"execute @s[scores={guislottrack=6}] ~~~ function pokemon/diedslot6"
+					]
+				}
+			},
+			"ss:despawn": {
+				"add": {
+					"component_groups": [
+						"ss:despawn"
+					]
+				}
+			}
+		}
+	}
+}

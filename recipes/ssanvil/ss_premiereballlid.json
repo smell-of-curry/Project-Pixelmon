@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "premiereballlid_61ee9eb4"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:whiteapricorn",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:premiereballlid",
+      "count": 1
+    }
+  }
+}

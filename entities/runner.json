@@ -1,0 +1,37 @@
+//bridge-file-version: #15
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ss:runner",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:scale": {
+				"value": 0
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:type_family": {
+				"family": [
+					"runner"
+				]
+			},
+			"minecraft:movement": {
+				"value": 0
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": false
+			}
+		},
+		"events": {
+			"ss:firsttime": {}
+		},
+		"component_groups": {}
+	}
+}

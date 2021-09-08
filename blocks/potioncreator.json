@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ss:potionmaker",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:loot": "loot_tables/blocks/ss_waterstone.json",
+			"minecraft:destroy_time": 0.3,
+			"minecraft:friction": 0.7,
+			"minecraft:map_color": "#FFFFFF",
+			"minecraft:explosion_resistance": 1,
+			"minecraft:block_light_emission": 1,
+			"minecraft:geometry": "geometry.sspotionmaker",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "ss_potionmaker",
+					"face_dimming": false
+				}
+			},
+			"minecraft:crafting_table": {
+				"custom_description": "Potion Maker",
+				"grid_size": 3,
+				"crafting_tags": [
+					"sspotionmaker"
+				]
+			}
+		},
+		"events": {}
+	}
+}

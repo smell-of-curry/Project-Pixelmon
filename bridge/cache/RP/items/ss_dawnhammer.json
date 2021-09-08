@@ -1,0 +1,85 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Project Pixelmon\\items\\ss_dawnhammer.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "e95191fa_f1da_4b56_b47e_34c25dfe24c6",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"category": "equipment",
+							"identifier": "ss:dawnhammer"
+						},
+						"components": {
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:icon": "ss_dawnhammer",
+							"minecraft:render_offsets": "tools",
+							"minecraft:display_name": {}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"category": "equipment",
+								"identifier": "ss:dawnhammer"
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:icon": "ss_dawnhammer",
+								"minecraft:render_offsets": "tools",
+								"minecraft:display_name": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"category": "equipment",
+							"identifier": "ss:dawnhammer"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"category": "equipment",
+								"identifier": "ss:dawnhammer"
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:icon": "ss_dawnhammer",
+								"minecraft:render_offsets": "tools",
+								"minecraft:display_name": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:icon": "ss_dawnhammer",
+							"minecraft:render_offsets": "tools",
+							"minecraft:display_name": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

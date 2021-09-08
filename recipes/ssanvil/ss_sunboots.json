@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sunboots_f9b045f9"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:sunstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:sunboots",
+      "count": 1
+    }
+  }
+}

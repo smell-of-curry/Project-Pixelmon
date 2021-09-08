@@ -1,0 +1,924 @@
+{
+	"RP/entity/Base Forms/gabite.json": {
+		"data": {}
+	},
+	"RP/entity/Base Forms/garchomp.json": {
+		"data": {}
+	},
+	"RP/entity/Base Forms/gible.json": {
+		"data": {}
+	},
+	"BP/entities/pokemon/rock/golem.json": {
+		"data": {}
+	},
+	"BP/entities/pokemon/rock/graveler.json": {
+		"data": {}
+	},
+	"BP/entities/pokemon/rock/geodude.json": {
+		"data": {}
+	},
+	"RP/entity/Base Forms/geodude.json": {
+		"data": {}
+	},
+	"RP/entity/Base Forms/golem.json": {
+		"data": {}
+	},
+	"RP/entity/Base Forms/graveler.json": {
+		"data": {}
+	},
+	"RP/entity/Base Forms/riolu.json": {
+		"data": {}
+	},
+	"RP/entity/Base Forms/lucario.json": {
+		"data": {}
+	},
+	"BP/entities/pokemon/poison/crobat.json": {
+		"data": {}
+	},
+	"RP/entity/pc.json": {
+		"data": {}
+	},
+	"BP/entities/blocks/pc.json": {
+		"data": {}
+	},
+	"RP/entity/Base Forms/crobat.json": {
+		"data": {}
+	},
+	"RP/entity/Base Forms/buizel.json": {
+		"data": {}
+	},
+	"RP/entity/Base Forms/floatzel.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"94812b55_05bc_4cc6_9fe0_9f91deb1d888": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a6e16d95_efaf_46e9_b69f_14d409ce2bb0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"86701a4f_8c55_424b_ba1a_cdeb0a8fd205": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"adc19eae_e71e_4522_a821_42b90b0de095": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"96496200_3153_4d77_b55c_139358ef52ea": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"92744a18_12e9_405e_bb49_6d931e2ee267": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a810423d_8cd0_4402_b292_c383b699a00f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"404e8062_5697_4860_9cb3_00548770e559": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"83ec514e_5c47_4628_930c_ecce867f6018": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"81cd0ef3_2dac_40f8_b341_0af8723d0733": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b0de9bf2_ba55_41d3_a05d_232d0d14bbf2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5f65270d_7601_41be_ae48_0abbcf05f87a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"aa9b9099_a866_452a_a559_4350c0c42b23": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5e12f393_b97e_46a2_b609_dc68018a71a2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"52a8faa2_2d1c_437f_a306_2dd59aa06fd0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2f3de887_e558_4dd3_b0fe_74784814905e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e2ef8eb8_8210_4de2_839e_1880b47371a1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a32ece0f_b8eb_4d84_a700_d67b20d7b719": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"78d1c16a_458a_4069_8baa_7f6775fce1e0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9a98bdd4_32aa_4f1d_942d_d059ccc51e65": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c1ab1568_a444_43c7_8cd8_ee90a6d36599": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"45c81e5e_d34d_48e0_ad5e_44c6f9c99ed2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"71bd9ef6_c984_4dd3_a22a_ae0c8bbec92e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7ad9f372_3832_44ff_bd2e_1565aca0ec9b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"67cdf155_74ff_4093_9e25_7a074d5515d2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"fa2ef26a_6fa4_42e5_966d_cfeaffca68b1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"8c0b354d_77b0_4e91_9475_67234ddb89b3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"dc07b91a_b3fd_42d6_8061_4727b968dc1f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"49db2f92_2ed9_4672_8ab2_5193df1a0c80": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"db70711e_42a5_41cf_8323_23a508cb7a27": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7d252c91_884f_47ab_8155_ad60bf313f1e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"434c64cf_c842_434c_a7ed_7f1a05e806f6": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ab2f3ae3_6a8a_4bf2_8bdb_a32183de3b05": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"625b19f7_fb1d_432e_b3e0_6d2a240633b7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"74731613_7f41_46ba_a3a9_4ba5de609c27": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"49258822_3fb9_4413_b6b4_98096261e213": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6922e544_7205_44ec_aaa2_4778ac0fcaea": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e2a6dff3_3c59_4cb7_88a6_4cc710bd3291": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d91be566_5877_4c94_b470_49de14c8715b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3b3b5fce_5c5f_45b3_87f3_2a169b91fc87": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"45415419_f96f_47cd_98ab_89525f52a673": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"42a54f05_524a_43bd_badf_b8c5d0d589e5": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"64506e0e_e5be_4ffb_9684_d41a7eb081cb": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3b59fa7c_316b_4a42_be9b_f4a03489b96c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3787da0b_cda8_47f4_8d42_c4c193e745b7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3d49a81e_5a31_4d0a_ad75_32e5d629ed58": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2ccf91a6_cb89_4a49_8002_80d8d20cc7f1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"85a243c2_3784_4a65_97c3_923685f990da": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a10e1021_4e29_4e39_8244_34eb5d2be8b7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"16bb1e5f_e5ab_40af_a0d5_fb4c3f5dd80c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c2cd56c4_1dcf_431e_86a6_81617664c345": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9722528c_0518_4f53_b9d2_8fbca2c46c41": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"332a1960_9fb0_444f_9a1f_f9edf9fc273d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3506cfc7_d55d_4d13_8db1_e1f0400f3529": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"42944354_2229_4823_8fef_3d3d521a236f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"60335520_21c6_4146_ac56_fbfee0e24782": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7af5f03d_63e2_42d1_88d3_d123d92f08f7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ab2a6934_41dc_47db_b0c8_b9e204d4f728": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7718bee9_0eb3_46cd_bbe1_b63b5074d49e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cddf4ed3_863b_45de_99c1_896d72d708e7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"74e159e8_9f43_4495_b1ab_8cc48e1e2cfa": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"25170cfd_be88_47a7_9fec_f680499a7136": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9e9f7d4f_a103_42e7_96bb_773f6647f6ad": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5cf586ae_c651_4193_ba59_f9b260e76e4b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cb0a683d_de33_41e1_be75_d992cc4a59b2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"40455f73_c81c_4216_ac1f_1daf12de2ca0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/pcpokemon/pcarchine.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcgrottle.json": {
+		"data": {}
+	},
+	"RP/items/ss_dawnhammer.json": {
+		"data": {}
+	},
+	"RP/items/ss_aluminum.json": {
+		"data": {}
+	},
+	"BP/items/armor _ tools/oldrunningshoes.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcpikachu.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcarticuno.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcbeedrill.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcbibarel.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcbidoof.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcbutterfree.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pccaterpie.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcchimchar.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcdrapion.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pceevee.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcempoleon.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcflareon.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcgastly.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcgengar.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcgeodude.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcgolduck.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcgraveler.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcgrowlithe.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pchaunter.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcinfrnape.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcjolteon.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pckakuna.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pckingler.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pckrabby.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcluxio.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcluxray.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcmetapod.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcmewtwo.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcmonferno.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pconix.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcpichu.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcpidgeot.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcpidgeoto.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcpidget.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcpiplup.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcprinplup.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcpsyduck.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcshinx.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcskorupi.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pctorterra.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcturtwig.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcumreon.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcvaporeon.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcweedle.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pczubat.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcsylveon.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcriolu.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pclucario.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcraichu.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcleafeon.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcgolem.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcgolbat.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcglaceon.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcgible.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcgarchomp.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcgabite.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcfloatzel.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcbuizel.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pccrowbat.json": {
+		"data": {}
+	},
+	"BP/items/pcpokemon/pcespeon.json": {
+		"data": {}
+	},
+	"BP/items/starting/startingchimchar.json": {
+		"data": {}
+	},
+	"BP/items/starting/startingpiplup.json": {
+		"data": {}
+	},
+	"BP/items/starting/startingturtwig.json": {
+		"data": {}
+	}
+}

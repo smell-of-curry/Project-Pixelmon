@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "duskstone_b0b5e22f"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:duskshard",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:duskstone",
+      "count": 1
+    }
+  }
+}

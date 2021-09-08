@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+    "minecraft:spawn_rules": {
+      "description": {
+        "identifier": "ss:butterfree",
+        "population_control": "monster"
+      },
+      "conditions": [
+        {
+          "minecraft:spawns_on_surface": {
+          },
+          "minecraft:weight": {
+            "default": 250
+          },
+          "minecraft:biome_filter":
+{
+    "test": "has_biome_tag", "operator":"==", "value": "forest"
+          }
+        }
+      ]
+    }
+  }

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dusklid_d3a2f296"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "ABA",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:blackapricorn",
+        "data": 0
+      },
+      "B": {
+        "item": "ss:greenapricorn",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:dusklid",
+      "count": 1
+    }
+  }
+}

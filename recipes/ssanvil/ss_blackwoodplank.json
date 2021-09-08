@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "blackwoodplank_7f7b0a51"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "ss:blackwood",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:blackwoodplank",
+      "count": 4
+    }
+  }
+}

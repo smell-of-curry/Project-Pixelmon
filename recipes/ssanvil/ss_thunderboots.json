@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "thunderboots_c17d5683"
+    },
+    "tags": [
+      "ssanvil"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "ss:thunderstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ss:thunderboots",
+      "count": 1
+    }
+  }
+}

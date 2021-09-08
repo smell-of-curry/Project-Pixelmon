@@ -1,0 +1,189 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Project Pixelmon RES\\entity\\Base Forms\\lucario.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "ab26a096_8e00_41e8_bddf_b730d57ffccc",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "ss:lucario",
+							"materials": {
+								"default": "zombie"
+							},
+							"textures": {
+								"default": "textures/entity/lucario/lucario"
+							},
+							"geometry": {
+								"default": "geometry.lucario"
+							},
+							"scripts": {
+								"animate": [
+									"look_at_target",
+									"ground_pokemon"
+								]
+							},
+							"animations": {
+								"walk": "animation.lucario.walk",
+								"look_at_target": "animation.common.look_at_target",
+								"chill": "animation.lucario.chill",
+								"sit": "animation.lucario.sitting",
+								"ground_pokemon": "controller.animation.ground.pokemon"
+							},
+							"render_controllers": [
+								"controller.render.pokemon"
+							],
+							"spawn_egg": {
+								"texture": "lucario",
+								"texture_index": 0
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:lucario",
+								"materials": {
+									"default": "zombie"
+								},
+								"textures": {
+									"default": "textures/entity/lucario/lucario"
+								},
+								"geometry": {
+									"default": "geometry.lucario"
+								},
+								"scripts": {
+									"animate": [
+										"look_at_target",
+										"ground_pokemon"
+									]
+								},
+								"animations": {
+									"walk": "animation.lucario.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"chill": "animation.lucario.chill",
+									"sit": "animation.lucario.sitting",
+									"ground_pokemon": "controller.animation.ground.pokemon"
+								},
+								"render_controllers": [
+									"controller.render.pokemon"
+								],
+								"spawn_egg": {
+									"texture": "lucario",
+									"texture_index": 0
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "ss:lucario",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "zombie"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/lucario/lucario"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.lucario"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"look_at_target",
+										"ground_pokemon"
+									]
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.lucario.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"chill": "animation.lucario.chill",
+									"sit": "animation.lucario.sitting",
+									"ground_pokemon": "controller.animation.ground.pokemon"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.pokemon"
+								]
+							},
+							{
+								"open": {
+									"identifier": "ss:lucario",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/lucario/lucario"
+									},
+									"geometry": {
+										"default": "geometry.lucario"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											"ground_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.lucario.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"chill": "animation.lucario.chill",
+										"sit": "animation.lucario.sitting",
+										"ground_pokemon": "controller.animation.ground.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "lucario",
+										"texture_index": 0
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "lucario",
+									"texture_index": 0
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

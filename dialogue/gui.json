@@ -1,0 +1,57 @@
+{
+	"format_version": "1.14", 
+	"minecraft:npc_dialogue":
+	{
+		"scenes":
+		[
+			{
+				"scene_tag": "guipage1",
+				"npc_name": { "rawtext": [ {"text":"§l§cPokémon GUI"} ] },
+				"text": { "rawtext": [ {"text":"Use The Buttons Below To Navigate To Diffrent Pokemon Features"} ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ {"text":"§l§cPokémon Slots"} ] },
+						"commands": [
+							"/tp @s 0 74 0"
+						]
+					},
+					{
+						"name": { "rawtext": [ {"text":"§l§aCredits"} ] },
+						"commands": [
+							"/tp @s 6300 145 1 facing 6299 145 1"
+						]
+					},
+					{
+						"name": { "rawtext": [ {"text":"§l§cClose Menu"} ] },
+						"commands": [
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "guipage2",
+				"npc_name": { "rawtext": [ {"text":"§l§cPokémon Slots"} ] },
+				"text": { "rawtext": [ {"text":"These Are Your Pokemon Click Them to do commands to them"} ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ {"text":"§l§cPokémon Slots"} ] },
+						"commands": [
+							"/tp @s 0 74 0"
+						]
+					},
+					{
+						"name": { "rawtext": [ {"text":"§l§aCredits"} ] },
+						"commands": [
+							"/tp @s 6300 145 1 facing 6299 145 1"
+						]
+					},
+					{
+						"name": { "rawtext": [ {"text":"§l§cClose Menu"} ] },
+						"commands": [
+						]
+					}
+				]
+			}
+		]
+	}
+}

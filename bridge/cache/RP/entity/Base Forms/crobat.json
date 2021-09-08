@@ -1,0 +1,221 @@
+{
+	"file_path": "C:\\Users\\palom\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Project Pixelmon RES\\entity\\Base Forms\\crobat.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "063d94fe_bcc9_4ebb_98e2_ad0bf1b84290",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "ss:crobat",
+							"materials": {
+								"default": "zombie"
+							},
+							"textures": {
+								"default": "textures/entity/crobat/crobat"
+							},
+							"geometry": {
+								"default": "geometry.crobat"
+							},
+							"scripts": {
+								"animate": [
+									"look_at_target",
+									"flying_pokemon"
+								]
+							},
+							"animations": {
+								"walk": "animation.crobat.walk",
+								"look_at_target": "animation.common.look_at_target",
+								"chill": "animation.crobat.chill",
+								"sit": "animation.crobat.sitting",
+								"flying_pokemon": "controller.animation.flying.pokemon"
+							},
+							"render_controllers": [
+								"controller.render.pokemon"
+							],
+							"spawn_egg": {
+								"texture": "crobat",
+								"texture_index": 0
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ss:crobat",
+								"materials": {
+									"default": "zombie"
+								},
+								"textures": {
+									"default": "textures/entity/crobat/crobat"
+								},
+								"geometry": {
+									"default": "geometry.crobat"
+								},
+								"scripts": {
+									"animate": [
+										"look_at_target",
+										"flying_pokemon"
+									]
+								},
+								"animations": {
+									"walk": "animation.crobat.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"chill": "animation.crobat.chill",
+									"sit": "animation.crobat.sitting",
+									"flying_pokemon": "controller.animation.flying.pokemon"
+								},
+								"render_controllers": [
+									"controller.render.pokemon"
+								],
+								"spawn_egg": {
+									"texture": "crobat",
+									"texture_index": 0
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "ss:crobat",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/crobat/crobat"
+									},
+									"geometry": {
+										"default": "geometry.crobat"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											"flying_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.crobat.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"chill": "animation.crobat.chill",
+										"sit": "animation.crobat.sitting",
+										"flying_pokemon": "controller.animation.flying.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "crobat",
+										"texture_index": 0
+									}
+								},
+								"data": "ss:crobat",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "zombie"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/crobat/crobat"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.crobat"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"look_at_target",
+										"flying_pokemon"
+									]
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.crobat.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"chill": "animation.crobat.chill",
+									"sit": "animation.crobat.sitting",
+									"flying_pokemon": "controller.animation.flying.pokemon"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.pokemon"
+								]
+							},
+							{
+								"open": {
+									"identifier": "ss:crobat",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/crobat/crobat"
+									},
+									"geometry": {
+										"default": "geometry.crobat"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											"flying_pokemon"
+										]
+									},
+									"animations": {
+										"walk": "animation.crobat.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"chill": "animation.crobat.chill",
+										"sit": "animation.crobat.sitting",
+										"flying_pokemon": "controller.animation.flying.pokemon"
+									},
+									"render_controllers": [
+										"controller.render.pokemon"
+									],
+									"spawn_egg": {
+										"texture": "crobat",
+										"texture_index": 0
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "crobat",
+									"texture_index": 0
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
