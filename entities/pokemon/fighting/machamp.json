@@ -1963,11 +1963,6 @@
 					"component_groups": [
 						"ss:level34"
 					]
-				},
-				"run_command": {
-					"command": [
-						"event entity @s ss:evolve"
-					]
 				}
 			},
 			"ss:level36": {
@@ -3037,17 +3032,17 @@
 								"event entity @s ss:despawn",
 								"function pokemon/leveltracker",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cYou Do Not have A Open Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 6th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 5th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 4th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 3rd Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 2nd Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 1st Slot\"}]}"
 							]
 						}
@@ -3087,17 +3082,17 @@
 								"event entity @s ss:despawn",
 								"function pokemon/leveltracker",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cYou Do Not have A Open Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 6th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 5th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 4th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 3rd Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 2nd Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 1st Slot\"}]}"
 							]
 						}
@@ -3137,17 +3132,17 @@
 								"event entity @s ss:despawn",
 								"function pokemon/leveltracker",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cYou Do Not have A Open Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 6th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 5th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 4th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 3rd Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 2nd Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 65",
 								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 1st Slot\"}]}"
 							]
 						}
@@ -3184,17 +3179,17 @@
 						"event entity @s ss:despawn",
 						"function pokemon/leveltracker",
 						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cYou Do Not have A Open Slot\"}]}",
-						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 56",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 65",
 						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 6th Slot\"}]}",
-						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 56",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 65",
 						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 5th Slot\"}]}",
-						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 56",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 65",
 						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 4th Slot\"}]}",
-						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 56",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 65",
 						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 3rd Slot\"}]}",
-						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 56",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 65",
 						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 2nd Slot\"}]}",
-						"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 56",
+						"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 65",
 						"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 1st Slot\"}]}"
 					]
 				}
