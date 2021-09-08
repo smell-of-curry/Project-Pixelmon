@@ -1,8 +1,9 @@
+//bridge-file-version: #5
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "ss:riolu",
+			"identifier": "ss:machamp",
 			"is_spawnable": true,
 			"is_summonable": true,
 			"is_experimental": false
@@ -69,7 +70,7 @@
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 5",
+					"name": "§l§eMachamp §bLevel 5",
 					"should_darken_sky": false
 				}
 			},
@@ -80,7 +81,7 @@
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 6",
+					"name": "§l§eMachamp §bLevel 6",
 					"should_darken_sky": false
 				}
 			},
@@ -1259,39 +1260,6 @@
 					"damage": 11
 				}
 			},
-			"ss:evolve": {
-				"minecraft:transformation": {
-					"into": "ss:lucario",
-					"delay": {
-						"value": 17
-					},
-					"keep_owner": true
-				},
-				"minecraft:timer": {
-					"looping": false,
-					"time": 3,
-					"time_down_event": {
-						"event": "ss:evolveeffect",
-						"target": "self"
-					}
-				},
-				"minecraft:movement": {
-					"value": 0
-				},
-				"minecraft:collision_box": {
-					"height": 5,
-					"width": 5
-				},
-				"minecraft:area_attack": {
-					"damage_range": 1,
-					"damage_per_tick": 2
-				},
-				"minecraft:boss": {
-					"hud_range": 5,
-					"name": "§l§kii§r §l§eEvolving Riolu §r§l§kii§r",
-					"should_darken_sky": false
-				}
-			},
 			"minecraft:wolf_tame": {
 				"minecraft:nameable": {
 					"always_show": true,
@@ -1421,7 +1389,7 @@
 				}
 			},
 			"minecraft:scale": {
-				"value": 0.25
+				"value": 1
 			},
 			"minecraft:nameable": {},
 			"minecraft:type_family": {
@@ -1462,7 +1430,6 @@
 			"minecraft:behavior.float": {
 				"priority": 0
 			},
-			
 			"minecraft:hurt_on_condition": {
 				"damage_conditions": [
 					{
@@ -1489,39 +1456,6 @@
 			}
 		},
 		"events": {
-			"ss:evolve": {
-				"add": {
-					"component_groups": [
-						"ss:evolve"
-					]
-				},
-				"remove": {
-					"component_groups": [
-						"minecraft:wolf_tame"
-					]
-				},
-				"run_command": {
-					"command": [
-						"playanimation @s animation.pokemon.evolve",
-						"playsound gameplay.evolving @a[r=10]",
-						"execute @s[scores={guislottrack=1}] ~~~ function evolve/slot1",
-						"execute @s[scores={guislottrack=2}] ~~~ function evolve/slot2",
-						"execute @s[scores={guislottrack=3}] ~~~ function evolve/slot3",
-						"execute @s[scores={guislottrack=4}] ~~~ function evolve/slot4",
-						"execute @s[scores={guislottrack=5}] ~~~ function evolve/slot5",
-						"execute @s[scores={guislottrack=6}] ~~~ function evolve/slot6"
-					],
-					"target": "self"
-				}
-			},
-			"ss:evolveeffect": {
-				"run_command": {
-					"command": [
-						"particle minecraft:example_directional_sphere ~~2~"
-					],
-					"target": "self"
-				}
-			},
 			"minecraft:entity_spawned": {
 				"run_command": {
 					"command": [

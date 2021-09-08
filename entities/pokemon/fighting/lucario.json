@@ -1140,7 +1140,7 @@
 					}
 				},
 				"minecraft:attack": {
-					"damage": 5
+					"damage": 7
 				}
 			},
 			"ss:tacklelvl2": {
@@ -1153,7 +1153,7 @@
 					}
 				},
 				"minecraft:attack": {
-					"damage": 5.5
+					"damage": 7.5
 				}
 			},
 			"ss:tacklelvl3": {
@@ -1166,7 +1166,7 @@
 					}
 				},
 				"minecraft:attack": {
-					"damage": 6
+					"damage": 8
 				}
 			},
 			"ss:tacklelvl4": {
@@ -1179,7 +1179,7 @@
 					}
 				},
 				"minecraft:attack": {
-					"damage": 6.5
+					"damage": 8.5
 				}
 			},
 			"ss:tacklelvl5": {
@@ -1192,7 +1192,7 @@
 					}
 				},
 				"minecraft:attack": {
-					"damage": 7
+					"damage": 9
 				}
 			},
 			"ss:tacklelvl6": {
@@ -1205,7 +1205,7 @@
 					}
 				},
 				"minecraft:attack": {
-					"damage": 8
+					"damage": 10
 				}
 			},
 			"ss:tacklelvl7": {
@@ -1218,7 +1218,7 @@
 					}
 				},
 				"minecraft:attack": {
-					"damage": 8.5
+					"damage": 11
 				}
 			},
 			"ss:tacklelvl8": {
@@ -1231,7 +1231,7 @@
 					}
 				},
 				"minecraft:attack": {
-					"damage": 9
+					"damage": 12
 				}
 			},
 			"ss:tacklelvl9": {
@@ -1244,7 +1244,7 @@
 					}
 				},
 				"minecraft:attack": {
-					"damage": 10
+					"damage": 13
 				}
 			},
 			"ss:tacklelvl10": {
@@ -1257,7 +1257,7 @@
 					}
 				},
 				"minecraft:attack": {
-					"damage": 11
+					"damage": 14
 				}
 			},
 			"ss:auraspherelv1": {
@@ -1569,13 +1569,13 @@
 						"weight": 60,
 						"add": {
 							"component_groups": [
-								"ss:level13"
+								"ss:level34"
 							]
 						},
-						"trigger": "ss:level13",
+						"trigger": "ss:level34",
 						"run_command": {
 							"command": [
-								"scoreboard players set @s level 13"
+								"scoreboard players set @s level 34"
 							],
 							"target": "self"
 						}

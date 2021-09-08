@@ -1,0 +1,21 @@
+{
+  "name": "project-pixelmon",
+  "version": "1.0.1",
+  "description": "Best minecraft bedrock pokemon addon",
+  "main": "scripts/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smell-of-curry/Project-Pixelmon.git"
+  },
+  "keywords": [
+    "anticheat",
+    "minecraft",
+    "bedrock"
+  ],
+  "author": "Smell of curry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smell-of-curry/Project-Pixelmon/issues"
+  },
+  "homepage": "https://github.com/smell-of-curry/Project-Pixelmon#readme"
+}

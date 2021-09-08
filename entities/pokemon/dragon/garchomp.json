@@ -1,4 +1,4 @@
-//bridge-file-version: #1
+//bridge-file-version: #6
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -1597,16 +1597,10 @@
 				"width": 0.7,
 				"height": 1
 			},
-			"minecraft:navigation.walk": {
-				"can_path_over_water": true,
-				"avoid_damage_blocks": true
-			},
 			"minecraft:movement": {
 				"value": 0.3
 			},
-			"minecraft:movement.basic": {},
 			"minecraft:jump.static": {},
-			"minecraft:can_climb": {},
 			"minecraft:despawn": {
 				"despawn_from_distance": {}
 			},
@@ -1644,6 +1638,22 @@
 			"minecraft:pushable": {
 				"is_pushable": true,
 				"is_pushable_by_piston": true
+			},
+			"minecraft:navigation.fly": {
+				"can_path_over_water": true
+			},
+			"minecraft:movement.fly": {},
+			"minecraft:can_fly": {
+				"value": true
+			},
+			"minecraft:behavior.random_fly": {
+				"priority": 1,
+				"xz_dist": 15,
+				"y_dist": 20,
+				"y_offset": 0,
+				"speed_multiplier": 1,
+				"can_land_on_trees": true,
+				"avoid_damage_blocks": true
 			},
 			"minecraft:conditional_bandwidth_optimization": {},
 			"minecraft:on_death": {

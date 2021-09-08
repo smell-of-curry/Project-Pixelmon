@@ -1,8 +1,9 @@
+//bridge-file-version: #4
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "ss:riolu",
+			"identifier": "ss:machoke",
 			"is_spawnable": true,
 			"is_summonable": true,
 			"is_experimental": false
@@ -69,7 +70,7 @@
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 5",
+					"name": "§l§eMachoke §bLevel 5",
 					"should_darken_sky": false
 				}
 			},
@@ -80,7 +81,7 @@
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 6",
+					"name": "§l§eMachoke §bLevel 6",
 					"should_darken_sky": false
 				}
 			},
@@ -1261,7 +1262,7 @@
 			},
 			"ss:evolve": {
 				"minecraft:transformation": {
-					"into": "ss:lucario",
+					"into": "ss:machamp",
 					"delay": {
 						"value": 17
 					},
@@ -1421,7 +1422,7 @@
 				}
 			},
 			"minecraft:scale": {
-				"value": 0.25
+				"value": 1
 			},
 			"minecraft:nameable": {},
 			"minecraft:type_family": {
@@ -1462,7 +1463,6 @@
 			"minecraft:behavior.float": {
 				"priority": 0
 			},
-			
 			"minecraft:hurt_on_condition": {
 				"damage_conditions": [
 					{

@@ -1,8 +1,9 @@
+//bridge-file-version: #3
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "ss:riolu",
+			"identifier": "ss:aipom",
 			"is_spawnable": true,
 			"is_summonable": true,
 			"is_experimental": false
@@ -20,1147 +21,1201 @@
 			},
 			"ss:level0": {
 				"minecraft:health": {
-					"max": 64,
-					"value": 64
+					"max": 55,
+					"value": 55
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 1",
+					"name": "§l§eBuizel §bLevel 1",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level1": {
 				"minecraft:health": {
-					"max": 65,
-					"value": 65
+					"max": 56,
+					"value": 56
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 2",
+					"name": "§l§eBuizel §bLevel 2",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level2": {
 				"minecraft:health": {
-					"max": 65,
-					"value": 65
+					"max": 56,
+					"value": 56
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 3",
+					"name": "§l§eBuizel §bLevel 3",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level3": {
 				"minecraft:health": {
-					"max": 66,
-					"value": 66
+					"max": 57,
+					"value": 57
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 4",
+					"name": "§l§eBuizel §bLevel 4",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level4": {
 				"minecraft:health": {
-					"max": 66,
-					"value": 66
+					"max": 57,
+					"value": 57
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 5",
+					"name": "§l§eBuizel §bLevel 5",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level5": {
 				"minecraft:health": {
-					"max": 67,
-					"value": 67
+					"max": 58,
+					"value": 58
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 6",
+					"name": "§l§eBuizel §bLevel 6",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level6": {
 				"minecraft:health": {
-					"max": 67,
-					"value": 67
+					"max": 58,
+					"value": 58
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 7",
+					"name": "§l§eBuizel §bLevel 7",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level7": {
 				"minecraft:health": {
-					"max": 68,
-					"value": 68
+					"max": 59,
+					"value": 59
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 8",
+					"name": "§l§eBuizel §bLevel 8",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level8": {
 				"minecraft:health": {
-					"max": 68,
-					"value": 68
+					"max": 59,
+					"value": 59
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 9",
+					"name": "§l§eBuizel §bLevel 9",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level9": {
 				"minecraft:health": {
-					"max": 69,
-					"value": 69
+					"max": 60,
+					"value": 60
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 10",
+					"name": "§l§eBuizel §bLevel 10",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level10": {
 				"minecraft:health": {
-					"max": 69,
-					"value": 69
+					"max": 60,
+					"value": 60
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 11",
+					"name": "§l§eBuizel §bLevel 11",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level11": {
 				"minecraft:health": {
-					"max": 70,
-					"value": 70
+					"max": 61,
+					"value": 61
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eLucario §bLevel 12",
+					"name": "§l§eBuizel §bLevel 12",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level12": {
 				"minecraft:health": {
-					"max": 70,
-					"value": 70
+					"max": 61,
+					"value": 61
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 13",
+					"name": "§l§eBuizel §bLevel 13",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level13": {
 				"minecraft:health": {
-					"max": 71,
-					"value": 71
+					"max": 62,
+					"value": 62
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 14",
+					"name": "§l§eBuizel §bLevel 14",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level14": {
 				"minecraft:health": {
-					"max": 71,
-					"value": 71
+					"max": 62,
+					"value": 62
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 15",
+					"name": "§l§eBuizel §bLevel 15",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level15": {
 				"minecraft:health": {
-					"max": 72,
-					"value": 72
+					"max": 63,
+					"value": 63
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 16",
+					"name": "§l§eBuizel §bLevel 16",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level16": {
 				"minecraft:health": {
-					"max": 72,
-					"value": 72
+					"max": 63,
+					"value": 63
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 17",
+					"name": "§l§eBuizel §bLevel 17",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level17": {
 				"minecraft:health": {
-					"max": 73,
-					"value": 73
+					"max": 64,
+					"value": 64
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 18",
+					"name": "§l§eBuizel §bLevel 18",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level18": {
 				"minecraft:health": {
-					"max": 73,
-					"value": 73
+					"max": 64,
+					"value": 64
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 19",
+					"name": "§l§eBuizel §bLevel 19",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level19": {
 				"minecraft:health": {
-					"max": 74,
-					"value": 74
+					"max": 65,
+					"value": 65
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 20",
+					"name": "§l§eBuizel §bLevel 20",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level20": {
 				"minecraft:health": {
-					"max": 74,
-					"value": 74
+					"max": 65,
+					"value": 65
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 21",
+					"name": "§l§eBuizel §bLevel 21",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level21": {
 				"minecraft:health": {
-					"max": 75,
-					"value": 75
+					"max": 66,
+					"value": 66
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 22",
+					"name": "§l§eBuizel §bLevel 22",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level22": {
 				"minecraft:health": {
-					"max": 75,
-					"value": 75
+					"max": 66,
+					"value": 66
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 23",
+					"name": "§l§eBuizel §bLevel 23",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level23": {
 				"minecraft:health": {
-					"max": 76,
-					"value": 76
+					"max": 67,
+					"value": 67
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 24",
+					"name": "§l§eBuizel §bLevel 24",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level24": {
 				"minecraft:health": {
-					"max": 76,
-					"value": 76
+					"max": 67,
+					"value": 67
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 25",
+					"name": "§l§eBuizel §bLevel 25",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level25": {
 				"minecraft:health": {
-					"max": 77,
-					"value": 77
+					"max": 68,
+					"value": 68
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 26",
+					"name": "§l§eBuizel §bLevel 26",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level26": {
 				"minecraft:health": {
-					"max": 77,
-					"value": 77
+					"max": 68,
+					"value": 68
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 27",
+					"name": "§l§eAipom §bLevel 27",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level27": {
 				"minecraft:health": {
-					"max": 78,
-					"value": 78
+					"max": 69,
+					"value": 69
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 28",
+					"name": "§l§eAipom §bLevel 28",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level28": {
 				"minecraft:health": {
-					"max": 78,
-					"value": 78
+					"max": 69,
+					"value": 69
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 29",
+					"name": "§l§eBuizel §bLevel 29",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level29": {
 				"minecraft:health": {
-					"max": 79,
-					"value": 79
+					"max": 70,
+					"value": 70
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 30",
+					"name": "§l§eBuizel §bLevel 30",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level30": {
 				"minecraft:health": {
-					"max": 79,
-					"value": 79
+					"max": 70,
+					"value": 70
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 31",
+					"name": "§l§eBuizel §bLevel 31",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level31": {
 				"minecraft:health": {
-					"max": 80,
-					"value": 80
+					"max": 71,
+					"value": 71
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 32",
+					"name": "§l§eBuizel §bLevel 32",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level32": {
 				"minecraft:health": {
-					"max": 80,
-					"value": 80
+					"max": 71,
+					"value": 71
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 33",
+					"name": "§l§eAipom §bLevel 33",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level33": {
 				"minecraft:health": {
-					"max": 81,
-					"value": 81
+					"max": 72,
+					"value": 72
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 34",
+					"name": "§l§eAipom §bLevel 34",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level34": {
 				"minecraft:health": {
-					"max": 81,
-					"value": 81
+					"max": 72,
+					"value": 72
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 35",
+					"name": "§l§eAipom §bLevel 35",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level35": {
 				"minecraft:health": {
-					"max": 82,
-					"value": 82
+					"max": 73,
+					"value": 73
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 36",
+					"name": "§l§eBuizel §bLevel 36",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level36": {
 				"minecraft:health": {
-					"max": 82,
-					"value": 82
+					"max": 73,
+					"value": 73
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 37",
+					"name": "§l§eBuizel §bLevel 37",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level37": {
 				"minecraft:health": {
-					"max": 83,
-					"value": 83
+					"max": 74,
+					"value": 74
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 38",
+					"name": "§l§eBuizel §bLevel 38",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level38": {
 				"minecraft:health": {
-					"max": 83,
-					"value": 83
+					"max": 74,
+					"value": 74
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 39",
+					"name": "§l§eBuizel §bLevel 39",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level39": {
 				"minecraft:health": {
-					"max": 84,
-					"value": 84
+					"max": 75,
+					"value": 75
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 40",
+					"name": "§l§eBuizel §bLevel 40",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level40": {
 				"minecraft:health": {
-					"max": 84,
-					"value": 84
+					"max": 75,
+					"value": 75
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 41",
+					"name": "§l§eBuizel §bLevel 41",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level41": {
 				"minecraft:health": {
-					"max": 85,
-					"value": 85
+					"max": 76,
+					"value": 76
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 42",
+					"name": "§l§eBuizel §bLevel 42",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level42": {
 				"minecraft:health": {
-					"max": 85,
-					"value": 85
+					"max": 76,
+					"value": 76
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 43",
+					"name": "§l§eBuizel §bLevel 43",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level43": {
 				"minecraft:health": {
-					"max": 86,
-					"value": 86
+					"max": 77,
+					"value": 77
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 44",
+					"name": "§l§eBuizel §bLevel 44",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level44": {
 				"minecraft:health": {
-					"max": 86,
-					"value": 86
+					"max": 77,
+					"value": 77
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 45",
+					"name": "§l§eBuizel §bLevel 45",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level45": {
 				"minecraft:health": {
-					"max": 87,
-					"value": 87
+					"max": 78,
+					"value": 78
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 46",
+					"name": "§l§eBuizel §bLevel 46",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level46": {
 				"minecraft:health": {
-					"max": 87,
-					"value": 87
+					"max": 78,
+					"value": 78
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 47",
+					"name": "§l§eBuizel §bLevel 47",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level47": {
 				"minecraft:health": {
-					"max": 88,
-					"value": 88
+					"max": 79,
+					"value": 79
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 48",
+					"name": "§l§eBuizel §bLevel 48",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level48": {
 				"minecraft:health": {
-					"max": 88,
-					"value": 88
+					"max": 79,
+					"value": 79
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 49",
+					"name": "§l§eBuizel §bLevel 49",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level49": {
 				"minecraft:health": {
-					"max": 89,
-					"value": 89
+					"max": 80,
+					"value": 80
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 50",
+					"name": "§l§eBuizel §bLevel 50",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level50": {
 				"minecraft:health": {
-					"max": 89,
-					"value": 89
+					"max": 80,
+					"value": 80
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 51",
+					"name": "§l§eBuizel §bLevel 51",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level51": {
 				"minecraft:health": {
-					"max": 90,
-					"value": 90
+					"max": 81,
+					"value": 81
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 52",
+					"name": "§l§eBuizel §bLevel 52",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level52": {
 				"minecraft:health": {
-					"max": 90,
-					"value": 90
+					"max": 81,
+					"value": 81
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 53",
+					"name": "§l§eBuizel §bLevel 53",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level53": {
 				"minecraft:health": {
-					"max": 91,
-					"value": 91
+					"max": 82,
+					"value": 82
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 54",
+					"name": "§l§eBuizel §bLevel 54",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level54": {
 				"minecraft:health": {
-					"max": 91,
-					"value": 91
+					"max": 82,
+					"value": 82
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 55",
+					"name": "§l§eBuizel §bLevel 55",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level55": {
 				"minecraft:health": {
-					"max": 92,
-					"value": 92
+					"max": 83,
+					"value": 83
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 56",
+					"name": "§l§eBuizel §bLevel 56",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level56": {
 				"minecraft:health": {
-					"max": 92,
-					"value": 92
+					"max": 83,
+					"value": 83
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 57",
+					"name": "§l§eBuizel §bLevel 57",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level57": {
 				"minecraft:health": {
-					"max": 93,
-					"value": 93
+					"max": 84,
+					"value": 84
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 58",
+					"name": "§l§eBuizel §bLevel 58",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level58": {
 				"minecraft:health": {
-					"max": 93,
-					"value": 93
+					"max": 84,
+					"value": 84
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 59",
+					"name": "§l§eBuizel §bLevel 59",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level59": {
 				"minecraft:health": {
-					"max": 94,
-					"value": 94
+					"max": 85,
+					"value": 85
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 60",
+					"name": "§l§eBuizel §bLevel 60",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level60": {
 				"minecraft:health": {
-					"max": 94,
-					"value": 94
+					"max": 85,
+					"value": 85
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 61",
+					"name": "§l§eBuizel §bLevel 61",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level61": {
 				"minecraft:health": {
-					"max": 95,
-					"value": 95
+					"max": 86,
+					"value": 86
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 62",
+					"name": "§l§eBuizel §bLevel 62",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level62": {
 				"minecraft:health": {
-					"max": 95,
-					"value": 95
+					"max": 86,
+					"value": 86
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 63",
+					"name": "§l§eBuizel §bLevel 63",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level63": {
 				"minecraft:health": {
-					"max": 96,
-					"value": 96
+					"max": 87,
+					"value": 87
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 64",
+					"name": "§l§eBuizel §bLevel 64",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level64": {
 				"minecraft:health": {
-					"max": 96,
-					"value": 96
+					"max": 87,
+					"value": 87
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 65",
+					"name": "§l§eBuizel §bLevel 65",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level65": {
 				"minecraft:health": {
-					"max": 97,
-					"value": 97
+					"max": 88,
+					"value": 88
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 66",
+					"name": "§l§eBuizel §bLevel 66",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level66": {
 				"minecraft:health": {
-					"max": 97,
-					"value": 97
+					"max": 88,
+					"value": 88
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 67",
+					"name": "§l§eBuizel §bLevel 67",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level67": {
 				"minecraft:health": {
-					"max": 98,
-					"value": 98
+					"max": 89,
+					"value": 89
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 68",
+					"name": "§l§eBuizel §bLevel 68",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level68": {
 				"minecraft:health": {
-					"max": 98,
-					"value": 98
+					"max": 89,
+					"value": 89
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 69",
+					"name": "§l§eBuizel §bLevel 69",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level69": {
 				"minecraft:health": {
-					"max": 99,
-					"value": 99
+					"max": 90,
+					"value": 90
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 70",
+					"name": "§l§eBuizel §bLevel 70",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level70": {
 				"minecraft:health": {
-					"max": 99,
-					"value": 99
+					"max": 90,
+					"value": 90
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 71",
+					"name": "§l§eBuizel §bLevel 71",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level71": {
 				"minecraft:health": {
-					"max": 100,
-					"value": 100
+					"max": 91,
+					"value": 91
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 72",
+					"name": "§l§eBuizel §bLevel 72",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level72": {
 				"minecraft:health": {
-					"max": 100,
-					"value": 100
+					"max": 91,
+					"value": 91
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 73",
+					"name": "§l§eBuizel §bLevel 73",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level73": {
 				"minecraft:health": {
-					"max": 101,
-					"value": 101
+					"max": 92,
+					"value": 92
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 74",
+					"name": "§l§eBuizel §bLevel 74",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level74": {
 				"minecraft:health": {
-					"max": 101,
-					"value": 101
+					"max": 92,
+					"value": 92
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 75",
+					"name": "§l§eBuizel §bLevel 75",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level75": {
 				"minecraft:health": {
-					"max": 102,
-					"value": 102
+					"max": 93,
+					"value": 93
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 76",
+					"name": "§l§eBuizel §bLevel 76",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level76": {
 				"minecraft:health": {
-					"max": 102,
-					"value": 102
+					"max": 93,
+					"value": 93
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 77",
+					"name": "§l§eBuizel §bLevel 77",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level77": {
 				"minecraft:health": {
-					"max": 103,
-					"value": 103
+					"max": 94,
+					"value": 94
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 78",
+					"name": "§l§eBuizel §bLevel 78",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level78": {
 				"minecraft:health": {
-					"max": 103,
-					"value": 103
+					"max": 94,
+					"value": 94
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 79",
+					"name": "§l§eBuizel §bLevel 79",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level79": {
 				"minecraft:health": {
-					"max": 104,
-					"value": 104
+					"max": 95,
+					"value": 95
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 80",
+					"name": "§l§eBuizel §bLevel 80",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level80": {
 				"minecraft:health": {
-					"max": 104,
-					"value": 104
+					"max": 95,
+					"value": 95
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 81",
+					"name": "§l§eBuizel §bLevel 81",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level81": {
 				"minecraft:health": {
-					"max": 105,
-					"value": 105
+					"max": 96,
+					"value": 96
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 82",
+					"name": "§l§eBuizel §bLevel 82",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level82": {
 				"minecraft:health": {
-					"max": 105,
-					"value": 105
+					"max": 96,
+					"value": 96
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 83",
+					"name": "§l§eBuizel §bLevel 83",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level83": {
 				"minecraft:health": {
-					"max": 106,
-					"value": 106
+					"max": 97,
+					"value": 97
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 84",
+					"name": "§l§eBuizel §bLevel 84",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level84": {
 				"minecraft:health": {
-					"max": 106,
-					"value": 106
+					"max": 97,
+					"value": 97
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 85",
+					"name": "§l§eBuizel §bLevel 85",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level85": {
 				"minecraft:health": {
-					"max": 107,
-					"value": 107
+					"max": 98,
+					"value": 98
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 86",
+					"name": "§l§eBuizel §bLevel 86",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level86": {
 				"minecraft:health": {
-					"max": 107,
-					"value": 107
+					"max": 98,
+					"value": 98
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 87",
+					"name": "§l§eBuizel §bLevel 87",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level87": {
 				"minecraft:health": {
-					"max": 108,
-					"value": 108
+					"max": 99,
+					"value": 99
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 88",
+					"name": "§l§eBuizel §bLevel 88",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level88": {
 				"minecraft:health": {
-					"max": 108,
-					"value": 108
+					"max": 99,
+					"value": 99
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 89",
+					"name": "§l§eBuizel §bLevel 89",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level89": {
 				"minecraft:health": {
-					"max": 109,
-					"value": 109
+					"max": 100,
+					"value": 100
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 90",
+					"name": "§l§eBuizel §bLevel 90",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level90": {
 				"minecraft:health": {
-					"max": 109,
-					"value": 109
+					"max": 100,
+					"value": 100
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 91",
+					"name": "§l§eBuizel §bLevel 91",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level91": {
 				"minecraft:health": {
-					"max": 110,
-					"value": 110
+					"max": 101,
+					"value": 101
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 92",
+					"name": "§l§eBuizel §bLevel 92",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level92": {
 				"minecraft:health": {
-					"max": 110,
-					"value": 110
+					"max": 101,
+					"value": 101
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 93",
+					"name": "§l§eBuizel §bLevel 93",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level93": {
 				"minecraft:health": {
-					"max": 111,
-					"value": 111
+					"max": 102,
+					"value": 102
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 94",
+					"name": "§l§eBuizel §bLevel 94",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level94": {
 				"minecraft:health": {
-					"max": 111,
-					"value": 111
+					"max": 102,
+					"value": 102
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 95",
+					"name": "§l§eBuizel §bLevel 95",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level95": {
 				"minecraft:health": {
-					"max": 112,
-					"value": 112
+					"max": 103,
+					"value": 103
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 96",
+					"name": "§l§eBuizel §bLevel 96",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level96": {
 				"minecraft:health": {
-					"max": 112,
-					"value": 112
+					"max": 103,
+					"value": 103
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 97",
+					"name": "§l§eBuizel §bLevel 97",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level97": {
 				"minecraft:health": {
-					"max": 113,
-					"value": 113
+					"max": 104,
+					"value": 104
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 98",
+					"name": "§l§eBuizel §bLevel 98",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level98": {
 				"minecraft:health": {
-					"max": 113,
-					"value": 113
+					"max": 104,
+					"value": 104
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 99",
+					"name": "§l§eBuizel §bLevel 99",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level99": {
 				"minecraft:health": {
-					"max": 114,
-					"value": 114
+					"max": 105,
+					"value": 105
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 100",
+					"name": "§l§eBuizel §bLevel 100",
 					"should_darken_sky": false
 				}
 			},
 			"ss:level100": {
 				"minecraft:health": {
-					"max": 114,
-					"value": 114
+					"max": 105,
+					"value": 105
 				},
 				"minecraft:boss": {
 					"hud_range": 3,
-					"name": "§l§eRiolu §bLevel 101",
+					"name": "§l§eBuizel §bLevel 101",
 					"should_darken_sky": false
 				}
 			},
-			"ss:tacklelvl1": {
-				"minecraft:behavior.melee_attack": {
+			"ss:bubblebeamlv1": {
+				"minecraft:behavior.ranged_attack": {
 					"priority": 5,
-					"speed_multiplier": 1,
-					"on_attack": {
-						"event": "ss:tackleattack",
-						"target": "self"
-					}
+					"burst_shots": 1,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 5,
+					"attack_interval_max": 6,
+					"attack_radius": 64,
+					"speed_multiplier": 0
 				},
-				"minecraft:attack": {
-					"damage": 5
+				"minecraft:shooter": {
+					"def": "ss:bubblebeam"
 				}
 			},
-			"ss:tacklelvl2": {
-				"minecraft:behavior.melee_attack": {
+			"ss:bubblebeamlv2": {
+				"minecraft:behavior.ranged_attack": {
 					"priority": 5,
-					"speed_multiplier": 1,
-					"on_attack": {
-						"event": "ss:tackleattack",
-						"target": "self"
-					}
+					"burst_shots": 1,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 3,
+					"attack_interval_max": 4,
+					"attack_radius": 64,
+					"speed_multiplier": 0
 				},
-				"minecraft:attack": {
-					"damage": 5.5
+				"minecraft:shooter": {
+					"def": "ss:bubblebeam"
 				}
 			},
-			"ss:tacklelvl3": {
+			"ss:bubblebeamlv3": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 2,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 3,
+					"attack_interval_max": 4,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:bubblebeam"
+				}
+			},
+			"ss:bubblebeamlv4": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 2,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 0,
+					"attack_interval_max": 1,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:bubblebeam"
+				}
+			},
+			"ss:bubblebeamlv5": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 3,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 0,
+					"attack_interval_max": 1,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:bubblebeam"
+				}
+			},
+			"ss:bodyslamlvl1": {
 				"minecraft:behavior.melee_attack": {
 					"priority": 5,
 					"speed_multiplier": 1,
 					"on_attack": {
-						"event": "ss:tackleattack",
+						"event": "ss:bodyslamattack",
 						"target": "self"
 					}
 				},
@@ -1168,12 +1223,12 @@
 					"damage": 6
 				}
 			},
-			"ss:tacklelvl4": {
+			"ss:bodyslamlvl2": {
 				"minecraft:behavior.melee_attack": {
 					"priority": 5,
 					"speed_multiplier": 1,
 					"on_attack": {
-						"event": "ss:tackleattack",
+						"event": "ss:bodyslamattack",
 						"target": "self"
 					}
 				},
@@ -1181,12 +1236,12 @@
 					"damage": 6.5
 				}
 			},
-			"ss:tacklelvl5": {
+			"ss:bodyslamlvl3": {
 				"minecraft:behavior.melee_attack": {
 					"priority": 5,
 					"speed_multiplier": 1,
 					"on_attack": {
-						"event": "ss:tackleattack",
+						"event": "ss:bodyslamattack",
 						"target": "self"
 					}
 				},
@@ -1194,12 +1249,25 @@
 					"damage": 7
 				}
 			},
-			"ss:tacklelvl6": {
+			"ss:bodyslamlvl4": {
 				"minecraft:behavior.melee_attack": {
 					"priority": 5,
 					"speed_multiplier": 1,
 					"on_attack": {
-						"event": "ss:tackleattack",
+						"event": "ss:bodyslamattack",
+						"target": "self"
+					}
+				},
+				"minecraft:attack": {
+					"damage": 7.5
+				}
+			},
+			"ss:bodyslamlvl5": {
+				"minecraft:behavior.melee_attack": {
+					"priority": 5,
+					"speed_multiplier": 1,
+					"on_attack": {
+						"event": "ss:bodyslamattack",
 						"target": "self"
 					}
 				},
@@ -1207,25 +1275,12 @@
 					"damage": 8
 				}
 			},
-			"ss:tacklelvl7": {
+			"ss:bodyslamlvl6": {
 				"minecraft:behavior.melee_attack": {
 					"priority": 5,
 					"speed_multiplier": 1,
 					"on_attack": {
-						"event": "ss:tackleattack",
-						"target": "self"
-					}
-				},
-				"minecraft:attack": {
-					"damage": 8.5
-				}
-			},
-			"ss:tacklelvl8": {
-				"minecraft:behavior.melee_attack": {
-					"priority": 5,
-					"speed_multiplier": 1,
-					"on_attack": {
-						"event": "ss:tackleattack",
+						"event": "ss:bodyslamattack",
 						"target": "self"
 					}
 				},
@@ -1233,12 +1288,25 @@
 					"damage": 9
 				}
 			},
-			"ss:tacklelvl9": {
+			"ss:bodyslamlvl7": {
 				"minecraft:behavior.melee_attack": {
 					"priority": 5,
 					"speed_multiplier": 1,
 					"on_attack": {
-						"event": "ss:tackleattack",
+						"event": "ss:bodyslamattack",
+						"target": "self"
+					}
+				},
+				"minecraft:attack": {
+					"damage": 9.5
+				}
+			},
+			"ss:bodyslamlvl8": {
+				"minecraft:behavior.melee_attack": {
+					"priority": 5,
+					"speed_multiplier": 1,
+					"on_attack": {
+						"event": "ss:bodyslamattack",
 						"target": "self"
 					}
 				},
@@ -1246,12 +1314,12 @@
 					"damage": 10
 				}
 			},
-			"ss:tacklelvl10": {
+			"ss:bodyslamlvl9": {
 				"minecraft:behavior.melee_attack": {
 					"priority": 5,
 					"speed_multiplier": 1,
 					"on_attack": {
-						"event": "ss:tackleattack",
+						"event": "ss:bodyslamattack",
 						"target": "self"
 					}
 				},
@@ -1259,37 +1327,97 @@
 					"damage": 11
 				}
 			},
-			"ss:evolve": {
-				"minecraft:transformation": {
-					"into": "ss:lucario",
-					"delay": {
-						"value": 17
-					},
-					"keep_owner": true
-				},
-				"minecraft:timer": {
-					"looping": false,
-					"time": 3,
-					"time_down_event": {
-						"event": "ss:evolveeffect",
+			"ss:bodyslamlvl10": {
+				"minecraft:behavior.melee_attack": {
+					"priority": 5,
+					"speed_multiplier": 1,
+					"on_attack": {
+						"event": "ss:bodyslamattack",
 						"target": "self"
 					}
 				},
-				"minecraft:movement": {
-					"value": 0
+				"minecraft:attack": {
+					"damage": 12
+				}
+			},
+			"ss:icebeamlvl1": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 1,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 0,
+					"attack_interval_max": 1,
+					"attack_radius": 64,
+					"speed_multiplier": 0
 				},
-				"minecraft:collision_box": {
-					"height": 5,
-					"width": 5
+				"minecraft:shooter": {
+					"def": "ss:icebeam"
+				}
+			},
+			"ss:icebeamlvl2": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 1,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 0,
+					"attack_interval_max": 1,
+					"attack_radius": 64,
+					"speed_multiplier": 0
 				},
-				"minecraft:area_attack": {
-					"damage_range": 1,
-					"damage_per_tick": 2
+				"minecraft:shooter": {
+					"def": "ss:icebeam"
+				}
+			},
+			"ss:icebeamlvl3": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 1,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 0,
+					"attack_interval_max": 1,
+					"attack_radius": 64,
+					"speed_multiplier": 0
 				},
-				"minecraft:boss": {
-					"hud_range": 5,
-					"name": "§l§kii§r §l§eEvolving Riolu §r§l§kii§r",
-					"should_darken_sky": false
+				"minecraft:shooter": {
+					"def": "ss:icebeam"
+				}
+			},
+			"ss:icebeamlvl4": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 1,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 0,
+					"attack_interval_max": 1,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:icebeam"
+				}
+			},
+			"ss:icebeamlvl5": {
+				"minecraft:behavior.ranged_attack": {
+					"priority": 5,
+					"burst_shots": 1,
+					"burst_interval": 0.3,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 1,
+					"attack_interval_min": 0,
+					"attack_interval_max": 1,
+					"attack_radius": 64,
+					"speed_multiplier": 0
+				},
+				"minecraft:shooter": {
+					"def": "ss:icebeam"
 				}
 			},
 			"minecraft:wolf_tame": {
@@ -1391,6 +1519,23 @@
 							"heal_amount": 30
 						}
 					]
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "projectile",
+							"deals_damage": false,
+							"on_damage": {
+								"filters": {
+									"test": "is_family",
+									"value": "pokeball",
+									"subject": "other"
+								},
+								"event": "ss:pokeballhit",
+								"target": "self"
+							}
+						}
+					]
 				}
 			}
 		},
@@ -1421,7 +1566,7 @@
 				}
 			},
 			"minecraft:scale": {
-				"value": 0.25
+				"value": 1
 			},
 			"minecraft:nameable": {},
 			"minecraft:type_family": {
@@ -1431,7 +1576,7 @@
 			},
 			"minecraft:collision_box": {
 				"width": 0.7,
-				"height": 1
+				"height": 0.8
 			},
 			"minecraft:navigation.walk": {
 				"can_path_over_water": true,
@@ -1462,7 +1607,6 @@
 			"minecraft:behavior.float": {
 				"priority": 0
 			},
-			
 			"minecraft:hurt_on_condition": {
 				"damage_conditions": [
 					{
@@ -1473,7 +1617,7 @@
 							"value": true
 						},
 						"cause": "lava",
-						"damage_per_tick": 2
+						"damage_per_tick": 0
 					}
 				]
 			},
@@ -1489,38 +1633,20 @@
 			}
 		},
 		"events": {
-			"ss:evolve": {
+			"minecraft:entity_transformed": {
 				"add": {
 					"component_groups": [
-						"ss:evolve"
-					]
-				},
-				"remove": {
-					"component_groups": [
-						"minecraft:wolf_tame"
+						"ss:despawn",
+						"ss:level28"
 					]
 				},
 				"run_command": {
 					"command": [
-						"playanimation @s animation.pokemon.evolve",
-						"playsound gameplay.evolving @a[r=10]",
-						"execute @s[scores={guislottrack=1}] ~~~ function evolve/slot1",
-						"execute @s[scores={guislottrack=2}] ~~~ function evolve/slot2",
-						"execute @s[scores={guislottrack=3}] ~~~ function evolve/slot3",
-						"execute @s[scores={guislottrack=4}] ~~~ function evolve/slot4",
-						"execute @s[scores={guislottrack=5}] ~~~ function evolve/slot5",
-						"execute @s[scores={guislottrack=6}] ~~~ function evolve/slot6"
+						"scoreboard players set @s level 28"
 					],
 					"target": "self"
-				}
-			},
-			"ss:evolveeffect": {
-				"run_command": {
-					"command": [
-						"particle minecraft:example_directional_sphere ~~2~"
-					],
-					"target": "self"
-				}
+				},
+				"trigger": "ss:level28"
 			},
 			"minecraft:entity_spawned": {
 				"run_command": {
@@ -1539,13 +1665,13 @@
 						"weight": 60,
 						"add": {
 							"component_groups": [
-								"ss:level5"
+								"ss:level27"
 							]
 						},
-						"trigger": "ss:level5",
+						"trigger": "ss:level27",
 						"run_command": {
 							"command": [
-								"scoreboard players set @s level 5"
+								"scoreboard players set @s level 27"
 							],
 							"target": "self"
 						}
@@ -1584,12 +1710,12 @@
 					}
 				]
 			},
-			"ss:tackleattack": {
+			"ss:bodyslamattack": {
 				"sequence": [
 					{
 						"run_command": {
 							"command": [
-								"particle minecraft:critical_hit_emitter ^^^1"
+								"particle ss:water ^-1^^"
 							],
 							"target": "target"
 						}
@@ -1597,7 +1723,7 @@
 					{
 						"run_command": {
 							"command": [
-								"playanimation @s animation.monfermo.attack"
+								"playanimation @s animation.pokemon.melee_attack"
 							],
 							"target": "self"
 						}
@@ -1608,7 +1734,7 @@
 				"add": {
 					"component_groups": [
 						"ss:level1",
-						"ss:tacklelvl1"
+						"ss:bodyslamlvl1"
 					]
 				},
 				"remove": {
@@ -1717,13 +1843,13 @@
 				"add": {
 					"component_groups": [
 						"ss:level10",
-						"ss:tacklelvl2"
+						"ss:bodyslamlvl2"
 					]
 				},
 				"remove": {
 					"component_groups": [
 						"ss:level9",
-						"ss:tacklelvl1"
+						"ss:bodyslamlvl1"
 					]
 				}
 			},
@@ -1839,13 +1965,14 @@
 				"add": {
 					"component_groups": [
 						"ss:level20",
-						"ss:tacklelvl3"
+						"ss:bubblebeamlv1",
+						"ss:bodyslamlvl3"
 					]
 				},
 				"remove": {
 					"component_groups": [
 						"ss:level19",
-						"ss:tacklelvl2"
+						"ss:bodyslamlvl2"
 					]
 				}
 			},
@@ -1961,13 +2088,13 @@
 				"add": {
 					"component_groups": [
 						"ss:level30",
-						"ss:tacklelvl4"
+						"ss:bodyslamlvl4"
 					]
 				},
 				"remove": {
 					"component_groups": [
 						"ss:level29",
-						"ss:tacklelvl3"
+						"ss:bodyslamlvl3"
 					]
 				}
 			},
@@ -2029,11 +2156,6 @@
 					"component_groups": [
 						"ss:level34"
 					]
-				},
-				"run_command": {
-					"command": [
-						"event entity @s ss:evolve"
-					]
 				}
 			},
 			"ss:level36": {
@@ -2088,13 +2210,15 @@
 				"add": {
 					"component_groups": [
 						"ss:level40",
-						"ss:tacklelvl5"
+						"ss:bubblebeamlv2",
+						"ss:bodyslamlvl5"
 					]
 				},
 				"remove": {
 					"component_groups": [
 						"ss:level39",
-						"ss:tacklelvl4"
+						"ss:bodyslamlvl4",
+						"ss:bubblebeamlv1"
 					]
 				}
 			},
@@ -2210,13 +2334,13 @@
 				"add": {
 					"component_groups": [
 						"ss:level50",
-						"ss:tacklelvl6"
+						"ss:bodyslamlvl6"
 					]
 				},
 				"remove": {
 					"component_groups": [
 						"ss:level49",
-						"ss:tacklelvl5"
+						"ss:bodyslamlvl5"
 					]
 				}
 			},
@@ -2332,13 +2456,15 @@
 				"add": {
 					"component_groups": [
 						"ss:level60",
-						"ss:tacklelvl7"
+						"ss:bodyslamlvl7",
+						"ss:bubblebeamlv3"
 					]
 				},
 				"remove": {
 					"component_groups": [
 						"ss:level59",
-						"ss:tacklelvl6"
+						"ss:bodyslamlvl6",
+						"ss:bubblebeamlv2"
 					]
 				}
 			},
@@ -2454,13 +2580,13 @@
 				"add": {
 					"component_groups": [
 						"ss:level70",
-						"ss:tacklelvl8"
+						"ss:bodyslamlvl8"
 					]
 				},
 				"remove": {
 					"component_groups": [
 						"ss:level69",
-						"ss:tacklelvl7"
+						"ss:bodyslamlvl7"
 					]
 				}
 			},
@@ -2576,13 +2702,15 @@
 				"add": {
 					"component_groups": [
 						"ss:level80",
-						"ss:tacklelvl9"
+						"ss:bubblebeamlv4",
+						"ss:bodyslamlvl9"
 					]
 				},
 				"remove": {
 					"component_groups": [
 						"ss:level79",
-						"ss:tacklelvl8"
+						"ss:bubblebeamlv3",
+						"ss:bodyslamlvl8"
 					]
 				}
 			},
@@ -2698,13 +2826,13 @@
 				"add": {
 					"component_groups": [
 						"ss:level90",
-						"ss:tacklelvl10"
+						"ss:bodyslamlvl10"
 					]
 				},
 				"remove": {
 					"component_groups": [
 						"ss:level89",
-						"ss:tacklelvl9"
+						"ss:bodyslamlvl9"
 					]
 				}
 			},
@@ -2819,12 +2947,14 @@
 			"ss:level100": {
 				"add": {
 					"component_groups": [
-						"ss:level100"
+						"ss:level100",
+						"ss:bubblebeamlv5"
 					]
 				},
 				"remove": {
 					"component_groups": [
-						"ss:level99"
+						"ss:level99",
+						"ss:bubblebeamlv4"
 					]
 				}
 			},
@@ -2851,203 +2981,612 @@
 					}
 				]
 			},
-			"ss:tacklelvl1": {
+			"ss:bodyslamlvl1": {
 				"add": {
 					"component_groups": [
-						"ss:tacklelvl1"
+						"ss:bodyslamlvl1"
 					]
 				},
 				"remove": {
 					"component_groups": [
-						"ss:tacklelvl2",
-						"ss:tacklelvl3",
-						"ss:tacklelvl4",
-						"ss:tacklelvl5",
-						"ss:tacklelvl6",
-						"ss:tacklelvl7",
-						"ss:tacklelvl8",
-						"ss:tacklelvl9",
-						"ss:tacklelvl10"
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
 					]
 				}
 			},
-			"ss:tacklelvl2": {
+			"ss:bodyslamlvl2": {
 				"add": {
 					"component_groups": [
-						"ss:tacklelvl2"
+						"ss:bodyslamlvl2"
 					]
 				},
 				"remove": {
 					"component_groups": [
-						"ss:tacklelvl1",
-						"ss:tacklelvl3",
-						"ss:tacklelvl4",
-						"ss:tacklelvl5",
-						"ss:tacklelvl6",
-						"ss:tacklelvl7",
-						"ss:tacklelvl8",
-						"ss:tacklelvl9",
-						"ss:tacklelvl10"
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
 					]
 				}
 			},
-			"ss:tacklelvl3": {
+			"ss:bodyslamlvl3": {
 				"add": {
 					"component_groups": [
-						"ss:tacklelvl3"
+						"ss:bodyslamlvl3"
 					]
 				},
 				"remove": {
 					"component_groups": [
-						"ss:tacklelvl1",
-						"ss:tacklelvl2",
-						"ss:tacklelvl4",
-						"ss:tacklelvl5",
-						"ss:tacklelvl6",
-						"ss:tacklelvl7",
-						"ss:tacklelvl8",
-						"ss:tacklelvl9",
-						"ss:tacklelvl10"
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
 					]
 				}
 			},
-			"ss:tacklelvl4": {
+			"ss:bodyslamlvl4": {
 				"add": {
 					"component_groups": [
-						"ss:tacklelvl4"
+						"ss:bodyslamlvl4"
 					]
 				},
 				"remove": {
 					"component_groups": [
-						"ss:tacklelvl1",
-						"ss:tacklelvl2",
-						"ss:tacklelvl3",
-						"ss:tacklelvl5",
-						"ss:tacklelvl6",
-						"ss:tacklelvl7",
-						"ss:tacklelvl8",
-						"ss:tacklelvl9",
-						"ss:tacklelvl10"
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
 					]
 				}
 			},
-			"ss:tacklelvl5": {
+			"ss:bodyslamlvl5": {
 				"add": {
 					"component_groups": [
-						"ss:tacklelvl5"
+						"ss:bodyslamlvl5"
 					]
 				},
 				"remove": {
 					"component_groups": [
-						"ss:tacklelvl1",
-						"ss:tacklelvl2",
-						"ss:tacklelvl3",
-						"ss:tacklelvl4",
-						"ss:tacklelvl6",
-						"ss:tacklelvl7",
-						"ss:tacklelvl8",
-						"ss:tacklelvl9",
-						"ss:tacklelvl10"
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
 					]
 				}
 			},
-			"ss:tacklelvl6": {
+			"ss:bodyslamlvl6": {
 				"add": {
 					"component_groups": [
-						"ss:tacklelvl6"
+						"ss:bodyslamlvl6"
 					]
 				},
 				"remove": {
 					"component_groups": [
-						"ss:tacklelvl1",
-						"ss:tacklelvl2",
-						"ss:tacklelvl3",
-						"ss:tacklelvl4",
-						"ss:tacklelvl5",
-						"ss:tacklelvl7",
-						"ss:tacklelvl8",
-						"ss:tacklelvl9",
-						"ss:tacklelvl10"
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
 					]
 				}
 			},
-			"ss:tacklelvl7": {
+			"ss:bodyslamlvl7": {
 				"add": {
 					"component_groups": [
-						"ss:tacklelvl7"
+						"ss:bodyslamlvl7"
 					]
 				},
 				"remove": {
 					"component_groups": [
-						"ss:tacklelvl1",
-						"ss:tacklelvl2",
-						"ss:tacklelvl3",
-						"ss:tacklelvl4",
-						"ss:tacklelvl5",
-						"ss:tacklelvl6",
-						"ss:tacklelvl8",
-						"ss:tacklelvl9",
-						"ss:tacklelvl10"
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
 					]
 				}
 			},
-			"ss:tacklelvl8": {
+			"ss:bodyslamlvl8": {
 				"add": {
 					"component_groups": [
-						"ss:tacklelvl8"
+						"ss:bodyslamlvl8"
 					]
 				},
 				"remove": {
 					"component_groups": [
-						"ss:tacklelvl1",
-						"ss:tacklelvl2",
-						"ss:tacklelvl3",
-						"ss:tacklelvl4",
-						"ss:tacklelvl5",
-						"ss:tacklelvl6",
-						"ss:tacklelvl7",
-						"ss:tacklelvl9",
-						"ss:tacklelvl10"
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
 					]
 				}
 			},
-			"ss:tacklelvl9": {
+			"ss:bodyslamlvl9": {
 				"add": {
 					"component_groups": [
-						"ss:tacklelvl9"
+						"ss:bodyslamlvl9"
 					]
 				},
 				"remove": {
 					"component_groups": [
-						"ss:tacklelvl1",
-						"ss:tacklelvl2",
-						"ss:tacklelvl3",
-						"ss:tacklelvl4",
-						"ss:tacklelvl5",
-						"ss:tacklelvl6",
-						"ss:tacklelvl7",
-						"ss:tacklelvl8",
-						"ss:tacklelvl10"
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
 					]
 				}
 			},
-			"ss:tacklelvl10": {
+			"ss:bodyslamlvl10": {
 				"add": {
 					"component_groups": [
-						"ss:tacklelvl10"
+						"ss:bodyslamlvl10"
 					]
 				},
 				"remove": {
 					"component_groups": [
-						"ss:tacklelvl1",
-						"ss:tacklelvl2",
-						"ss:tacklelvl3",
-						"ss:tacklelvl4",
-						"ss:tacklelvl5",
-						"ss:tacklelvl6",
-						"ss:tacklelvl7",
-						"ss:tacklelvl8",
-						"ss:tacklelvl9"
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
+					]
+				}
+			},
+			"ss:icebeamlvl1": {
+				"add": {
+					"component_groups": [
+						"ss:icebeamlvl1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
+					]
+				}
+			},
+			"ss:icebeamlvl2": {
+				"remove": {
+					"component_groups": [
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:icebeamlvl2"
+					]
+				}
+			},
+			"ss:icebeamlvl3": {
+				"remove": {
+					"component_groups": [
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:icebeamlvl3"
+					]
+				}
+			},
+			"ss:icebeamlvl4": {
+				"remove": {
+					"component_groups": [
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:icebeamlvl4"
+					]
+				}
+			},
+			"ss:icebeamlv5": {
+				"remove": {
+					"component_groups": [
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:icebeamlvl5"
+					]
+				}
+			},
+			"ss:bubblebeamlv1": {
+				"remove": {
+					"component_groups": [
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:bubblebeamlv1"
+					]
+				}
+			},
+			"ss:bubblebeamlv2": {
+				"remove": {
+					"component_groups": [
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:bubblebeamlv2"
+					]
+				}
+			},
+			"ss:bubblebeamlv3": {
+				"remove": {
+					"component_groups": [
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:bubblebeamlv3"
+					]
+				}
+			},
+			"ss:bubblebeamlv4": {
+				"remove": {
+					"component_groups": [
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:bubblebeamlv4"
+					]
+				}
+			},
+			"ss:bubblebeamlv5": {
+				"remove": {
+					"component_groups": [
+						"ss:bodyslamlvl1",
+						"ss:bodyslamlvl2",
+						"ss:bodyslamlvl3",
+						"ss:bodyslamlvl4",
+						"ss:bodyslamlvl5",
+						"ss:bodyslamlvl6",
+						"ss:bodyslamlvl7",
+						"ss:bodyslamlvl8",
+						"ss:bodyslamlvl9",
+						"ss:bodyslamlvl10",
+						"ss:icebeamlvl1",
+						"ss:icebeamlvl2",
+						"ss:icebeamlvl3",
+						"ss:icebeamlvl4",
+						"ss:icebeamlvl5",
+						"ss:bubblebeamlv1",
+						"ss:bubblebeamlv2",
+						"ss:bubblebeamlv3",
+						"ss:bubblebeamlv4",
+						"ss:bubblebeamlv5"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ss:bubblebeamlv5"
 					]
 				}
 			},
@@ -3056,16 +3595,16 @@
 					{
 						"run_command": {
 							"command": [
-								"execute @s[scores={level=1..9}] ~~~ event entity @s ss:tacklelvl1",
-								"execute @s[scores={level=10..20}] ~~~ event entity @s ss:tacklelvl2",
-								"execute @s[scores={level=21..30}] ~~~ event entity @s ss:tacklelvl3",
-								"execute @s[scores={level=31..40}] ~~~ event entity @s ss:tacklelvl4",
-								"execute @s[scores={level=41..50}] ~~~ event entity @s ss:tacklelvl5",
-								"execute @s[scores={level=51..60}] ~~~ event entity @s ss:tacklelvl6",
-								"execute @s[scores={level=61..70}] ~~~ event entity @s ss:tacklelvl7",
-								"execute @s[scores={level=71..80}] ~~~ event entity @s ss:tacklelvl8",
-								"execute @s[scores={level=81..90}] ~~~ event entity @s ss:tacklelvl9",
-								"execute @s[scores={level=91..100}] ~~~ event entity @s ss:tacklelvl10"
+								"execute @s[scores={level=1..9}] ~~~ event entity @s ss:bodyslamlvl1",
+								"execute @s[scores={level=10..20}] ~~~ event entity @s ss:bodyslamlvl2",
+								"execute @s[scores={level=21..30}] ~~~ event entity @s ss:bodyslamlvl3",
+								"execute @s[scores={level=31..40}] ~~~ event entity @s ss:bodyslamlvl4",
+								"execute @s[scores={level=41..50}] ~~~ event entity @s ss:bodyslamlvl5",
+								"execute @s[scores={level=51..60}] ~~~ event entity @s ss:bodyslamlvl6",
+								"execute @s[scores={level=61..70}] ~~~ event entity @s ss:bodyslamlvl7",
+								"execute @s[scores={level=71..80}] ~~~ event entity @s ss:bodyslamlvl8",
+								"execute @s[scores={level=81..90}] ~~~ event entity @s ss:bodyslamlvl9",
+								"execute @s[scores={level=91..100}] ~~~ event entity @s ss:bodyslamlvl10"
 							],
 							"target": "self"
 						}
@@ -3077,16 +3616,24 @@
 					{
 						"run_command": {
 							"command": [
-								"execute @s[scores={level=1..9}] ~~~ event entity @s ss:tacklelvl1",
-								"execute @s[scores={level=10..20}] ~~~ event entity @s ss:tacklelvl2",
-								"execute @s[scores={level=21..30}] ~~~ event entity @s ss:tacklelvl3",
-								"execute @s[scores={level=31..40}] ~~~ event entity @s ss:tacklelvl4",
-								"execute @s[scores={level=41..50}] ~~~ event entity @s ss:tacklelvl5",
-								"execute @s[scores={level=51..60}] ~~~ event entity @s ss:tacklelvl6",
-								"execute @s[scores={level=61..70}] ~~~ event entity @s ss:tacklelvl7",
-								"execute @s[scores={level=71..80}] ~~~ event entity @s ss:tacklelvl8",
-								"execute @s[scores={level=81..90}] ~~~ event entity @s ss:tacklelvl9",
-								"execute @s[scores={level=91..100}] ~~~ event entity @s ss:tacklelvl10"
+								"execute @s[scores={level=1..19}] ~~~ event entity @s ss:icebeamlvl1",
+								"execute @s[scores={level=20..39}] ~~~ event entity @s ss:bubblebeamlv1",
+								"execute @s[scores={level=40..59}] ~~~ event entity @s ss:bubblebeamlv2",
+								"execute @s[scores={level=60..79}] ~~~ event entity @s ss:bubblebeamlv3",
+								"execute @s[scores={level=80..99}] ~~~ event entity @s ss:bubblebeamlv4",
+								"execute @s[scores={level=100}] ~~~ event entity @s ss:bubblebeamlv5"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"execute @s[scores={level=1..19}] ~~~ event entity @s ss:icebeamlvl1",
+								"execute @s[scores={level=20..40}] ~~~ event entity @s ss:icebeamlvl2",
+								"execute @s[scores={level=41..60}] ~~~ event entity @s ss:icebeamlvl3",
+								"execute @s[scores={level=61..80}] ~~~ event entity @s ss:icebeamlvl4",
+								"execute @s[scores={level=81..100}] ~~~ event entity @s ss:icebeamlvl5"
 							],
 							"target": "self"
 						}
@@ -3103,17 +3650,17 @@
 								"event entity @s ss:despawn",
 								"function pokemon/leveltracker",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cYou Do Not have A Open Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 6th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 5th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 4th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 3rd Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 2nd Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 1st Slot\"}]}"
 							]
 						}
@@ -3153,17 +3700,17 @@
 								"event entity @s ss:despawn",
 								"function pokemon/leveltracker",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cYou Do Not have A Open Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 6th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 5th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 4th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 3rd Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 2nd Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 1st Slot\"}]}"
 							]
 						}
@@ -3203,17 +3750,17 @@
 								"event entity @s ss:despawn",
 								"function pokemon/leveltracker",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cYou Do Not have A Open Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 6th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 5th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 4th Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 3rd Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 2nd Slot\"}]}",
-								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 56",
+								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 58",
 								"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 1st Slot\"}]}"
 							]
 						}
@@ -3250,17 +3797,17 @@
 						"event entity @s ss:despawn",
 						"function pokemon/leveltracker",
 						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=1..}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§cYou Do Not have A Open Slot\"}]}",
-						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 56",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ scoreboard players set @s pokemon6 58",
 						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=1..,pokemon6=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 6th Slot\"}]}",
-						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 56",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ scoreboard players set @s pokemon5 58",
 						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=1..,pokemon5=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 5th Slot\"}]}",
-						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 56",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ scoreboard players set @s pokemon4 58",
 						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=1..,pokemon4=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 4th Slot\"}]}",
-						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 56",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ scoreboard players set @s pokemon3 58",
 						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=1..,pokemon3=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 3rd Slot\"}]}",
-						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 56",
+						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ scoreboard players set @s pokemon2 58",
 						"execute @p ~~~ execute @s[scores={pokemon1=1..,pokemon2=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 2nd Slot\"}]}",
-						"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 56",
+						"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ scoreboard players set @s pokemon1 58",
 						"execute @p ~~~ execute @s[scores={pokemon1=0}] ~~~ tellraw @p {\"rawtext\":[{\"text\":\"§aPokemon Has Been Added To Your 1st Slot\"}]}"
 					]
 				}

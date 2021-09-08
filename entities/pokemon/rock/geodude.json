@@ -1729,13 +1729,13 @@
 						"weight": 60,
 						"add": {
 							"component_groups": [
-								"ss:level19"
+								"ss:level1"
 							]
 						},
-						"trigger": "ss:level19",
+						"trigger": "ss:level1",
 						"run_command": {
 							"command": [
-								"scoreboard players set @s level 19"
+								"scoreboard players set @s level 1"
 							],
 							"target": "self"
 						}

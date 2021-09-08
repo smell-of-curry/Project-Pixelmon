@@ -1298,7 +1298,7 @@
 					}
 				},
 				"minecraft:attack": {
-					"damage": 9.5
+					"damage": 10
 				}
 			},
 			"ss:bodyslamlvl8": {
@@ -1311,7 +1311,7 @@
 					}
 				},
 				"minecraft:attack": {
-					"damage": 10
+					"damage": 11
 				}
 			},
 			"ss:bodyslamlvl9": {
@@ -1324,7 +1324,7 @@
 					}
 				},
 				"minecraft:attack": {
-					"damage": 11
+					"damage": 12
 				}
 			},
 			"ss:bodyslamlvl10": {
@@ -1337,7 +1337,7 @@
 					}
 				},
 				"minecraft:attack": {
-					"damage": 12
+					"damage": 13
 				}
 			},
 			"ss:icebeamlvl1": {
@@ -1666,13 +1666,13 @@
 						"weight": 60,
 						"add": {
 							"component_groups": [
-								"ss:level27"
+								"ss:level25"
 							]
 						},
-						"trigger": "ss:level27",
+						"trigger": "ss:level25",
 						"run_command": {
 							"command": [
-								"scoreboard players set @s level 27"
+								"scoreboard players set @s level 25"
 							],
 							"target": "self"
 						}
