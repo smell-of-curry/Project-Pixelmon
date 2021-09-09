@@ -9,6 +9,40 @@
 			"is_experimental": false
 		},
 		"component_groups": {
+			"ss:battle": {
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 1,
+					"must_see": true,
+					"must_see_forget_duration": 3.0,
+					"entity_types": [
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "pokemon"
+							},
+							"max_dist": 16
+						}
+					]
+				},
+				"minecraft:behavior.hurt_by_target": {
+					"priority": 2
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 1,
+					"speed_multiplier": 1.3,
+					"on_attack": {
+						"event": "ss:tackleattack",
+						"target": "self"
+					}
+				},
+				"minecraft:attack": {
+					"damage": 6.5
+				},
+				"minecraft:on_death": {
+					"event": "ss:battle_die"
+				}
+			},
 			"ss:despawn": {
 				"minecraft:instant_despawn": {}
 			},
@@ -1489,6 +1523,30 @@
 			}
 		},
 		"events": {
+			"ss:battle_die": {
+				"run_command": {
+					"command": [
+						"execute @e[family=pokemon,c=1] ~~~ function xpmanager",
+						"execute @e[family=trainer,c=1] ~~~ event entity @s ss:pokemon_died"
+					],
+					"target": "self"
+				}
+			},
+			"ss:battle": {
+				"add": {
+					"component_groups": [
+						"ss:battle",
+						"ss:level12"
+					]
+				},
+				"trigger": "ss:level12",
+				"run_command": {
+					"command": [
+						"scoreboard players set @s level 12"
+					],
+					"target": "self"
+				}
+			},
 			"ss:evolve": {
 				"add": {
 					"component_groups": [

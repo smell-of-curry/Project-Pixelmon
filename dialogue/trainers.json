@@ -1,0 +1,86 @@
+{
+	"format_version": "1.14", 
+	"minecraft:npc_dialogue":
+	{
+		"scenes":
+		[
+            {
+				"scene_tag": "battle_playersendout",
+				"npc_name": { "rawtext": [ {"text":"§l§cPick a Pokemon!"} ] },
+				"text": { "rawtext": [ {"text":"Pick a Pokemon to use in the battle"} ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ {"text":"§l§cSlot 1"} ] },
+						"commands": [
+							"/execute @initiator[scores={pokemon1=1..}] ~~~ scoreboard players set @s guislottrack 1",
+                            "/execute @initiator[scores={pokemon1=1..}] ~~~ event entity @e[type=ss:battlegirl,c=1] ss:battlestart_time_3",
+                            "/execute @initiator[scores={pokemon1=1..}] ~~~ function summonpokemon",
+                            "/execute @initiator[scores={pokemon1=0}] ~~~ tellraw @s {\"rawtext\":[{\"text\":\"§cYou Do Not Have A Pokemon In Slot 1\"}]}",
+                            "/execute @initiator[scores={pokemon1=0}] ~~~ playsound note.bass @s"
+						]
+					},
+					{
+						"name": { "rawtext": [ {"text":"§l§cClose Menu"} ] },
+						"commands": [
+						]
+					}
+				]
+			},
+            {
+				"scene_tag": "in_battle",
+				"npc_name": { "rawtext": [ {"text":"§l§cWatcing Battle!"} ] },
+				"text": { "rawtext": [ {"text":"Im watching the battle stop talking to me"} ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ {"text":"§l§cClose Menu"} ] },
+						"commands": [
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "battlegirl_easy",
+				"npc_name": { "rawtext": [ {"text":"§l§cBattle Girl §aEasy"} ] },
+				"text": { "rawtext": [ {"text":"Use The Buttons Below To Navigate To Diffrent Pokemon Features"} ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ {"text":"§l§cBattle?"} ] },
+						"commands": [
+							"/tag @s add battle_battlegirl_easy",
+                            "/dialogue open @s @initiator battle_playersendout"
+						]
+					},
+					{
+						"name": { "rawtext": [ {"text":"§l§cClose Menu"} ] },
+						"commands": [
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "guipage2",
+				"npc_name": { "rawtext": [ {"text":"§l§cPokémon Slots"} ] },
+				"text": { "rawtext": [ {"text":"These Are Your Pokemon Click Them to do commands to them"} ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ {"text":"§l§cPokémon Slots"} ] },
+						"commands": [
+							"/tp @s 0 74 0"
+						]
+					},
+					{
+						"name": { "rawtext": [ {"text":"§l§aCredits"} ] },
+						"commands": [
+							"/tp @s 6300 145 1 facing 6299 145 1"
+						]
+					},
+					{
+						"name": { "rawtext": [ {"text":"§l§cClose Menu"} ] },
+						"commands": [
+						]
+					}
+				]
+			}
+		]
+	}
+}

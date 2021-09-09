@@ -1,0 +1,296 @@
+{
+    "format_version": "1.17.100",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "ss:battlegirl",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "ss:easy": {
+                "minecraft:timer": {
+                    "looping": false,
+                    "time": [
+                        3,
+                        3
+                    ],
+                    "time_down_event": {
+                        "event": "ss:set_easy"
+                    }
+                }
+            },
+            "ss:medium": {
+                "minecraft:timer": {
+                    "looping": false,
+                    "time": [
+                        3,
+                        3
+                    ],
+                    "time_down_event": {
+                        "event": "ss:set_medium"
+                    }
+                }
+            },
+            "ss:hard": {
+                "minecraft:timer": {
+                    "looping": false,
+                    "time": [
+                        3,
+                        3
+                    ],
+                    "time_down_event": {
+                        "event": "ss:set_hard"
+                    }
+                }
+            },
+            "ss:battlestart_time_3": {
+                "minecraft:timer": {
+                    "looping": false,
+                    "time": [
+                        3,
+                        3
+                    ],
+                    "time_down_event": {
+                        "event": "ss:battlestart_time_3"
+                    }
+                }
+            },
+            "ss:battlestart_time_2": {
+                "minecraft:timer": {
+                    "looping": false,
+                    "time": [
+                        3,
+                        3
+                    ],
+                    "time_down_event": {
+                        "event": "ss:battlestart_time_2"
+                    }
+                }
+            },
+            "ss:battlestart_time_1": {
+                "minecraft:timer": {
+                    "looping": false,
+                    "time": [
+                        3,
+                        3
+                    ],
+                    "time_down_event": {
+                        "event": "ss:battlestart_time_1"
+                    }
+                }
+            }
+        },
+        "components": {
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "all",
+                    "deals_damage": false
+                }
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "npc",
+                    "trainer",
+                    "mob"
+                ]
+            },
+            "minecraft:fire_immune": true,
+            "minecraft:movement": {
+                "value": 0.5
+            },
+            "minecraft:loot": {
+                "table": "loot_tables/empty.json"
+            },
+            "minecraft:collision_box": {
+                "width": 0.6,
+                "height": 2.1
+            },
+            "minecraft:behavior.look_at_player": {
+                "priority": 0,
+                "look_distance": 6.0,
+                "probability": 0.02
+            },
+            "minecraft:persistent": {},
+            "minecraft:npc": {
+                "npc_data": {
+                    "portrait_offsets": {
+                        "translate": [
+                            -7,
+                            50,
+                            0
+                        ],
+                        "scale": [
+                            1.75,
+                            1.75,
+                            1.75
+                        ]
+                    },
+                    "picker_offsets": {
+                        "translate": [
+                            0,
+                            20,
+                            0
+                        ],
+                        "scale": [
+                            1.7,
+                            1.7,
+                            1.7
+                        ]
+                    }
+                }
+            },
+            "minecraft:nameable": {
+                "always_show": true,
+                "allow_name_tag_renaming": false
+            },
+            "minecraft:physics": {},
+            "minecraft:conditional_bandwidth_optimization": {}
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "randomize": [
+                    {
+                        "add": {
+                            "component_groups": [
+                                "ss:easy"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "ss:medium"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "ss:hard"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "ss:set_easy": {
+                "run_command": {
+                    "command": [
+                        "dialogue change @s battlegirl_easy"
+                    ],
+                    "target": "self"
+                }
+            },
+            "ss:set_medium": {
+                "run_command": {
+                    "command": [
+                        "dialogue change @s battlegirl_medium"
+                    ],
+                    "target": "self"
+                }
+            },
+            "ss:set_hard": {
+                "run_command": {
+                    "command": [
+                        "dialogue change @s battlegirl_hard"
+                    ],
+                    "target": "self"
+                }
+            },
+            "ss:pokemon_died": {
+                "run_command": {
+                    "command": [
+                        "execute @s[scores={battlestage=3}] ~~~ event entity @s ss:battlefinish",
+                        "execute @s[scores={battlestage=3}] ~~~ scoreboard players set @s battlestage 0",
+                        "execute @s[scores={battlestage=2}] ~~~ event entity @s ss:summonpokemon",
+                        "execute @s[scores={battlestage=2}] ~~~ scoreboard players set @s battlestage 3",
+                        "execute @s[scores={battlestage=1}] ~~~ event entity @s ss:summonpokemon",
+                        "execute @s[scores={battlestage=1}] ~~~ scoreboard players set @s battlestage 2"
+                    ],
+                    "target": "self"
+                }
+            },
+            "ss:battlestart": {
+                "run_command": {
+                    "command": [
+                        "scoreboard objectives add battlestage dummy",
+                        "scoreboard players set @s battlestage 1"
+                    ],
+                    "target": "self"
+                },
+                "trigger":"ss:summonpokemon"
+            },
+            "ss:battlefinish": {
+                "run_command": {
+                    "command": [
+                        "tellraw @a[r=10] {\"rawtext\":[{\"text\":\"§aBattle is Finished\"}]}",
+                        "kill @s"
+                    ],
+                    "target": "self"
+                }
+            },
+            "ss:summonpokemon": {
+                "randomize": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "summon ss:machop ~~~ ss:battle"
+                            ],
+                            "target": "self"
+                        }
+                    }
+                ]
+            },
+            "ss:battlestart_time_3": {
+                "run_command": {
+                    "command": [
+                        "tellraw @a[r=10] {\"rawtext\":[{\"text\":\"§aBattle Starting §c3...\"}]}"
+                    ],
+                    "target": "self"
+                },
+                "remove": {
+                    "component_groups": [
+                        "ss:battlestart_time_3"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "ss:battlestart_time_2"
+                    ]
+                }
+            },
+            "ss:battlestart_time_2": {
+                "run_command": {
+                    "command": [
+                        "tellraw @a[r=10] {\"rawtext\":[{\"text\":\"§aBattle Starting §c2...\"}]}"
+                    ],
+                    "target": "self"
+                },
+                "remove": {
+                    "component_groups": [
+                        "ss:battlestart_time_2"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "ss:battlestart_time_1"
+                    ]
+                }
+            },
+            "ss:battlestart_time_1": {
+                "run_command": {
+                    "command": [
+                        "tellraw @a[r=10] {\"rawtext\":[{\"text\":\"§aBattle Starting §c1...\"}]}"
+                    ],
+                    "target": "self"
+                },
+                "remove": {
+                    "component_groups": [
+                        "ss:battlestart_time_1"
+                    ]
+                },
+                "trigger": "ss:battlestart"
+            }
+        }
+    }
+}
